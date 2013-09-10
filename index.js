@@ -32,7 +32,7 @@ exports.query = function(num, company, callback) {
     }
     if(!exists) {
         if(callback !== undefined) {
-            callback.bind(this)(false, "This company is not supported yet.", []);
+            callback.bind(this)(false, "This company is not supported yet.", {});
         }
         return;
     }
@@ -44,7 +44,7 @@ exports.query = function(num, company, callback) {
          * If no such company file.
          */
         if(callback !== undefined) {
-            callback.bind(this)(false, "Can't find the company or broken file.", []);
+            callback.bind(this)(false, "Can't find the company or broken file.", {});
         }
         return;
     }

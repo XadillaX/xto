@@ -1,14 +1,21 @@
-xto
+XTO
 ===
 
 Just an API for Node.js to query each express.
 
-installation
+Because many Chinese express companies are called [*]to (eg: sto, zto, gto, etc.), I call this project XTO.
+
+ESSENCE
+-------
+
+It just simply call the 'SEEM-PRIVATE' API of [kuaidi100](http://www.kuaidi100.com/).
+
+INSTALLATION
 ------------
 
     $ npm install xto
 
-usage
+USAGE
 -----
 
 The code below is base usage:
@@ -26,8 +33,18 @@ And you have to know the `state` field in the json by using:
 
     var text = xto.stateToText(json["state"]);
 
-companies
----------
+CONTACT ME
+----------
+
+If you want contribute to this project, you can fork it!
+
+And if you have some question, you can post it to ISSUES or contact me:
+
+  + Email: admin#xcoder.in
+  + Website: http://xcoder.in
+
+COMPANIES SUPPORTED
+-------------------
 
 You can use one company's name, shortname and english code to query. Here's a list for the companies:
 
