@@ -1,6 +1,6 @@
 {
   "name": "xto",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Just an API for Node.js to query each express.",
   "main": "index.js",
   "dependencies": {
@@ -22,6 +22,5 @@
   "license": "BSD",
   "bugs": {
     "url": "https://github.com/XadillaX/xto/issues"
-  },
-  "_from": "xto@"
+  }
 }
