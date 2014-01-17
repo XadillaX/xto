@@ -7,6 +7,11 @@
  */
 exports.mapper = require("./lib/namemapper");
 
+/**
+ * get company info
+ * @param company
+ * @returns {*}
+ */
 exports.getCompanyInfo = function(company) {
     for(var i = 0; i < this.mapper.length; i++) {
         if(company === this.mapper[i]["companyname"] || company === this.mapper[i]["shortname"] ||
@@ -19,6 +24,12 @@ exports.getCompanyInfo = function(company) {
     return null;
 }
 
+/**
+ * is one number valid
+ * @param num
+ * @param companyObject
+ * @returns {boolean}
+ */
 exports.isNumberValid = function(num, companyObject) {
     if(companyObject["freg"] !== undefined) {
         var reg = new RegExp(companyObject["freg"]);
@@ -26,6 +37,12 @@ exports.isNumberValid = function(num, companyObject) {
     }
 }
 
+/**
+ * query an express.
+ * @param num
+ * @param company
+ * @param callback
+ */
 exports.query = function(num, company, callback) {
     var company_object = null;
     var exists = false;
@@ -74,6 +91,11 @@ exports.query = function(num, company, callback) {
     }
 };
 
+/**
+ * state to text.
+ * @param state
+ * @returns {string}
+ */
 exports.stateToText = function(state) {
     state = parseInt(state);
     var value = "未知";
