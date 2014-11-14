@@ -1,6 +1,6 @@
 {
   "name": "xto",
-  "version": "0.0.5-fix2",
+  "version": "0.0.5-readme",
   "description": "Just an API for Node.js to query each express.",
   "main": "index.js",
   "dependencies": {

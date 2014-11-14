@@ -22,7 +22,7 @@ exports.getCompanyInfo = function(company) {
     }
 
     return null;
-}
+};
 
 /**
  * is one number valid
@@ -35,7 +35,7 @@ exports.isNumberValid = function(num, companyObject) {
         var reg = new RegExp(companyObject["freg"]);
         return reg.test(num);
     }
-}
+};
 
 /**
  * query an express.
@@ -108,4 +108,4 @@ exports.stateToText = function(state) {
     }
 
     return value;
-}
+};
