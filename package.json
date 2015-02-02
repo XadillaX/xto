@@ -6,7 +6,9 @@
   "dependencies": {
     "spidex": "^2.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "sugar": "^1.4.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

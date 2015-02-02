@@ -4,9 +4,9 @@
  * Copyright (c) 2014 Huaban.com, all rights
  * reserved.
  */
+require("sugar");
 var xto = require("../");
-
-var companies = xto.mapper;
+var companies = xto.companies;
 
 companies.forEach(function(ele) {
     var str = "+ ";
