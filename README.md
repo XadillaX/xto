@@ -39,7 +39,7 @@ var info = xto.getCompanyInfo(COMPANY_NAME);
 And you have to know the `state` field in the json by using:
 
 ```javascript
-var text = xto.stateToText(json["state"]);
+var text = xto.stateToText(express["state"]);
 ```
 
 ## CONTACT ME
