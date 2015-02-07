@@ -4,6 +4,8 @@ Just an API for Node.js to query each express with ♥.
 
 Because many Chinese express companies are called [*]to (eg: sto, zto, gto, etc.), I call this project XTO.
 
+> CLI version is under developing.
+
 ## ESSENCE
 
 It just simply call the "SEEM-PRIVATE" API of [kuaidi100](http://www.kuaidi100.com/).
