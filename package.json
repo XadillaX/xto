@@ -4,6 +4,7 @@
   "description": "Just an API for Node.js to query each express.",
   "main": "index.js",
   "dependencies": {
+    "nomnom": "^1.8.1",
     "spidex": "^2.0.1"
   },
   "devDependencies": {
