@@ -1,14 +1,16 @@
 {
   "name": "xto",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "Just an API for Node.js to query each express.",
   "main": "index.js",
   "dependencies": {
-    "nodegrassex": "~0.0.2"
+    "spidex": "^2.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "sugar": "^1.4.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/query.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,7 @@
     "API"
   ],
   "author": "XadillaX",
-  "license": "BSD",
+  "license": "GPLv2",
   "bugs": {
     "url": "https://github.com/XadillaX/xto/issues"
   }
