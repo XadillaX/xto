@@ -1,5 +1,7 @@
 # XTO
 
+[![Join the chat at https://gitter.im/XadillaX/xto](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/XadillaX/xto?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Just an API for Node.js to query each express with ♥.
 
 Because many Chinese express companies are called [*]to (eg: sto, zto, gto, etc.), I call this project XTO.
