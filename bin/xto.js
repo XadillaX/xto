@@ -8,6 +8,7 @@
  */
 var NO_EXPRESS = "单号不存在或者已经过期";
 
+var color = require("bash-color");
 var xto = require("../");
 var opts = require("nomnom")
     .option("company", {
@@ -37,13 +38,14 @@ xto.query(expressNo, company.code, function(err, express) {
 
     var state = xto.stateToText(express.state);
     console.log("");
-    console.log(" 快递公司：" + company.companyname);
-    console.log(" 运 单 号：" + expressNo);
-    console.log(" 状    态：" + state);
-    console.log(" --------------------------------");
+    console.log(" * 快递公司：" + company.companyname);
+    console.log(" * 运 单 号：" + expressNo);
+    console.log(" * 状    态：" + state);
+    console.log(" ==================================");
 
     for(var i = 0; i < express.data.length; i++) {
-        console.log(" [" + express.data[i].time + "]", express.data[i].context);
+        var line = " [" + express.data[i].time + "] " + express.data[i].context;
+        console.log(i === 0 ? color.green(line) : line);
     }
 
     console.log("");
