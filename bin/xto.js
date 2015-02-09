@@ -18,7 +18,8 @@ var opts = require("nomnom")
     .option("number", {
         position: 0,
         help: "The express number.",
-        required: true
+        required: true,
+        type: "string"
     })
     .script("xto")
     .parse();
