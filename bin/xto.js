@@ -6,7 +6,6 @@
  * Copyright (c) 2015 Huaban.com, all rights
  * reserved
  */
-var NO_EXPRESS = "单号不存在或者已经过期";
 
 var color = require("bash-color");
 var xto = require("../");
