@@ -505,4 +505,5 @@ You can use one company's name, shortname and english code to query. Here's a li
   + 郑州速捷（郑州速捷，sujievip）
   + UBI Australia（UBI Australia，gotoubi）
   + ecmsglobal（ecmsglobal，ecmsglobal）
+  + FastGo（FastGo，fastgo）
 

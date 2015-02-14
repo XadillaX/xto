@@ -326,19 +326,19 @@ var refer = {
     }, {
         "companyname": "京广速递",
         "shortname": "京广",
-        "tel": "0769-83660666-60",
+        "tel": "0769-88629888",
         "url": "jgsd",
         "code": "jinguangsudikuaijian",
         "hasvali": 0,
-        "comurl": "http://www.kke.com.hk",
+        "comurl": "http://www.szkke.com/",
         "isavailable": "0",
         "promptinfo": "",
         "testnu": "7061761221",
         "freg": "^[0-9]{10}$",
         "freginfo": "京广速递查询单号一般是由10位数字组成",
-        "telcomplaintnum": "0769-83660666 - 60",
+        "telcomplaintnum": "0769-88629888",
         "queryurl": "",
-        "serversite": "http://www.kke.com.hk/kke/fenbu.asp"
+        "serversite": "http://www.szkke.com/"
     }, {
         "companyname": "配思货运",
         "shortname": "配思",
@@ -2054,18 +2054,18 @@ var refer = {
     }, {
         "companyname": "中天万运",
         "shortname": "中天万运",
-        "tel": "0531-68850629",
+        "tel": "400-0056-001",
         "url": "zhongtianwanyun",
         "code": "zhongtianwanyun",
         "hasvali": 0,
-        "comurl": "http://www.wanyun56.cn/",
+        "comurl": "http://www.ztwy56.cn/",
         "isavailable": "0",
         "promptinfo": "",
         "testnu": "1111448500",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "0531-68850629",
-        "queryurl": "http://www.wanyun56.cn/",
+        "queryurl": "http://www.ztwy56.cn/",
         "serversite": ""
     }, {
         "companyname": "香港(HongKong Post)",
@@ -7139,9 +7139,24 @@ var refer = {
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
+    }, {
+        "companyname": "FastGo",
+        "shortname": "FastGo",
+        "tel": "",
+        "url": "fastgo",
+        "code": "fastgo",
+        "hasvali": null,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
     }],
     "error_size": -1
 };
 
 module.exports = refer.company;
-
