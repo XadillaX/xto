@@ -84,7 +84,6 @@ You can use one company's name, shortname and english code to query. Here's a li
   + 中铁物流（中铁，ztky）
   + UPS（UPS，ups）
   + FedEx-国际件（FedEx，fedex）
-  + TNT（TNT，tnt）
   + DHL-中国件（DHL，dhl）
   + AAE-中国件（AAE，aae）
   + 大田物流（大田，datianwuliu）
@@ -155,7 +154,7 @@ You can use one company's name, shortname and english code to query. Here's a li
   + OCS（OCS，ocs）
   + USPS（USPS，usps）
   + 美国快递（美国，meiguokuaidi）
-  + 立即送（立即送，lijisong）
+  + 成都立即送（立即送，lijisong）
   + 银捷速递（银捷，yinjiesudi）
   + 门对门（门对门，menduimen）
   + 递四方（递四方，disifang）
@@ -177,7 +176,7 @@ You can use one company's name, shortname and english code to query. Here's a li
   + OnTrac（OnTrac，ontrac）
   + 七天连锁（七天连锁，sevendays）
   + 明亮物流（明亮，mingliangwuliu）
-  + 凡客配送（凡客，vancl）
+  + 凡客配送（作废）（凡客，vancl）
   + 华企快运（华企，huaqikuaiyun）
   + 城市100（城市100，city100）
   + 红马甲物流（红马甲，sxhongmajia）
@@ -192,7 +191,7 @@ You can use one company's name, shortname and english code to query. Here's a li
   + 邦送物流（邦送，bangsongwuliu）
   + 国通快递（国通，guotongkuaidi）
   + 澳大利亚(Australia Post)（auspost，auspost）
-  + 加拿大邮政（加拿大邮.政.，canpost）
+  + 加拿大(Canada Post)（加拿大邮政，canpost）
   + 加拿大邮政（加拿大邮政，canpostfr）
   + UPS-全球件（UPS-全球件，upsen）
   + TNT-全球件（TNT-全球件，tnten）
@@ -237,7 +236,7 @@ You can use one company's name, shortname and english code to query. Here's a li
   + 深圳德创物流（深圳德创，dechuangwuliu）
   + 林道国际快递-英文（林道国际快递-英文，ldxpres）
   + 瑞典（Sweden Post）（瑞典邮政，ruidianyouzheng）
-  + Posten AB（Posten AB，postenab）
+  + PostNord(Posten AB)（Posten AB，postenab）
   + 偌亚奥国际快递（偌亚奥，nuoyaao）
   + 城际速递（城际，chengjisudi）
   + 祥龙运通物流（祥龙运通，xianglongyuntong）
@@ -262,7 +261,7 @@ You can use one company's name, shortname and english code to query. Here's a li
   + 重庆星程快递（重庆星程快递，cqxingcheng）
   + 四川星程快递（四川星程快递，scxingcheng）
   + 贵州星程快递（贵州星程快递，gzxingcheng）
-  + 运通中港快递（运通中港快递，ytkd）
+  + 运通中港快递(作废)（运通中港快递，ytkd）
   + Gati-英文（gati官网英文通道，gatien）
   + Gati-中文（gati官网中文通道，gaticn）
   + jcex（jcex官网通道，jcex）
@@ -279,8 +278,8 @@ You can use one company's name, shortname and english code to query. Here's a li
   + 四川快优达速递（四川快优达速递，kuaiyouda）
   + 日昱物流（日昱物流，riyuwuliu）
   + 速通物流（速通物流，sutongwuliu）
-  + 南京晟邦物流（南京晟邦物流，nanjingshengbang）
-  + 爱尔兰邮政(An Post)（爱尔兰邮政，anposten）
+  + 晟邦物流（晟邦物流，nanjingshengbang）
+  + 爱尔兰(An Post)（爱尔兰邮政，anposten）
   + 日本（Japan Post）（日本邮政JapanPost，japanposten）
   + 丹麦(Post Denmark)（丹麦邮政，postdanmarken）
   + 巴西(Brazil Post/Correios)（巴西邮政Brazil Post，brazilposten）
@@ -329,10 +328,10 @@ You can use one company's name, shortname and english code to query. Here's a li
   + Italy SDA（Italy SDA，italysad）
   + MRW（MRW，mrw）
   + Chronopost Portugal（Chronopost Portugal，chronopostport）
-  + 西班牙(Correos de España)（Correos de España，correosdees）
+  + 西班牙(Correos de Espa?a)（Correos de Espa?a，correosdees）
   + Direct Link（Direct Link，directlink）
   + ELTA Hellenic Post（ELTA Hellenic Post，eltahell）
-  + 捷克（Česká pošta）（ceskaposta，ceskaposta）
+  + 捷克（?eská po?ta）（ceskaposta，ceskaposta）
   + Siodemka（Siodemka，siodemka）
   + International Seur（International Seur，seur）
   + 久易快递（久易快递，jiuyicn）
@@ -403,29 +402,28 @@ You can use one company's name, shortname and english code to query. Here's a li
   + 吉尔吉斯斯坦(Kyrgyz Post)（kyrgyzpost，kyrgyzpost）
   + 拉脱维亚(Latvijas Pasts)（拉脱维亚，latvia）
   + 黎巴嫩(Liban Post)（黎巴嫩，libanpost）
-  + 立陶宛（Lietuvos paštas）（立陶宛，lithuania）
+  + 立陶宛（Lietuvos pa?tas）（立陶宛，lithuania）
   + 马尔代夫(Maldives Post)（马尔代夫，maldives）
   + 马耳他（Malta Post）（马耳他，malta）
   + 马其顿(Macedonian Post)（马其顿，macedonia）
   + 新西兰（New Zealand Post）（New Zealand Post，newzealand）
-  + 摩尔多瓦（摩尔多瓦，moldova）
+  + 摩尔多瓦(Posta Moldovei)（摩尔多瓦，moldova）
   + 孟加拉国(EMS)（孟加拉国(EMS)，bangladesh）
   + 塞尔维亚(PE Post of Serbia)（塞尔维亚，serbia）
-  + 塞浦路斯（塞浦路斯，cypruspost）
-  + 突尼斯(EMS)（突尼斯，tunisia）
-  + 乌兹别克斯坦（乌兹别克斯坦，uzbekistan）
-  + 新喀里多尼亚[法国]（新喀里多尼亚[法国]，caledonia）
-  + 叙利亚（叙利亚，republic）
-  + 亚美尼亚（亚美尼亚，haypost）
-  + 也门（也门，yemen）
+  + 塞浦路斯(Cyprus Post)（塞浦路斯，cypruspost）
+  + 突尼斯EMS(Rapid-Poste)（突尼斯，tunisia）
+  + 乌兹别克斯坦(Post of Uzbekistan)（乌兹别克斯坦，uzbekistan）
+  + 新喀里多尼亚[法国](New Caledonia)（新喀里多尼亚[法国]，caledonia）
+  + 叙利亚(Syrian Post)（叙利亚，republic）
+  + 亚美尼亚(Haypost-Armenian Postal)（亚美尼亚，haypost）
+  + 也门(Yemen Post)（也门，yemen）
   + 印度(India Post)（印度，india）
   + 英国(大包,EMS)（英国(大包,EMS)，england）
-  + 约旦（约旦，jordan）
+  + 约旦(Jordan Post)（约旦，jordan）
   + 越南小包(Vietnam Posts)（越南，vietnam）
-  + 黑山(Pošta Crne Gore)（黑山，montenegro）
+  + 黑山(Po?ta Crne Gore)（黑山，montenegro）
   + 哥斯达黎加(Correos de Costa Rica)（哥斯达黎加，correos）
   + 西安喜来快递（西安喜来快递，xilaikd）
-  + 韩润物流（韩润物流，hanrun）
   + 格陵兰[丹麦]（TELE Greenland A/S）（格陵兰[丹麦]，greenland）
   + 菲律宾（Philippine Postal）（菲律宾，phlpost）
   + 厄瓜多尔(Correos del Ecuador)（厄瓜多尔，ecuador）
@@ -444,7 +442,6 @@ You can use one company's name, shortname and english code to query. Here's a li
   + 澳门(Macau Post)（澳门，macao）
   + 台湾（中华邮政）（台湾，postserv）
   + 北京EMS（北京EMS，bjemstckj）
-  + 阿根廷(Correo Argentino)（阿根廷，correoargentino）
   + 快淘快递（快淘快递，kuaitao）
   + 秘鲁(SERPOST)（秘鲁，peru）
   + 印度尼西亚EMS(Pos Indonesia-EMS)（印度尼西亚EMS，indonesia）
@@ -452,7 +449,7 @@ You can use one company's name, shortname and english code to query. Here's a li
   + 立白宝凯物流（立白宝凯物流，lbbk）
   + 百千诚物流（百千诚物流，bqcwl）
   + 皇家物流（皇家物流，pfcexpress）
-  + 法国小包(Colissimo)（法国(小包)，csuivi）
+  + 法国(La Poste)（法国(小包)，csuivi）
   + 奥地利(Austrian Post)（奥地利，austria）
   + 乌克兰小包、大包(UkrPoshta)（乌克兰(小包,大包)，ukraine）
   + 乌干达(Posta Uganda)（乌干达，uganda）
@@ -464,31 +461,30 @@ You can use one company's name, shortname and english code to query. Here's a li
   + 毛里求斯(Mauritius Post)（毛里求斯，mauritius）
   + 文莱(Brunei Postal)（文莱，brunei）
   + Quantium（Quantium，quantium）
-  + 坦桑尼亚（坦桑尼亚，tanzania）
+  + 坦桑尼亚(Tanzania Posts)（坦桑尼亚，tanzania）
   + 阿曼(Oman Post)（阿曼，oman）
-  + 直布罗陀[英国]（直布罗陀[英国]，gibraltar）
+  + 直布罗陀[英国]( Royal Gibraltar Post)（直布罗陀[英国]，gibraltar）
   + 博源恒通（博源恒通，byht）
-  + 越南EMS（越南EMS，vnpost）
+  + 越南EMS(VNPost Express)（越南EMS，vnpost）
   + 安迅物流（安迅物流，anxl）
   + 达方物流（达方物流，dfpost）
-  + 伙伴物流（伙伴物流，huoban）
+  + 兰州伙伴物流（兰州伙伴物流，huoban）
   + 天纵物流（天纵物流，tianzong）
   + 波黑(JP BH Posta)（波黑，bohei）
   + 玻利维亚（玻利维亚，bolivia）
   + 柬埔寨(Cambodia Post)（柬埔寨，cambodia）
   + 巴林(Bahrain Post)（巴林，bahrain）
-  + 纳米比亚（纳米比亚，namibia）
-  + 卢旺达（卢旺达，rwanda）
-  + 莱索托（莱索托，lesotho）
+  + 纳米比亚(NamPost)（纳米比亚，namibia）
+  + 卢旺达(Rwanda i-posita)（卢旺达，rwanda）
+  + 莱索托(Lesotho Post)（莱索托，lesotho）
   + 肯尼亚(POSTA KENYA)（肯尼亚，kenya）
   + 喀麦隆(CAMPOST)（喀麦隆，cameroon）
   + 伯利兹(Belize Postal)（伯利兹，belize）
   + 巴拉圭(Correo Paraguayo)（巴拉圭，paraguay）
   + 十方通物流（十方通物流，sfift）
   + 飞鹰物流（飞鹰物流，hnfy）
-  + i-pacle（i-pacle，iparcel）
+  + UPS i-parcle（UPS i-parcle，iparcel）
   + 鑫锐达（鑫锐达，bjxsrd）
-  + 百世物流（百世物流，baishiwuliu）
   + 麦力快递（麦力快递，mailikuaidi）
   + 瑞丰速递（瑞丰速递，rfsd）
   + 美联快递（美联快递，letseml）
@@ -496,7 +492,7 @@ You can use one company's name, shortname and english code to query. Here's a li
   + 鑫世锐达（鑫世锐达，xsrd）
   + 同舟行物流（同舟行物流，chinatzx）
   + 秦邦快运（秦邦快运，qbexpress）
-  + 百成大达物流（百成大达物流，idada）
+  + 大达物流（大达物流，idada）
   + skynet（skynet，skynet）
   + 红马速递（红马速递，nedahm）
   + 云南中诚（云南中诚，czwlyn）
@@ -504,6 +500,37 @@ You can use one company's name, shortname and english code to query. Here's a li
   + 腾达速递（腾达速递，nntengda）
   + 郑州速捷（郑州速捷，sujievip）
   + UBI Australia（UBI Australia，gotoubi）
-  + ecmsglobal（ecmsglobal，ecmsglobal）
-  + FastGo（FastGo，fastgo）
-
+  + ECMS Express（ecmsglobal，ecmsglobal）
+  + 速派快递(FastGo)（FastGo，fastgo）
+  + 易客满（易客满，ecmscn）
+  + 俄顺达（俄顺达，eshunda）
+  + 广东速腾物流（广东速腾物流，suteng）
+  + 新鹏快递（新鹏快递，gdxp）
+  + 美国韵达（美国韵达，yundaexus）
+  + Toll（Toll，toll）
+  + 深圳DPEX（Toll，szdpex）
+  + 百世物流（百世物流，baishiwuliu）
+  + 荷兰包裹(PostNL International Parcels)（荷兰包裹，postnlpacle）
+  + 乐天速递（乐天速递，ltexp）
+  + 智通物流（智通物流，ztong）
+  + 鑫通宝物流（鑫通宝物流，xtb）
+  + airpak expresss（airpak expresss，airpak）
+  + 荷兰邮政-中国件（荷兰邮政-中国件，postnlchina）
+  + 法国小包（colissimo）（colissimo，colissimo）
+  + PCA Express（PCA Express，pcaexpress）
+  + 韩润（韩润，hanrun）
+  + TNT（TNT，tnt）
+  + 中远e环球（中远e环球，cosco）
+  + 顺达快递（顺达快递，sundarexpress）
+  + 捷记方舟（捷记方舟，ajexpress）
+  + 方舟速递（方舟速递，arkexpress）
+  + 明大快递（明大快递，adaexpress）
+  + 长江国际速递（长江国际速递，changjiang）
+  + 八达通（八达通，bdatong）
+  + 美国申通（美国申通，stoexpress）
+  + 泛捷国际速递（泛捷国际速递，epanex）
+  + 顺捷丰达（顺捷丰达，shunjiefengda）
+  + 华赫物流（华赫物流，nmhuahe）
+  + 德国(Deutsche Post)（德国(Deutsche Post)，deutschepost）
+  + 百腾物流（百腾物流，baitengwuliu）
+  + 品骏快递（品骏快递，pjbest）
