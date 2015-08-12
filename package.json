@@ -1,6 +1,6 @@
 {
   "name": "xto",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Just an API for Node.js to query each express.",
   "main": "index.js",
   "bin": {
