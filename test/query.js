@@ -22,3 +22,4 @@ for(var i = 0; i < companies.length; i++) {
     query(company);
 }
 
+///< THIS TEST FILE IS DANGEROUS!
