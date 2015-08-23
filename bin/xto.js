@@ -6,7 +6,6 @@
  * Copyright (c) 2015 Huaban.com, all rights
  * reserved
  */
-
 var color = require("bash-color");
 var xto = require("../");
 var opts = require("nomnom")
