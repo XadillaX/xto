@@ -534,3 +534,15 @@ You can use one company's name, shortname and english code to query. Here's a li
   + 德国(Deutsche Post)（德国(Deutsche Post)，deutschepost）
   + 百腾物流（百腾物流，baitengwuliu）
   + 品骏快递（品骏快递，pjbest）
+  + 全速通（全速通，quansutong）
+  + 中技物流（中技物流，zhongjiwuliu）
+  + 九曳供应链（九曳供应链，jiuyescm）
+  + 天翼快递（天翼快递，tykd）
+  + 德意思（德意思，dabei）
+  + 城际快递（城际快递，chengji）
+  + 程光快递（程光快递，chengguangkuaidi）
+  + 佐川急便（佐川急便，sagawa）
+  + 蓝天快递（蓝天快递，lantiankuaidi）
+  + 永昌物流（永昌物流，yongchangwuliu）
+  + 笨鸟海淘（笨鸟海淘，birdex）
+  + 一正达速运（一正达速运，yizhengdasuyun）
