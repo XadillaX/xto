@@ -1,6 +1,6 @@
 {
   "name": "xto",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Just an API for Node.js to query each express.",
   "main": "index.js",
   "bin": {
@@ -9,7 +9,7 @@
   "dependencies": {
     "bash-color": "^0.0.3",
     "nomnom": "^1.8.1",
-    "spidex": "^2.0.1",
+    "spidex": "^2.0.5",
     "sugar": "^1.4.1"
   },
   "scripts": {
@@ -27,5 +27,11 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/XadillaX/xto/issues"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.3.21",
+    "mocha": "^2.3.3",
+    "should": "^7.1.0"
   }
 }
