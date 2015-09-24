@@ -31,7 +31,7 @@ describe("# query", function() {
     });
 
     it("should get no number error", function(done) {
-        xto.query("1234567", "birdex", function(err) {
+        xto.query("1234567890111", "EMS", function(err) {
             err.should.be.instanceof(Error);
             err.message.should.be.eql("单号不存在或者已经过期");
             done();
