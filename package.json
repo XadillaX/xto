@@ -13,7 +13,7 @@
     "sugar": "^1.4.1"
   },
   "scripts": {
-    "test": "node test/query.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
