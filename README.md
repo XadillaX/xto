@@ -1,12 +1,17 @@
 # (X)TO
 
+[![xto](http://img.shields.io/npm/v/xto.svg)](https://www.npmjs.com/package/xto)
+[![Dependency Status](https://img.shields.io/david/XadillaX/xto.svg)](https://david-dm.org/xadillax/xto)
+[![TravisCI](https://img.shields.io/travis/XadillaX/xto/master.svg)](https://travis-ci.org/XadillaX/xto)
+[![Coveralls](https://img.shields.io/coveralls/XadillaX/xto/master.svg)](https://coveralls.io/r/XadillaX/xto)
+[![License](https://img.shields.io/npm/l/xto.svg?style=flat)](https://www.npmjs.org/package/xto)
+[![Star at GitHub](https://img.shields.io/github/stars/XadillaX/xto.svg?style=social&label=Star)](https://github.com/xadillax/xto)
+
 [![Join the chat at https://gitter.im/XadillaX/xto](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/XadillaX/xto?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Just an API for Node.js to query each express with ♥.
 
 Because many Chinese express companies are called [*]to (eg: sto, zto, gto, etc.), I call this project XTO.
-
-> CLI version is under developing.
 
 ## ESSENCE
 
