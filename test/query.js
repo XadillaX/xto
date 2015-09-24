@@ -11,7 +11,7 @@ describe("# query", function() {
     this.timeout(0);
 
     it("should get express status", function(done) {
-        xto.query("0001355", "stsd", function(err, express) {
+        xto.query("0001355", "santaisudi", function(err, express) {
             should(err).be.eql(undefined);
             express.should.match({
                 message: "ok",
