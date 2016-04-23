@@ -4,6 +4,8 @@
  */
 var refer = {
     "company": [{
+        "cid": "5",
+        "id": "1",
         "companyname": "申通快递",
         "shortname": "申通",
         "tel": "95543",
@@ -13,13 +15,15 @@ var refer = {
         "comurl": "http://www.sto.cn",
         "isavailable": "0",
         "promptinfo": "系统升级，请到申通官网查询",
-        "testnu": "220371624013",
+        "testnu": "229855869255",
         "freg": "^[0-9]{12,13}$",
         "freginfo": "申通单号由12位数字组成，常见以268*、368*、58*等开头",
         "telcomplaintnum": "95543",
         "queryurl": "http://www.sto.cn/web%20select.asp",
         "serversite": "http://www.kuaidi100.com/network/province_5.htm"
     }, {
+        "cid": "9",
+        "id": "2",
         "companyname": "EMS",
         "shortname": "EMS",
         "tel": "11183",
@@ -29,13 +33,15 @@ var refer = {
         "comurl": "http://www.ems.com.cn/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "9900154247415",
+        "testnu": "5116741128399",
         "freg": "",
         "freginfo": "13位纯数字或者开头和结尾各2位字母中间9位数字",
         "telcomplaintnum": "11183",
         "queryurl": "http://www.11183.com.cn/ems/order/singleQuery_t?mailNum=",
         "serversite": ""
     }, {
+        "cid": "10",
+        "id": "3",
         "companyname": "顺丰速运",
         "shortname": "顺丰",
         "tel": "95338",
@@ -45,13 +51,15 @@ var refer = {
         "comurl": "http://www.sf-express.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "590512680674",
+        "testnu": "976186294981",
         "freg": "^[0-9]{12}$",
         "freginfo": "顺丰单号由12位数字组成，常以电话区号后3位开头",
         "telcomplaintnum": "0755-83151111",
         "queryurl": "http://www.sf-express.com/cn/sc/delivery_step/enquiry/coverageArea.html",
         "serversite": "http://www.kuaidi100.com/network/province_10.htm"
     }, {
+        "cid": "2",
+        "id": "4",
         "companyname": "韵达快递",
         "shortname": "韵达",
         "tel": "95546",
@@ -61,13 +69,15 @@ var refer = {
         "comurl": "http://www.yundaex.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "1901225780101",
+        "testnu": "1201875063322",
         "freg": "^[0-9]{13}$",
         "freginfo": "韵达单号由13位数字组成",
         "telcomplaintnum": "95546",
         "queryurl": "http://ykjcx.yundasys.com/go.php?wen=",
         "serversite": "http://www.kuaidi100.com/network/province_2.htm"
     }, {
+        "cid": "4",
+        "id": "5",
         "companyname": "圆通速递",
         "shortname": "圆通",
         "tel": "95554",
@@ -77,13 +87,15 @@ var refer = {
         "comurl": "http://www.ytoexpress.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "880350384879600241",
+        "testnu": "881443775034378914",
         "freg": "",
         "freginfo": "圆通单号由10位字母数字组成，常见以6*、8*及V*等开头",
         "telcomplaintnum": "95554",
         "queryurl": "http://www.ytoexpress.com/",
         "serversite": "http://www.kuaidi100.com/network/province_4.htm"
     }, {
+        "cid": "3",
+        "id": "6",
         "companyname": "中通快递",
         "shortname": "中通",
         "tel": "95311",
@@ -93,14 +105,16 @@ var refer = {
         "comurl": "http://www.zto.cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "757168449758",
+        "testnu": "768404530475",
         "freg": "^[0-9]{12}$",
         "freginfo": "中通单号由12位数字组成，常见以2008**、6**、010等开头",
         "telcomplaintnum": "95311",
         "queryurl": "http://www.zto.cn/SiteInfo/index.aspx",
         "serversite": "http://www.kuaidi100.com/network/province_3.htm"
     }, {
-        "companyname": "百世汇通",
+        "cid": "6",
+        "id": "7",
+        "companyname": "百世快递",
         "shortname": "汇通",
         "tel": "4009 565656",
         "url": "htky",
@@ -109,13 +123,15 @@ var refer = {
         "comurl": "http://www.800bestex.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "350426709938",
+        "testnu": "280490671426",
         "freg": "^[A-Za-z0-9]{11,14}$",
-        "freginfo": "百世汇通单号由12-14位数字字母组成，常见以50*开头",
+        "freginfo": "百世快递单号由12-14位数字字母组成，常见以50*开头",
         "telcomplaintnum": "4009 565656",
         "queryurl": "http://www.800bestex.com/",
         "serversite": "http://www.kuaidi100.com/network/province_6.htm"
     }, {
+        "cid": "7",
+        "id": "8",
         "companyname": "天天快递",
         "shortname": "天天",
         "tel": "400-188-8888",
@@ -125,13 +141,15 @@ var refer = {
         "comurl": "http://www.ttkdex.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "666138656018",
+        "testnu": "580239318951",
         "freg": "",
         "freginfo": "天天单号由12或14位数字组成，常见以6**、5*、00*等开头",
         "telcomplaintnum": "400-188-8888",
         "queryurl": "http://www.ttkdex.com/ttkdweb/webdistributed/WebBranchInfo.html",
         "serversite": "http://www.kuaidi100.com/network/province_7.htm"
     }, {
+        "cid": "12",
+        "id": "9",
         "companyname": "宅急送",
         "shortname": "宅急送",
         "tel": "400-6789-000",
@@ -141,13 +159,15 @@ var refer = {
         "comurl": "http://www.zjs.com.cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "5632866643",
+        "testnu": "5977596855",
         "freg": "",
         "freginfo": "宅急送单号由10位数字组成，常见以7**、6**、5**等开头",
         "telcomplaintnum": "400-6789-000",
         "queryurl": "http://www.zjs.com.cn/WS_Business/WS_Bussiness_CityArea.aspx?id=6",
         "serversite": "http://www.kuaidi100.com/network/province_12.htm"
     }, {
+        "cid": "29",
+        "id": "10",
         "companyname": "鑫飞鸿",
         "shortname": "鑫飞鸿",
         "tel": "021-69781999",
@@ -164,6 +184,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "143",
+        "id": "11",
         "companyname": "CCES/国通快递",
         "shortname": "CCES",
         "tel": "400-111-1123",
@@ -173,13 +195,15 @@ var refer = {
         "comurl": "http://www.gto365.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "2561294498",
+        "testnu": "3117726784",
         "freg": "",
         "freginfo": "常见的CCES单号由10位数字组成",
         "telcomplaintnum": "400-111-1123",
         "queryurl": "http://www.gto365.com",
         "serversite": "http://www.kuaidi100.com/network/province_20.htm"
     }, {
+        "cid": "30",
+        "id": "12",
         "companyname": "全一快递",
         "shortname": "全一",
         "tel": "400-663-1111",
@@ -189,13 +213,15 @@ var refer = {
         "comurl": "http://www.unitop-apex.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "112256736200",
+        "testnu": "112268199514",
         "freg": "^[0-9]{9,12}$",
         "freginfo": "旧的为9位数字，被DHL合并后的中外运全一为12位数字",
         "telcomplaintnum": "021-52695805",
         "queryurl": "http://www.unitop-apex.com/",
         "serversite": "http://www.unitop-apex.com/networkquery.aspx"
     }, {
+        "cid": "31",
+        "id": "13",
         "companyname": "彪记快递",
         "shortname": "彪记",
         "tel": "+886 (02) 2562-3533",
@@ -212,6 +238,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www2.pewkee.com/pewkee/gb2-pewkee/gb2-global_2.php"
     }, {
+        "cid": "16",
+        "id": "14",
         "companyname": "星晨急便",
         "shortname": "星晨急便",
         "tel": "",
@@ -228,22 +256,26 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "32",
+        "id": "15",
         "companyname": "亚风速递",
         "shortname": "亚风",
         "tel": "4001-000-002",
         "url": "yfsd",
         "code": "yafengsudi",
         "hasvali": 0,
-        "comurl": "http://www.af-express.com/",
+        "comurl": "http://www.airfex.net/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "50041794760",
+        "testnu": "50049680024",
         "freg": "^[A-Za-z0-9]{10,13}$",
         "freginfo": "亚风正确的单号由10位数字组成或以字母开头13位组成，常见已常见以59开头或BAT开头",
-        "telcomplaintnum": "4001-000-002",
+        "telcomplaintnum": "400-1000-002",
         "queryurl": "",
-        "serversite": "http://www.af-express.com/"
+        "serversite": "http://www.airfex.net/"
     }, {
+        "cid": "33",
+        "id": "16",
         "companyname": "源伟丰",
         "shortname": "源伟丰",
         "tel": "400-601-2228",
@@ -260,6 +292,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.ywfex.com/site_search.jsp"
     }, {
+        "cid": "25",
+        "id": "17",
         "companyname": "全日通",
         "shortname": "全日通",
         "tel": "020-86298999",
@@ -276,22 +310,26 @@ var refer = {
         "queryurl": "http://www.at-express.com/servicesarea.html",
         "serversite": "http://www.at-express.com:8080/servicesarea.html"
     }, {
+        "cid": "34",
+        "id": "18",
         "companyname": "安信达",
         "shortname": "安信达",
-        "tel": "400-626-2356",
+        "tel": "400-716-1919",
         "url": "axd",
         "code": "anxindakuaixi",
         "hasvali": 0,
-        "comurl": "http://www.anxinda.com",
+        "comurl": "http://www.axdkd.com",
         "isavailable": "0",
         "promptinfo": "",
         "testnu": "201000000000",
         "freg": "^[0-9]{10,12}$",
         "freginfo": "常见的安信达单号由10、12位数字组成",
-        "telcomplaintnum": "400-626-2356",
-        "queryurl": "http://www.anxinda.com",
-        "serversite": "http://www.hqky.co/Network/"
+        "telcomplaintnum": "400-716-1919",
+        "queryurl": "http://www.axdkd.com",
+        "serversite": "http://www.axdkd.com/index.php?m=content&c=index&a=lists&catid=27"
     }, {
+        "cid": "35",
+        "id": "19",
         "companyname": "民航快递",
         "shortname": "民航",
         "tel": "400-817-4008",
@@ -301,13 +339,15 @@ var refer = {
         "comurl": "http://www.cae.com.cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "CAE576738038",
+        "testnu": "CAE571402125",
         "freg": "",
         "freginfo": "单号通常是以CAE开头的12位英文+数字",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": "http://www.cae.com.cn/infodetailshow.aspx?m=20090225165413640027"
     }, {
+        "cid": "144",
+        "id": "20",
         "companyname": "凤凰快递",
         "shortname": "凤凰",
         "tel": "010-85826200",
@@ -324,6 +364,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "36",
+        "id": "21",
         "companyname": "京广速递",
         "shortname": "京广",
         "tel": "0769-88629888",
@@ -333,13 +375,15 @@ var refer = {
         "comurl": "http://www.szkke.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "7100318466",
+        "testnu": "6600285956",
         "freg": "^[0-9]{10}$",
         "freginfo": "京广速递查询单号一般是由10位数字组成",
         "telcomplaintnum": "0769-88629888",
         "queryurl": "",
         "serversite": "http://www.szkke.com/"
     }, {
+        "cid": "340",
+        "id": "22",
         "companyname": "配思货运",
         "shortname": "配思",
         "tel": "010-65489928,65489571,65489469,65489456",
@@ -356,6 +400,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.peisi.cn/www/wangdian.asp"
     }, {
+        "cid": "37",
+        "id": "23",
         "companyname": "中铁物流",
         "shortname": "中铁",
         "tel": "400-000-5566",
@@ -365,13 +411,15 @@ var refer = {
         "comurl": "http://www.ztky.com ",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "6091875403",
+        "testnu": "6093086672",
         "freg": "",
         "freginfo": "中铁物流的单号一般由字母或数字组成",
         "telcomplaintnum": "400-650-1118",
         "queryurl": "http://www.ztky.com ",
         "serversite": "http://www.ztky.com/custom/khzq_yywd.aspx"
     }, {
+        "cid": "38",
+        "id": "24",
         "companyname": "UPS",
         "shortname": "UPS",
         "tel": "400-820-8388",
@@ -381,13 +429,15 @@ var refer = {
         "comurl": "http://www.ups.com/cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "1Z787Y880371665980",
+        "testnu": "1ZA0F8536742316738",
         "freg": "^[A-Za-z0-9]{7,22}$",
         "freginfo": "标准编码为7到20位数之间的数字，或字母+数字",
         "telcomplaintnum": "800-820-8388",
         "queryurl": "",
         "serversite": "http://www.ups.com/content/cn/zh/locations/dropoff/index.html?WT.svl=PNRO_L1"
     }, {
+        "cid": "146",
+        "id": "25",
         "companyname": "FedEx-国际件",
         "shortname": "FedEx",
         "tel": "400-886-1888",
@@ -397,13 +447,15 @@ var refer = {
         "comurl": "http://fedex.com/cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "807705935280",
+        "testnu": "9261299995865837450409",
         "freg": "",
         "freginfo": "FedEx-国际单号是由12位纯数字组成",
         "telcomplaintnum": "800-988-1888",
         "queryurl": "",
         "serversite": "http://www.fedex.com/cn/dropoff"
     }, {
+        "cid": "40",
+        "id": "27",
         "companyname": "DHL-中国件",
         "shortname": "DHL",
         "tel": "800-810-8000",
@@ -413,13 +465,15 @@ var refer = {
         "comurl": "http://www.cn.dhl.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "2173609200",
+        "testnu": "3244675836",
         "freg": "",
         "freginfo": "dhl快递单号由10位或12位纯数字组成",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": "http://www.cn.dhl.com/apps/FindCenter/dhldropoff.html"
     }, {
+        "cid": "41",
+        "id": "28",
         "companyname": "AAE-中国件",
         "shortname": "AAE",
         "tel": "400-610-0400",
@@ -436,6 +490,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://cn.aaeweb.com/network"
     }, {
+        "cid": "147",
+        "id": "29",
         "companyname": "大田物流",
         "shortname": "大田",
         "tel": "400-626-1166",
@@ -445,13 +501,15 @@ var refer = {
         "comurl": "http://www.dtw.com.cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "6139246362",
+        "testnu": "6137971090",
         "freg": "^[A-Za-z0-9]{8,20}$",
         "freginfo": "大田物流单号一般是由以6*开头10位纯数字组成",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": "http://www.dtw.com.cn/chn/kit/network.htm"
     }, {
+        "cid": "1",
+        "id": "30",
         "companyname": "德邦物流",
         "shortname": "德邦",
         "tel": "95353",
@@ -461,13 +519,15 @@ var refer = {
         "comurl": "http://www.deppon.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "313551647",
+        "testnu": "230624798",
         "freg": "",
         "freginfo": "德邦的货运单号现在是以1或2开头的8位数字组成",
         "telcomplaintnum": "",
         "queryurl": "http://www.deppon.com/wangdian/",
         "serversite": ""
     }, {
+        "cid": "13",
+        "id": "31",
         "companyname": "新邦物流",
         "shortname": "新邦",
         "tel": "4008-000-222",
@@ -477,29 +537,33 @@ var refer = {
         "comurl": "http://www.xbwl.cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "23053454",
+        "testnu": "0005698",
         "freg": "",
         "freginfo": "新邦物流查询单号一般0开头由8位纯数字组成的",
         "telcomplaintnum": "",
         "queryurl": "http://www.xbwl.cn/NewNetSite.aspx",
         "serversite": ""
     }, {
+        "cid": "24",
+        "id": "32",
         "companyname": "龙邦速递",
         "shortname": "龙邦",
         "tel": "021-59218889",
         "url": "lb",
         "code": "longbanwuliu",
         "hasvali": 0,
-        "comurl": "http://www.lbex.com.cn",
+        "comurl": "http://www.lbex.net",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "688772329986",
+        "testnu": "888305364377",
         "freg": "^[A-Za-z0-9]{12}$",
         "freginfo": "由12位数字组成，常见以16*开头，也有字母开头的",
         "telcomplaintnum": "021-59218889",
         "queryurl": "http://122.225.104.195:8089/SearchPaiSongWeb1/index.jsp",
-        "serversite": "http://web.lbex.com.cn/center_2.asp"
+        "serversite": "http://www.lbex.net/site/index.jsp"
     }, {
+        "cid": "121",
+        "id": "33",
         "companyname": "一邦速递",
         "shortname": "一邦",
         "tel": "000-000-0000",
@@ -516,6 +580,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.ebon-express.com/wangdian/wangdian!province.action?show=0"
     }, {
+        "cid": "11",
+        "id": "34",
         "companyname": "速尔快递",
         "shortname": "速尔",
         "tel": "400-158-9888",
@@ -525,13 +591,15 @@ var refer = {
         "comurl": "http://www.sure56.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "880129991485",
+        "testnu": "880118395483",
         "freg": "^[0-9]{10,12}$",
         "freginfo": "速尔的快递单号由12位数字组成的",
         "telcomplaintnum": "0769-89339656",
         "queryurl": "http://www.sure56.com/area/service.aspx",
         "serversite": ""
     }, {
+        "cid": "42",
+        "id": "35",
         "companyname": "联昊通",
         "shortname": "联昊通",
         "tel": "0769-88620000",
@@ -541,13 +609,15 @@ var refer = {
         "comurl": "http://www.lhtex.com.cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "534005024947",
+        "testnu": "231018780470",
         "freg": "^[0-9]{10,12}$",
         "freginfo": "联昊通快递单号由12位或者10位数字编码组成",
         "telcomplaintnum": "0769-88620000,85116666",
         "queryurl": "",
         "serversite": "http://www.lhtex.com.cn/wd.asp"
     }, {
+        "cid": "43",
+        "id": "36",
         "companyname": "广东邮政",
         "shortname": "广东邮政",
         "tel": "020-38181677",
@@ -564,6 +634,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "44",
+        "id": "37",
         "companyname": "中邮物流",
         "shortname": "中邮",
         "tel": "11183",
@@ -580,6 +652,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.cnpl.com.cn/itemcontent.jsp?itemId=6"
     }, {
+        "cid": "14",
+        "id": "38",
         "companyname": "天地华宇",
         "shortname": "华宇",
         "tel": "400-808-6666",
@@ -589,13 +663,15 @@ var refer = {
         "comurl": "http://www.hoau.net",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "87418882",
+        "testnu": "066169042",
         "freg": "",
         "freginfo": "华宇物流查询单号是由8位数字组成",
         "telcomplaintnum": "400-808-6666",
         "queryurl": "http://www.hoau.net/",
         "serversite": ""
     }, {
+        "cid": "148",
+        "id": "39",
         "companyname": "盛辉物流",
         "shortname": "盛辉",
         "tel": "4008-222-222",
@@ -605,13 +681,15 @@ var refer = {
         "comurl": "http://www.shenghui56.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "235722817",
+        "testnu": "238117137",
         "freg": "^[0-9]{9}$",
         "freginfo": "盛辉物流单号由9位数字编码组成",
         "telcomplaintnum": "4008-222-222",
         "queryurl": "",
-        "serversite": "http://www.shenghui56.com/qgsh.asp"
+        "serversite": "http://www.shenghui56.com/list-4.html"
     }, {
+        "cid": "149",
+        "id": "40",
         "companyname": "长宇物流",
         "shortname": "长宇",
         "tel": "4007-161-262",
@@ -628,6 +706,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.cyexp.com/Guide3.asp"
     }, {
+        "cid": "45",
+        "id": "41",
         "companyname": "飞康达",
         "shortname": "飞康达",
         "tel": "010-84223376,84223378",
@@ -637,13 +717,15 @@ var refer = {
         "comurl": "http://www.fkd.com.cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "500053299606",
+        "testnu": "500054166104",
         "freg": "",
         "freginfo": "飞康达单号查询编码大多以8开头，一般由11位的数字组成",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": "http://www.fkd.com.cn/network.asp?id=1"
     }, {
+        "cid": "46",
+        "id": "42",
         "companyname": "元智捷诚",
         "shortname": "元智捷诚",
         "tel": "400-081-2345",
@@ -660,6 +742,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.yjkd.com/wd/wangdian.asp"
     }, {
+        "cid": "47",
+        "id": "43",
         "companyname": "邮政包裹/平邮",
         "shortname": "邮政国内",
         "tel": "11185",
@@ -669,13 +753,15 @@ var refer = {
         "comurl": "http://yjcx.chinapost.com.cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "9940047297591",
+        "testnu": "9610005849243",
         "freg": "",
         "freginfo": "邮政单号以字母开头+11位数字，常见KA、SB等开头",
         "telcomplaintnum": "11185",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "48",
+        "id": "44",
         "companyname": "国际包裹",
         "shortname": "邮政国际",
         "tel": "11185",
@@ -685,13 +771,15 @@ var refer = {
         "comurl": "http://intmail.183.com.cn/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "CD187380470JP",
+        "testnu": "CK035278885DE",
         "freg": "^[a-z-A-Z]{2}[0-9]{9}[a-z-A-Z]{2}$",
         "freginfo": "由13位字母和数字组成，开头和结尾是字母，中间是数字 ",
         "telcomplaintnum": "11185",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "49",
+        "id": "45",
         "companyname": "万家物流",
         "shortname": "万家",
         "tel": "4001-156-561",
@@ -708,6 +796,8 @@ var refer = {
         "queryurl": "http://www.manco-logistics.com/cargosearch.jsp",
         "serversite": "http://www.manco-logistics.com/"
     }, {
+        "cid": "188",
+        "id": "46",
         "companyname": "远成物流",
         "shortname": "远成",
         "tel": "400-820-1646",
@@ -717,13 +807,15 @@ var refer = {
         "comurl": "http://www.ycgwl.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "12402757",
+        "testnu": "0016058401",
         "freg": "^[A-Za-z0-9]{5,10}$",
         "freginfo": "远成物流查询单号一般是以00开头，由最多10位的数字组成",
         "telcomplaintnum": "400-820-1646",
         "queryurl": "",
         "serversite": "http://www.ycgwl.com/map.asp"
     }, {
+        "cid": "50",
+        "id": "47",
         "companyname": "信丰物流",
         "shortname": "信丰",
         "tel": "400-830-6333",
@@ -733,13 +825,15 @@ var refer = {
         "comurl": "http://www.xf-express.com.cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "137108268243",
+        "testnu": "137441402465",
         "freg": "^[0-9]{12}$",
         "freginfo": "信丰快递正确的单号由12位纯数字组成，常见已139*开头",
         "telcomplaintnum": "4008 306 333、0769-81518333",
         "queryurl": "",
         "serversite": "http://www.xf-express.com.cn/showarea.aspx?pid=-1=-1"
     }, {
+        "cid": "51",
+        "id": "48",
         "companyname": "文捷航空",
         "shortname": "文捷",
         "tel": "020-88561502,85871501,31683301",
@@ -756,6 +850,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "52",
+        "id": "49",
         "companyname": "全晨快递",
         "shortname": "全晨",
         "tel": "0769-82026703",
@@ -772,6 +868,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.qckd.net/services.asp"
     }, {
+        "cid": "53",
+        "id": "50",
         "companyname": "佳怡物流",
         "shortname": "佳怡",
         "tel": "400-631-9999",
@@ -781,13 +879,15 @@ var refer = {
         "comurl": "http://www.jiayi56.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "36140468",
+        "testnu": "37172798",
         "freg": "^[0-9]{8}$",
         "freginfo": "佳怡物流查询单号一般是由8位数字组成",
         "telcomplaintnum": "400-631-9999",
         "queryurl": "",
         "serversite": "http://www.jiayi56.com/products_index.html"
     }, {
+        "cid": "17",
+        "id": "51",
         "companyname": "优速物流",
         "shortname": "优速",
         "tel": "400-1111-119",
@@ -797,13 +897,15 @@ var refer = {
         "comurl": "http://www.uc56.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "510118369335",
+        "testnu": "518110315363",
         "freg": "",
         "freginfo": "优速单号由12位数字组成，LP开头的不是优速快递单号",
         "telcomplaintnum": "400-1111-119",
         "queryurl": "http://www.uc56.com/Chinese/UC56ServiceArea.aspx",
         "serversite": "http://www.uc56.com/Chinese/ServiceNetwork.aspx"
     }, {
+        "cid": "18",
+        "id": "52",
         "companyname": "快捷速递",
         "shortname": "快捷",
         "tel": "4008-333-666",
@@ -813,13 +915,15 @@ var refer = {
         "comurl": "http://www.kjkd.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "520060240020",
+        "testnu": "536084760465",
         "freg": "",
         "freginfo": "快捷常见单号有13位纯数字组成",
         "telcomplaintnum": "4008333666",
         "queryurl": "http://www.kjkd.com/",
         "serversite": "http://www.kjkd.com/"
     }, {
+        "cid": "28",
+        "id": "53",
         "companyname": "D速快递",
         "shortname": "D速",
         "tel": "0531-88636363",
@@ -836,6 +940,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.d-exp.cn/Branch/China.aspx"
     }, {
+        "cid": "54",
+        "id": "54",
         "companyname": "全际通",
         "shortname": "全际通",
         "tel": "400-0179-888",
@@ -852,22 +958,26 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.quanjt.com/fuwu/fuwu.do"
     }, {
+        "cid": "19",
+        "id": "55",
         "companyname": "能达速递",
         "shortname": "能达",
         "tel": "400-6886-765",
         "url": "ndkd",
         "code": "ganzhongnengda",
         "hasvali": 0,
-        "comurl": "http://www.neda-express.com",
+        "comurl": "http://www.nd56.com/",
         "isavailable": "0",
         "promptinfo": "",
         "testnu": "886000130608",
         "freg": "^[0-9]{10,12}$",
         "freginfo": "港中能达单号一般以88开头的12位或10位数字",
         "telcomplaintnum": "400-6886-765",
-        "queryurl": "http://www.neda-express.com",
+        "queryurl": "http://www.nd56.com/",
         "serversite": "http://www.kuaidi100.com/network/province_19.htm"
     }, {
+        "cid": "55",
+        "id": "56",
         "companyname": "青岛安捷快递",
         "shortname": "安捷",
         "tel": "400-056-5656",
@@ -884,6 +994,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.anjelex.com/kuaidi.asp"
     }, {
+        "cid": "150",
+        "id": "57",
         "companyname": "越丰物流",
         "shortname": "越丰",
         "tel": "852-23909969",
@@ -893,29 +1005,33 @@ var refer = {
         "comurl": "http://www.yfexpress.com.hk",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "3002010888",
+        "testnu": "3001941084",
         "freg": "^[0-9]{10}$",
         "freginfo": "常见的越丰物流查询单号编码由10纯数字组成，常见以80*开头",
         "telcomplaintnum": "852-23909969",
         "queryurl": "",
         "serversite": "http://www.yfexpress.com.hk/service.php"
     }, {
+        "cid": "56",
+        "id": "58",
         "companyname": "DPEX",
         "shortname": "DPEX",
-        "tel": "021-64659883",
+        "tel": "400-920-7011/800-820-7011",
         "url": "dpex",
         "code": "dpex",
         "hasvali": 0,
-        "comurl": "http://www.szdpex.com.cn/",
+        "comurl": "https://www.dpex.com/",
         "isavailable": "0",
         "promptinfo": "",
         "testnu": "573006666956",
         "freg": "^[A-Za-z0-9]{8,20}$",
         "freginfo": "DPEX快递查询单号通常以5开头，由12位数字组成，部分dpex国际快递有13位数",
-        "telcomplaintnum": "021-64659883",
+        "telcomplaintnum": "400-920-7011/800-820-7011",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "151",
+        "id": "59",
         "companyname": "急先达",
         "shortname": "急先达",
         "tel": "021-59766363",
@@ -932,6 +1048,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.joust.cn/Message2.aspx"
     }, {
+        "cid": "152",
+        "id": "60",
         "companyname": "百福东方",
         "shortname": "百福东方",
         "tel": "400-706-0609",
@@ -941,13 +1059,15 @@ var refer = {
         "comurl": "http://www.ees.com.cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "110479937",
+        "testnu": "111159484",
         "freg": "",
         "freginfo": "百福东方单号一般是由9位数字组成,常以10开头",
         "telcomplaintnum": "400-706-0609",
         "queryurl": "",
         "serversite": "http://www.ees.com.cn/fuwuwangluo.html"
     }, {
+        "cid": "57",
+        "id": "61",
         "companyname": "BHT",
         "shortname": "BHT",
         "tel": "010-58633508",
@@ -964,6 +1084,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.bht-exp.com/iDoc.asp?docID=170"
     }, {
+        "cid": "168",
+        "id": "62",
         "companyname": "伍圆速递",
         "shortname": "伍圆",
         "tel": "0592—5050535",
@@ -980,6 +1102,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "169",
+        "id": "64",
         "companyname": "蓝镖快递",
         "shortname": "蓝镖",
         "tel": "0769-82898999",
@@ -996,6 +1120,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.bluedart.cn/p_ser.asp"
     }, {
+        "cid": "170",
+        "id": "65",
         "companyname": "COE",
         "shortname": "COE",
         "tel": "0755-83575000",
@@ -1012,6 +1138,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.coe.com.hk/contact.asp"
     }, {
+        "cid": "171",
+        "id": "66",
         "companyname": "南京100",
         "shortname": "南京100",
         "tel": "025-84510043",
@@ -1028,6 +1156,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "58",
+        "id": "67",
         "companyname": "恒路物流",
         "shortname": "恒路",
         "tel": "400-182-6666",
@@ -1037,13 +1167,15 @@ var refer = {
         "comurl": "http://www.e-henglu.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "01899772",
+        "testnu": "01560213",
         "freg": "^[A-Za-z0-9]{7,20}$",
         "freginfo": "恒路物流单号以7-13位的字母加数字组合，常见已8*开头的9位数字单号",
         "telcomplaintnum": "400-182-6666",
         "queryurl": "",
         "serversite": "http://www.e-henglu.com/service_network.htm"
     }, {
+        "cid": "172",
+        "id": "68",
         "companyname": "金大物流",
         "shortname": "金大",
         "tel": "0755-82262209",
@@ -1053,13 +1185,15 @@ var refer = {
         "comurl": "http://www.szkingdom.com.cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "2462055",
+        "testnu": "2006785",
         "freg": "^[0-9]{7}$",
         "freginfo": "金大快递正确的单号由7位数字组成",
         "telcomplaintnum": "0755-82262209",
         "queryurl": "",
         "serversite": "http://www.szkingdom.com.cn/Service.asp"
     }, {
+        "cid": "173",
+        "id": "69",
         "companyname": "华夏龙",
         "shortname": "华夏龙",
         "tel": "400-716-6133",
@@ -1076,6 +1210,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.chinadragon56.com/we.aspx?bid=79"
     }, {
+        "cid": "59",
+        "id": "70",
         "companyname": "运通中港",
         "shortname": "运通",
         "tel": "0769-81156999",
@@ -1085,13 +1221,15 @@ var refer = {
         "comurl": "http://www.ytkd168.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "654839852",
+        "testnu": "657809056",
         "freg": "^[0-9]{9}$",
         "freginfo": "运通通常以61*开头的9位单号",
         "telcomplaintnum": "0769-81156999",
         "queryurl": "",
         "serversite": "http://www.ytkd168.com/Service_search.asp"
     }, {
+        "cid": "15",
+        "id": "71",
         "companyname": "佳吉快运",
         "shortname": "佳吉",
         "tel": "400-820-5566",
@@ -1101,13 +1239,15 @@ var refer = {
         "comurl": "http://www.jiaji.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "053535670",
+        "testnu": "726170665",
         "freg": "",
         "freginfo": "佳吉快运由9位纯数字组成",
         "telcomplaintnum": "400-820-5566",
         "queryurl": "http://www.jiaji.com/website.aspx",
         "serversite": "http://www.kuaidi100.com/network/province_15.htm"
     }, {
+        "cid": "120",
+        "id": "72",
         "companyname": "盛丰物流",
         "shortname": "盛丰",
         "tel": "0591-83621111",
@@ -1117,13 +1257,15 @@ var refer = {
         "comurl": "http://www.sfwl.com.cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "35672817",
+        "testnu": "35147357",
         "freg": "",
         "freginfo": "盛丰物流的单号由字母和数字组成",
         "telcomplaintnum": "0591-83621111",
         "queryurl": "",
         "serversite": "http://www.sfwl.com.cn/sfwl.asp?ClassId=22"
     }, {
+        "cid": "174",
+        "id": "73",
         "companyname": "源安达",
         "shortname": "源安达",
         "tel": "0769-85157789",
@@ -1133,29 +1275,33 @@ var refer = {
         "comurl": "http://www.yadex.com.cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "23106106032",
+        "testnu": "75006118366",
         "freg": "",
         "freginfo": "源安达快递单号查询编码一般为11的纯数字组成",
         "telcomplaintnum": "0769-85157789",
         "queryurl": "",
         "serversite": "http://www.yadex.com.cn/station.asp"
     }, {
+        "cid": "60",
+        "id": "74",
         "companyname": "加运美",
         "shortname": "加运美",
         "tel": "0769-85515555",
         "url": "jymwl",
         "code": "jiayunmeiwuliu",
         "hasvali": 0,
-        "comurl": "http://www.tms56.com",
+        "comurl": "http://www.jym56.cn/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "2125195190",
+        "testnu": "2191409648",
         "freg": "^[0-9]{10}$",
         "freginfo": "加运美快递正确的单号由10位数字组成",
         "telcomplaintnum": "0769-85515555/85166425 ",
         "queryurl": "",
         "serversite": "http://www.tms56.com/fwwdindex.asp"
     }, {
+        "cid": "175",
+        "id": "75",
         "companyname": "万象物流",
         "shortname": "万象",
         "tel": "400-820-8088",
@@ -1165,13 +1311,15 @@ var refer = {
         "comurl": "http://www.ewinshine.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "2225168050268",
+        "testnu": "032499209233840",
         "freg": "",
         "freginfo": "万象物流的单号一般由字母和数字组成",
         "telcomplaintnum": "（021）51035766-8062",
         "queryurl": "http://www.ewinshine.com",
         "serversite": ""
     }, {
+        "cid": "176",
+        "id": "76",
         "companyname": "宏品物流",
         "shortname": "宏品",
         "tel": "400-612-1456",
@@ -1188,6 +1336,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "177",
+        "id": "77",
         "companyname": "GLS",
         "shortname": "GLS",
         "tel": "877-914-5465",
@@ -1197,13 +1347,15 @@ var refer = {
         "comurl": "http://www.gls-group.net",
         "isavailable": "1",
         "promptinfo": "",
-        "testnu": "98889703057",
+        "testnu": "93805190173",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "877-914-5465",
         "queryurl": "",
         "serversite": "http://www.cn-gls.com/product-inland3.html"
     }, {
+        "cid": "178",
+        "id": "78",
         "companyname": "上大物流",
         "shortname": "上大",
         "tel": "400-021-9122",
@@ -1220,6 +1372,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.sundapost.net/cgi-bin/GInfo.dll?DispInfo;w=sundapost;nid=10414"
     }, {
+        "cid": "8",
+        "id": "79",
         "companyname": "中铁快运",
         "shortname": "中铁",
         "tel": "95572",
@@ -1229,16 +1383,18 @@ var refer = {
         "comurl": "http://www.cre.cn ",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "K15260599510",
+        "testnu": "K05090731602",
         "freg": "",
         "freginfo": "一般是由字母K或B开头，共14位字母与数字组合",
         "telcomplaintnum": "95572",
         "queryurl": "http://www.cre.cn ",
         "serversite": ""
     }, {
+        "cid": "61",
+        "id": "80",
         "companyname": "原飞航",
         "shortname": "原飞航",
-        "tel": "0755-29778899",
+        "tel": "0769-87001100",
         "url": "yfh",
         "code": "yuanfeihangwuliu",
         "hasvali": 0,
@@ -1252,6 +1408,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.yfhex.com/Module/Contact/SN_Outlets.aspx"
     }, {
+        "cid": "197",
+        "id": "81",
         "companyname": "海外环球",
         "shortname": "海外环球",
         "tel": "010-59790107",
@@ -1268,6 +1426,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "191",
+        "id": "82",
         "companyname": "三态速递",
         "shortname": "三态",
         "tel": "400-881-8106  ",
@@ -1284,6 +1444,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "62",
+        "id": "83",
         "companyname": "晋越快递",
         "shortname": "晋越",
         "tel": "400-638-9288",
@@ -1293,13 +1455,15 @@ var refer = {
         "comurl": "http://www.byondex.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "690012784248",
+        "testnu": "501910605146",
         "freg": "",
         "freginfo": "晋越快递的单号一般由12位纯数字组成",
         "telcomplaintnum": "400-638-9288",
         "queryurl": "",
         "serversite": "http://www.byondex.com.cn/ServeNet.Asp"
     }, {
+        "cid": "63",
+        "id": "85",
         "companyname": "联邦快递",
         "shortname": "联邦",
         "tel": "400-889-1888",
@@ -1309,13 +1473,15 @@ var refer = {
         "comurl": "http://cndxp.apac.fedex.com/dxp.html",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "120891456015",
+        "testnu": "120886787472",
         "freg": "^[0-9]{12}$",
         "freginfo": "联邦快递国内单号常见以12*开头12位纯数字组成",
         "telcomplaintnum": "400-889-1888",
         "queryurl": "",
         "serversite": "http://www.fedex.com/cn/dropoff"
     }, {
+        "cid": "66",
+        "id": "99643",
         "companyname": "飞快达",
         "shortname": "飞快达",
         "tel": "400-716-6666",
@@ -1332,6 +1498,8 @@ var refer = {
         "queryurl": "",
         "serversite": "http://www.fkdex.com:8050/network.asp"
     }, {
+        "cid": "23",
+        "id": "128693",
         "companyname": "全峰快递",
         "shortname": "全峰",
         "tel": "400-100-0001",
@@ -1341,13 +1509,15 @@ var refer = {
         "comurl": "http://www.qfkd.com.cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "720181695905",
+        "testnu": "720193084187",
         "freg": "",
         "freginfo": "全峰快递单号一般由10或者12位数字组成",
         "telcomplaintnum": "",
         "queryurl": "http://www.qfkd.com.cn/quyu.aspx",
         "serversite": "http://www.kuaidi100.com/network/province_23.htm"
     }, {
+        "cid": "67",
+        "id": "145551",
         "companyname": "如风达",
         "shortname": "如风达",
         "tel": "400-010-6660",
@@ -1357,13 +1527,15 @@ var refer = {
         "comurl": "http://www.rufengda.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "10408290019732",
+        "testnu": "6201506740351",
         "freg": "",
         "freginfo": "如风达单号或者是纯数字，或者字母加数字。",
         "telcomplaintnum": "",
         "queryurl": "http://www.rufengda.com",
         "serversite": "http://www.rufengda.com/check/check_network.html"
     }, {
+        "cid": "68",
+        "id": "158572",
         "companyname": "乐捷递",
         "shortname": "乐捷递",
         "tel": "400-618-1400",
@@ -1380,6 +1552,8 @@ var refer = {
         "queryurl": "www.ljd365.com",
         "serversite": "http://www.ljd365.com/fuwucx.asp"
     }, {
+        "cid": "69",
+        "id": "158573",
         "companyname": "忠信达",
         "shortname": "忠信达",
         "tel": "400-646-6665",
@@ -1396,6 +1570,8 @@ var refer = {
         "queryurl": "http://www.zhongxind.cn/index.asp",
         "serversite": "http://www.zhongxind.cn/range.asp"
     }, {
+        "cid": "64",
+        "id": "225616",
         "companyname": "芝麻开门",
         "shortname": "芝麻开门",
         "tel": "400-105-6056",
@@ -1412,6 +1588,8 @@ var refer = {
         "queryurl": "http://www.zmkmex.com/ ",
         "serversite": "http://www.zmkmex.com/Article?id=cbe7ff8cc74b41a0a9d50ae0eaadca58"
     }, {
+        "cid": "70",
+        "id": "247720",
         "companyname": "赛澳递",
         "shortname": "赛澳递",
         "tel": "4000-345-888",
@@ -1421,13 +1599,15 @@ var refer = {
         "comurl": "http://www.51cod.com ",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "JSC10100766456",
+        "testnu": "JSC101011082067",
         "freg": "",
         "freginfo": "赛澳递是B2C公司的落地配，单号是各落低配的订单号",
         "telcomplaintnum": "4000-345-888",
         "queryurl": "http://www.51cod.com ",
         "serversite": "http://www.51cod.com/network/"
     }, {
+        "cid": "71",
+        "id": "247731",
         "companyname": "海红网送",
         "shortname": "海红网送",
         "tel": "400-632-9988",
@@ -1444,6 +1624,8 @@ var refer = {
         "queryurl": "http://www.haihongwangsong.com/index.asp",
         "serversite": "http://www.haihongwangsong.com/order.asp"
     }, {
+        "cid": "21",
+        "id": "257357",
         "companyname": "共速达",
         "shortname": "共速达",
         "tel": "400-111-0005",
@@ -1453,13 +1635,15 @@ var refer = {
         "comurl": "http://www.gongsuda.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "0001354",
+        "testnu": "0005644",
         "freg": "",
         "freginfo": "共速达的单号一般由755开头的11位纯数字组成",
         "telcomplaintnum": "",
         "queryurl": "http://www.gongsuda.com",
         "serversite": "http://www.gongsuda.com/search.aspx"
     }, {
+        "cid": "65",
+        "id": "259431",
         "companyname": "嘉里大通",
         "shortname": "嘉里大通",
         "tel": "400-610-3188",
@@ -1469,13 +1653,15 @@ var refer = {
         "comurl": "http://www.kerryeas.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "316E021891965",
+        "testnu": "316A376284420",
         "freg": "^(316)[A-Za-z][0-9]{9}$",
         "freginfo": "嘉里大通的单号一般由13位字母和数字组成",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "192",
+        "id": "259443",
         "companyname": "OCS",
         "shortname": "OCS",
         "tel": "400-118-8588",
@@ -1485,13 +1671,15 @@ var refer = {
         "comurl": "http://www.ocschina.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "24026206595",
+        "testnu": "23012566894",
         "freg": "",
         "freginfo": "OCS国际快递的单号一般由11位纯数字组成",
         "telcomplaintnum": "",
         "queryurl": "http://www.ocschina.com",
         "serversite": "http://www.ocschina.com/office/OfficeMap.aspx"
     }, {
+        "cid": "193",
+        "id": "259455",
         "companyname": "USPS",
         "shortname": "USPS",
         "tel": "800-275-8777",
@@ -1501,13 +1689,15 @@ var refer = {
         "comurl": "https://zh.usps.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "CJ441339545US",
+        "testnu": "LC781413573US",
         "freg": "",
         "freginfo": "USPS单号的记录超过一个月会自动清除",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "194",
+        "id": "259467",
         "companyname": "美国快递",
         "shortname": "美国",
         "tel": "888-611-1888",
@@ -1517,13 +1707,15 @@ var refer = {
         "comurl": "http://www.us-ex.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "OR794244436US",
+        "testnu": "US101257404EX",
         "freg": "",
         "freginfo": "美国快递的单号一般由DD开头US结尾，中间9位数字",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": "http://www.us-ex.com/ListViewEdit.aspx?ID=65"
     }, {
+        "cid": "73",
+        "id": "259480",
         "companyname": "成都立即送",
         "shortname": "立即送",
         "tel": "400-028-5666",
@@ -1533,13 +1725,15 @@ var refer = {
         "comurl": "http://www.cdljs.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "15082938792936",
+        "testnu": "955730086248",
         "freg": "",
         "freginfo": "立即送的单号由纯数字组成",
         "telcomplaintnum": "400-028-5666",
         "queryurl": "http://www.cdljs.com",
         "serversite": "http://www.cdljs.com/a/yewuyufuwu/yewujieshao/2011/1011/8.html"
     }, {
+        "cid": "74",
+        "id": "259492",
         "companyname": "银捷速递",
         "shortname": "银捷",
         "tel": "0755-88999000",
@@ -1556,6 +1750,8 @@ var refer = {
         "queryurl": "www.sjfd-express.com",
         "serversite": "www.sjfd-express.com"
     }, {
+        "cid": "72",
+        "id": "259504",
         "companyname": "门对门",
         "shortname": "门对门",
         "tel": "400-700-7676",
@@ -1565,13 +1761,15 @@ var refer = {
         "comurl": "http://www.szdod.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "626240094476",
+        "testnu": "15111673026622",
         "freg": "",
         "freginfo": "门对门是为各B2C配送的落地配，单号是各B2C的订单号",
         "telcomplaintnum": "0512-50169999 ",
         "queryurl": "http://www.szdod.com",
         "serversite": ""
     }, {
+        "cid": "75",
+        "id": "267490",
         "companyname": "递四方",
         "shortname": "递四方",
         "tel": "0755-33933895",
@@ -1588,6 +1786,8 @@ var refer = {
         "queryurl": "http://www.4px.com",
         "serversite": ""
     }, {
+        "cid": "76",
+        "id": "301203",
         "companyname": "郑州建华",
         "shortname": "郑州建华",
         "tel": "0371-65995266",
@@ -1604,6 +1804,8 @@ var refer = {
         "queryurl": "http://www.zzjhtd.com/",
         "serversite": ""
     }, {
+        "cid": "195",
+        "id": "301226",
         "companyname": "河北建华",
         "shortname": "河北建华",
         "tel": "0311-86123186",
@@ -1620,6 +1822,8 @@ var refer = {
         "queryurl": "http://116.255.133.172/hebeiwebsite/index.jsp",
         "serversite": ""
     }, {
+        "cid": "77",
+        "id": "301240",
         "companyname": "微特派",
         "shortname": "微特派",
         "tel": "400-6363-000",
@@ -1629,13 +1833,15 @@ var refer = {
         "comurl": "http://www.vtepai.com/ ",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "20159011099496",
+        "testnu": "D661011185417",
         "freg": "",
         "freginfo": "微特派单号一般由数字组成",
         "telcomplaintnum": "400-6363-000",
         "queryurl": "http://www.vtepai.com/ ",
         "serversite": ""
     }, {
+        "cid": "218",
+        "id": "312934",
         "companyname": "DHL-德国件（DHL Deutschland）",
         "shortname": "dhlde",
         "tel": "+49 (0) 180 5 345300-1*",
@@ -1645,13 +1851,15 @@ var refer = {
         "comurl": "http://www.dhl.de/en.html",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "430937833937",
+        "testnu": "220514910032",
         "freg": "",
         "freginfo": "DHL-德国快递单号一般有12位数字组成",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "219",
+        "id": "324832",
         "companyname": "通和天下",
         "shortname": "通和天下",
         "tel": "400-0056-516 ",
@@ -1668,6 +1876,8 @@ var refer = {
         "queryurl": "http://www.cod56.com",
         "serversite": "http://www.cod56.com/about.asp?id=4"
     }, {
+        "cid": "189",
+        "id": "335028",
         "companyname": "EMS-国际件",
         "shortname": "EMS-国际件",
         "tel": "11183",
@@ -1677,13 +1887,15 @@ var refer = {
         "comurl": "http://www.ems.com.cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "BE148940861CA",
+        "testnu": "BE146871721NL",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "11183",
         "queryurl": "http://www.ems.com.cn/mailtracking/cha_xun_lian_jie.html ",
         "serversite": ""
     }, {
+        "cid": "190",
+        "id": "335045",
         "companyname": "FedEx-美国件",
         "shortname": "FedEx",
         "tel": "800-463-3339",
@@ -1693,13 +1905,15 @@ var refer = {
         "comurl": "http://www.fedex.com/us/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "806215517306",
+        "testnu": "774905848791",
         "freg": "",
         "freginfo": "fedex美国的单号一般由纯数字组成",
         "telcomplaintnum": "800-463-3339",
         "queryurl": "http://www.fedex.com/us/",
         "serversite": "http://www.fedex.com/us/"
     }, {
+        "cid": "78",
+        "id": "388549",
         "companyname": "风行天下",
         "shortname": "风行天下",
         "tel": "4000-404-909",
@@ -1709,13 +1923,15 @@ var refer = {
         "comurl": "http://www.fxtxsy.com",
         "isavailable": "1",
         "promptinfo": "",
-        "testnu": "YG00002952781",
+        "testnu": "4009055134217",
         "freg": "",
         "freginfo": "风行天下的单号一般由纯数字组成",
         "telcomplaintnum": "13975182167",
         "queryurl": "http://www.fxtxsy.com",
         "serversite": ""
     }, {
+        "cid": "179",
+        "id": "438742",
         "companyname": "康力物流",
         "shortname": "康力",
         "tel": "400-156-5156 ",
@@ -1732,7 +1948,9 @@ var refer = {
         "queryurl": "http://www.kangliex.com/",
         "serversite": ""
     }, {
-        "companyname": "跨越速递",
+        "cid": "119",
+        "id": "469148",
+        "companyname": "跨越速运",
         "shortname": "跨越",
         "tel": "4008-098-098 ",
         "url": "kuayue",
@@ -1740,14 +1958,16 @@ var refer = {
         "hasvali": 0,
         "comurl": "http://www.ky-express.com/",
         "isavailable": "0",
-        "promptinfo": "跨越物流的单号一般有7位纯数字组成",
-        "testnu": "50129713106177",
+        "promptinfo": "跨越速运的单号一般有7位纯数字组成",
+        "testnu": "4624159",
         "freg": "",
-        "freginfo": "跨越物流的单号一般由7位数字组成",
+        "freginfo": "跨越速运的单号一般由7位数字组成",
         "telcomplaintnum": "4008-098-098 ",
         "queryurl": "http://www.ky-express.com/",
         "serversite": "http://www.ky-express.com/Chanpin/Default.aspx?article=fuwuwangluo"
     }, {
+        "cid": "79",
+        "id": "498609",
         "companyname": "海盟速递",
         "shortname": "海盟",
         "tel": "400-080-6369 ",
@@ -1764,6 +1984,8 @@ var refer = {
         "queryurl": "http://www.hm-express.com",
         "serversite": ""
     }, {
+        "cid": "22",
+        "id": "508502",
         "companyname": "圣安物流",
         "shortname": "圣安",
         "tel": "4006-618-169 ",
@@ -1773,13 +1995,15 @@ var refer = {
         "comurl": "http://www.sa56.net",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "8556262",
+        "testnu": "8614965",
         "freg": "",
         "freginfo": "圣安物流的单号一般由7开头的7位纯数字组成",
         "telcomplaintnum": "4006-618-169",
         "queryurl": "http://www.sa56.net",
         "serversite": ""
     }, {
+        "cid": "196",
+        "id": "508516",
         "companyname": "一统飞鸿",
         "shortname": "一统飞鸿",
         "tel": "61501533-608",
@@ -1796,6 +2020,8 @@ var refer = {
         "queryurl": "http://218.97.241.58:8080/yitongfeihongweb/common?action=toi",
         "serversite": "http://218.97.241.58:8080/yitongfeihongweb/servicesaddress.jsp"
     }, {
+        "cid": "309",
+        "id": "620367",
         "companyname": "中速快递",
         "shortname": "中速",
         "tel": "11183",
@@ -1812,6 +2038,8 @@ var refer = {
         "queryurl": "http://www.ems.com.cn/mainservice/ems/zhong_su_guo_ji_kuai_jian.html",
         "serversite": ""
     }, {
+        "cid": "110",
+        "id": "662539",
         "companyname": "新蛋奥硕",
         "shortname": "新蛋奥硕",
         "tel": "400-820-4400",
@@ -1821,13 +2049,15 @@ var refer = {
         "comurl": "http://www.ozzo.com.cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "15622322154327",
+        "testnu": "20643707",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "400-820-4400",
         "queryurl": "http://www.ozzo.com.cn",
         "serversite": ""
     }, {
+        "cid": "111",
+        "id": "662553",
         "companyname": "OnTrac",
         "shortname": "OnTrac",
         "tel": "800-334-5000",
@@ -1844,6 +2074,8 @@ var refer = {
         "queryurl": "http://www.ontrac.com",
         "serversite": ""
     }, {
+        "cid": "80",
+        "id": "662566",
         "companyname": "七天连锁",
         "shortname": "七天连锁",
         "tel": "400-882-1202",
@@ -1860,6 +2092,8 @@ var refer = {
         "queryurl": "http://www.92856.cn",
         "serversite": "http://www.92856.cn/page/chin/index.php"
     }, {
+        "cid": "112",
+        "id": "662579",
         "companyname": "明亮物流",
         "shortname": "明亮",
         "tel": "400-035-6568",
@@ -1869,13 +2103,15 @@ var refer = {
         "comurl": "http://www.szml56.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "80188235",
+        "testnu": "80238530",
         "freg": "",
         "freginfo": "明亮物流的单号由纯数字组成",
         "telcomplaintnum": "13632909217",
         "queryurl": "http://www.szml56.com/",
-        "serversite": "http://www.szml56.com/227/article/1045.htm"
+        "serversite": "http://www.szml56.com/index.php/Map/index/id/205"
     }, {
+        "cid": "153",
+        "id": "668571",
         "companyname": "凡客配送（作废）",
         "shortname": "凡客",
         "tel": "400-600-6888",
@@ -1885,13 +2121,15 @@ var refer = {
         "comurl": "http://www.vancl.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "115083068003083101",
+        "testnu": "786500075083",
         "freg": "",
         "freginfo": "凡客的订单一般有字母和数字组成",
         "telcomplaintnum": "400-600-6888",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "187",
+        "id": "683545",
         "companyname": "华企快运",
         "shortname": "华企",
         "tel": "400-806-8111",
@@ -1908,22 +2146,26 @@ var refer = {
         "queryurl": "13055209678",
         "serversite": ""
     }, {
+        "cid": "81",
+        "id": "683546",
         "companyname": "城市100",
         "shortname": "城市100",
-        "tel": "010-52932760 ",
+        "tel": "400-820-0088",
         "url": "city100",
         "code": "city100",
         "hasvali": 0,
-        "comurl": "",
+        "comurl": "http://www.bjcs100.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "791030037514",
+        "testnu": "755730420202",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "010-52932770",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "305",
+        "id": "683550",
         "companyname": "红马甲物流",
         "shortname": "红马甲",
         "tel": "0351-5225858",
@@ -1933,13 +2175,15 @@ var refer = {
         "comurl": "http://www.hmj.com.cn/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "13064384221",
+        "testnu": "33133243933",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "0351- 5225858",
         "queryurl": "http://www.hmj.com.cn/",
         "serversite": "http://www.hmj.com.cn/SinglePage.aspx?typeid=15=43"
     }, {
+        "cid": "306",
+        "id": "683551",
         "companyname": "穗佳物流",
         "shortname": "穗佳",
         "tel": "400-880-9771",
@@ -1956,6 +2200,8 @@ var refer = {
         "queryurl": "http://www.suijiawl.com",
         "serversite": "http://www.suijiawl.com/sj/index.asp"
     }, {
+        "cid": "82",
+        "id": "683552",
         "companyname": "飞豹快递",
         "shortname": "飞豹",
         "tel": "400-000-5566",
@@ -1972,6 +2218,8 @@ var refer = {
         "queryurl": "http://www.ztky.com/feibao/KJCX.aspx",
         "serversite": "http://www.ztky.com/feibao/FUWL.aspx"
     }, {
+        "cid": "83",
+        "id": "683554",
         "companyname": "传喜物流",
         "shortname": "传喜",
         "tel": "400-777-5656 ",
@@ -1981,13 +2229,15 @@ var refer = {
         "comurl": "http://www.cxcod.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "15083119835240",
+        "testnu": "7000000151489",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "400-777-5656 ",
         "queryurl": "http://www.cxcod.com/",
         "serversite": "http://www.cxcod.com/Detail.aspx?typeid=3"
     }, {
+        "cid": "84",
+        "id": "683555",
         "companyname": "捷特快递",
         "shortname": "捷特",
         "tel": "400-820-8585",
@@ -2004,6 +2254,8 @@ var refer = {
         "queryurl": "http://www.jet185.com/",
         "serversite": "http://www.jet185.com/network/"
     }, {
+        "cid": "307",
+        "id": "683557",
         "companyname": "隆浪快递",
         "shortname": "隆浪",
         "tel": "021-31171576 61552015",
@@ -2020,12 +2272,14 @@ var refer = {
         "queryurl": "http://www.56l6.com/",
         "serversite": "http://www.56L6.com/zdfb.html"
     }, {
+        "cid": "262",
+        "id": "700054",
         "companyname": "EMS-英文",
         "shortname": "EMS-英文",
         "tel": "11183",
         "url": "emsen",
         "code": "emsen",
-        "hasvali": 1,
+        "hasvali": 0,
         "comurl": "http://www.ems.com.cn/english.html",
         "isavailable": "1",
         "promptinfo": "",
@@ -2036,6 +2290,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "85",
+        "id": "717946",
         "companyname": "中天万运",
         "shortname": "中天万运",
         "tel": "400-0056-001",
@@ -2045,13 +2301,15 @@ var refer = {
         "comurl": "http://www.ztwy56.cn/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "1111567038",
+        "testnu": "1111567923",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "0531-68850629",
         "queryurl": "http://www.ztwy56.cn/",
         "serversite": ""
     }, {
+        "cid": "86",
+        "id": "789941",
         "companyname": "香港(HongKong Post)",
         "shortname": "香港邮政",
         "tel": "(852) 2921 2222",
@@ -2061,13 +2319,15 @@ var refer = {
         "comurl": "http://www.hongkongpost.hk",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "EA221925568HK",
+        "testnu": "RC910320193HK",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "(852) 2921 2222",
         "queryurl": "http://www.hongkongpost.hk/sim/index.htm",
         "serversite": "http://sc.hongkongpost.com/gb/www.hongkongpost.com/chi/locations/index.htm"
     }, {
+        "cid": "283",
+        "id": "789942",
         "companyname": "邦送物流",
         "shortname": "邦送",
         "tel": "021-20965696",
@@ -2084,6 +2344,8 @@ var refer = {
         "queryurl": "http://express.banggo.com",
         "serversite": "http://express.banggo.com/default/sc/url/parentid/1/id/16"
     }, {
+        "cid": "20",
+        "id": "850277",
         "companyname": "国通快递",
         "shortname": "国通",
         "tel": "400-111-1123",
@@ -2093,13 +2355,15 @@ var refer = {
         "comurl": "http://www.gto365.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "2565163376",
+        "testnu": "3117727152",
         "freg": "",
         "freginfo": "国通快递单号一般由10位纯数字组成",
         "telcomplaintnum": "400-111-1123",
         "queryurl": "http://www.gto365.com/Service/wdcc/",
         "serversite": "http://www.gto365.com/Service/wdcc/"
     }, {
+        "cid": "87",
+        "id": "850323",
         "companyname": "澳大利亚(Australia Post)",
         "shortname": "auspost",
         "tel": "0061-3-88479045",
@@ -2109,13 +2373,15 @@ var refer = {
         "comurl": "http://auspost.com.au",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "60012997628091",
+        "testnu": "00093187642222033109",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "+61 388479045",
         "queryurl": "http://auspost.com.au/index.html",
         "serversite": ""
     }, {
+        "cid": "113",
+        "id": "850347",
         "companyname": "加拿大(Canada Post)",
         "shortname": "加拿大邮政",
         "tel": "416-979-8822",
@@ -2125,13 +2391,15 @@ var refer = {
         "comurl": "http://www.canadapost.ca",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "LM955348758CN",
+        "testnu": "CP259658985CN",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "416-979-8822",
         "queryurl": "http://www.canadapost.ca",
         "serversite": ""
     }, {
+        "cid": "114",
+        "id": "850350",
         "companyname": "加拿大邮政",
         "shortname": "加拿大邮政",
         "tel": "",
@@ -2148,6 +2416,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "115",
+        "id": "850380",
         "companyname": "UPS-全球件",
         "shortname": "UPS-全球件",
         "tel": "1-800-742-5877 ",
@@ -2157,13 +2427,15 @@ var refer = {
         "comurl": "http://www.ups.com/",
         "isavailable": "1",
         "promptinfo": "",
-        "testnu": "1ZX1F560YW12279051",
+        "testnu": "1Z1EY7950316807120",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "116",
+        "id": "850390",
         "companyname": "TNT-全球件",
         "shortname": "TNT-全球件",
         "tel": "",
@@ -2173,13 +2445,15 @@ var refer = {
         "comurl": "http://www.tnt.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "GD935950748WW",
+        "testnu": "GD611170792WW",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "117",
+        "id": "850399",
         "companyname": "DHL-全球件",
         "shortname": "DHL",
         "tel": "",
@@ -2189,13 +2463,15 @@ var refer = {
         "comurl": "http://www.dhl.com/en.html",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "5721486794",
+        "testnu": "1119658676",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "118",
+        "id": "850413",
         "companyname": "顺丰-美国件",
         "shortname": "顺丰-美国件",
         "tel": "1-855-901-1133",
@@ -2212,6 +2488,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "341",
+        "id": "1022916",
         "companyname": "汇强快递",
         "shortname": "汇强",
         "tel": "",
@@ -2228,6 +2506,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "161",
+        "id": "1022917",
         "companyname": "希优特",
         "shortname": "希优特",
         "tel": "4008400365",
@@ -2244,6 +2524,8 @@ var refer = {
         "queryurl": "http://www.cod365.com/",
         "serversite": "http://www.cod365.com/network.asp"
     }, {
+        "cid": "162",
+        "id": "1022918",
         "companyname": "昊盛物流",
         "shortname": "昊盛",
         "tel": "400-186-5566",
@@ -2260,6 +2542,8 @@ var refer = {
         "queryurl": "http://www.hs-express.cn/",
         "serversite": "http://www.hs-express.cn/Cpfw.aspx"
     }, {
+        "cid": "107",
+        "id": "1054763",
         "companyname": "尚橙物流",
         "shortname": "尚橙",
         "tel": "400-890-0101",
@@ -2276,6 +2560,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "317",
+        "id": "1084996",
         "companyname": "亿领速运",
         "shortname": "亿领",
         "tel": "400-1056-400",
@@ -2292,6 +2578,8 @@ var refer = {
         "queryurl": "http://www.yelee.com.cn/",
         "serversite": ""
     }, {
+        "cid": "237",
+        "id": "1095717",
         "companyname": "大洋物流",
         "shortname": "大洋",
         "tel": "400-820-0088",
@@ -2301,13 +2589,15 @@ var refer = {
         "comurl": "http://www.dayang365.cn/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "1P31200824",
+        "testnu": "YG00003563523",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "400-820-0088",
         "queryurl": "http://www.dayang365.cn/",
         "serversite": ""
     }, {
+        "cid": "238",
+        "id": "1095719",
         "companyname": "递达速运",
         "shortname": "递达",
         "tel": "400-687-8123",
@@ -2324,6 +2614,8 @@ var refer = {
         "queryurl": "http://www.dida.hk/",
         "serversite": ""
     }, {
+        "cid": "239",
+        "id": "1095721",
         "companyname": "易通达",
         "shortname": "易通达",
         "tel": "0898-65339299",
@@ -2333,13 +2625,15 @@ var refer = {
         "comurl": "http://www.etd365.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "JX12923586",
+        "testnu": "JX13700857",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "0898-65339299",
         "queryurl": "http://www.etd365.com/",
         "serversite": ""
     }, {
+        "cid": "240",
+        "id": "1095722",
         "companyname": "邮必佳",
         "shortname": "邮必佳",
         "tel": "400-687-8123",
@@ -2349,13 +2643,15 @@ var refer = {
         "comurl": "http://www.ubjia.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "791030019019",
+        "testnu": "2049139919H001",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "400-687-8123",
         "queryurl": "http://www.ubjia.com/",
         "serversite": "http://www.ubjia.com/markets.asp"
     }, {
+        "cid": "90",
+        "id": "1122166",
         "companyname": "亿顺航",
         "shortname": "亿顺航",
         "tel": "4006-018-268 ",
@@ -2372,6 +2668,8 @@ var refer = {
         "queryurl": "http://www.igoex.com/",
         "serversite": ""
     }, {
+        "cid": "311",
+        "id": "1142068",
         "companyname": "飞狐快递",
         "shortname": "飞狐",
         "tel": "010-51389299",
@@ -2388,6 +2686,8 @@ var refer = {
         "queryurl": "http://www.feihukuaidi.com/",
         "serversite": "http://www.feihukuaidi.com/products3.aspx"
     }, {
+        "cid": "312",
+        "id": "1142069",
         "companyname": "潇湘晨报",
         "shortname": "潇湘晨报",
         "tel": "",
@@ -2404,6 +2704,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "313",
+        "id": "1142070",
         "companyname": "巴伦支",
         "shortname": "巴伦支",
         "tel": "400-885-6561",
@@ -2413,13 +2715,15 @@ var refer = {
         "comurl": "http://cnbd.hendari.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "023001677296",
+        "testnu": "023001808697",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "400-885-6561",
         "queryurl": "http://cnbd.hendari.com/",
         "serversite": "http://cnbd.hendari.com/Service.aspx"
     }, {
+        "cid": "102",
+        "id": "1142102",
         "companyname": "Aramex",
         "shortname": "Aramex",
         "tel": "4006318388",
@@ -2429,13 +2733,15 @@ var refer = {
         "comurl": "http://www.aramex.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "860060062541",
+        "testnu": "7055636766",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "010-80418634",
         "queryurl": "http://www.aramex.com/",
         "serversite": ""
     }, {
+        "cid": "263",
+        "id": "1173069",
         "companyname": "闽盛快递",
         "shortname": "闽盛",
         "tel": "0592-3725988",
@@ -2452,6 +2758,8 @@ var refer = {
         "queryurl": "http://www.xmms-express.com/",
         "serversite": ""
     }, {
+        "cid": "264",
+        "id": "1173070",
         "companyname": "佳惠尔",
         "shortname": "佳惠尔",
         "tel": "024-23904138",
@@ -2468,6 +2776,8 @@ var refer = {
         "queryurl": "http://www.jhekd.com/",
         "serversite": "http://www.jhekd.com/wdcx.asp"
     }, {
+        "cid": "265",
+        "id": "1173071",
         "companyname": "民邦速递",
         "shortname": "民邦",
         "tel": "0769-81515303",
@@ -2477,13 +2787,15 @@ var refer = {
         "comurl": "http://www.mbex168.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "278610792",
+        "testnu": "278144634",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "0769-81515303",
         "queryurl": "http://www.mbex168.com/",
         "serversite": "http://www.mbex168.com/site_search.jsp"
     }, {
+        "cid": "122",
+        "id": "1173201",
         "companyname": "上海快通",
         "shortname": "上海快通",
         "tel": "",
@@ -2500,6 +2812,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "154",
+        "id": "1322989",
         "companyname": "北青小红帽",
         "shortname": "北青小红帽",
         "tel": "010-67756666",
@@ -2509,13 +2823,15 @@ var refer = {
         "comurl": "http://www.kuaidi100.com/all/xiaohongmao.shtml",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "200000012017",
+        "testnu": "XHM0269135",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "010-67756666",
         "queryurl": "http://www.kuaidi100.com/all/xiaohongmao.shtml",
         "serversite": ""
     }, {
+        "cid": "155",
+        "id": "1322991",
         "companyname": "GSM",
         "shortname": "GSM",
         "tel": "021-64656011 ",
@@ -2525,13 +2841,15 @@ var refer = {
         "comurl": "http://www.gsmnton.com ",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "G1000043017",
+        "testnu": "G1000039009",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "314",
+        "id": "1364626",
         "companyname": "安能物流",
         "shortname": "安能",
         "tel": "400-104-0088",
@@ -2541,13 +2859,15 @@ var refer = {
         "comurl": "http://www.ane56.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "100050080033",
+        "testnu": "300102851832",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "400-104-0088",
         "queryurl": "",
-        "serversite": ""
+        "serversite": "http://www.ane56.com/search/searchsite.jsp"
     }, {
+        "cid": "266",
+        "id": "1365062",
         "companyname": "KCS",
         "shortname": "KCS",
         "tel": "800-858-5590",
@@ -2557,13 +2877,15 @@ var refer = {
         "comurl": "http://www.kcs56.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "2009609420",
+        "testnu": "2009573414",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "800-858-5590",
         "queryurl": "http://www.kcs56.com",
         "serversite": ""
     }, {
+        "cid": "315",
+        "id": "1384981",
         "companyname": "City-Link",
         "shortname": "City-Link",
         "tel": "603-5565 8399",
@@ -2573,13 +2895,15 @@ var refer = {
         "comurl": "http://www.citylinkexpress.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "060301239146219",
+        "testnu": "156000400107086",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "603-5565 8399",
         "queryurl": "http://www.citylinkexpress.com/",
         "serversite": ""
     }, {
+        "cid": "334",
+        "id": "1397942",
         "companyname": "店通快递",
         "shortname": "店通",
         "tel": "021-20917385 66282857",
@@ -2596,6 +2920,8 @@ var refer = {
         "queryurl": "http://www.shdtkd.com.cn/",
         "serversite": "http://www.shdtkd.com.cn/cgi-bin/GInfo.dll?Dispkind=shdtkd=%CD%F8%B5%E3%B2%E9%D1%AF"
     }, {
+        "cid": "160",
+        "id": "1455156",
         "companyname": "凡宇快递",
         "shortname": "凡宇",
         "tel": "4006-580-358 ",
@@ -2612,6 +2938,8 @@ var refer = {
         "queryurl": "http://www.fanyu56.com.cn/",
         "serversite": ""
     }, {
+        "cid": "303",
+        "id": "1506202",
         "companyname": "平安达腾飞",
         "shortname": "平安达腾飞",
         "tel": "4006-230-009",
@@ -2621,13 +2949,15 @@ var refer = {
         "comurl": "http://www.padtf.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "2730611247",
+        "testnu": "3560002639",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "4006-230-009",
         "queryurl": "http://www.padtf.com/",
         "serversite": "http://www.padtf.com/Product.asp"
     }, {
+        "cid": "207",
+        "id": "1506273",
         "companyname": "广东通路",
         "shortname": "广东通路",
         "tel": "",
@@ -2644,6 +2974,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "94",
+        "id": "1561155",
         "companyname": "中睿速递",
         "shortname": "中睿",
         "tel": "400-0375-888",
@@ -2660,6 +2992,8 @@ var refer = {
         "queryurl": "http://www.zorel.cn/",
         "serversite": "http://www.zorel.cn/Network.aspx"
     }, {
+        "cid": "310",
+        "id": "1609219",
         "companyname": "快达物流",
         "shortname": "快达",
         "tel": "",
@@ -2676,6 +3010,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "26",
+        "id": "1609220",
         "companyname": "佳吉快递",
         "shortname": "佳吉",
         "tel": "400-820-5566",
@@ -2685,13 +3021,15 @@ var refer = {
         "comurl": "http://www.jiaji.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "727246480",
+        "testnu": "729485513",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "400-820-5566",
         "queryurl": "http://www.jiaji.com/",
         "serversite": "http://www.kuaidi100.com/network/province_15.htm"
     }, {
+        "cid": "267",
+        "id": "1721505",
         "companyname": "ADP国际快递",
         "shortname": "ADP",
         "tel": "1588-1330",
@@ -2708,6 +3046,8 @@ var refer = {
         "queryurl": "http://www.adpair.co.kr/",
         "serversite": ""
     }, {
+        "cid": "268",
+        "id": "1721506",
         "companyname": "颿达国际快递",
         "shortname": "颿达",
         "tel": "0755-27332618",
@@ -2717,13 +3057,15 @@ var refer = {
         "comurl": "http://www.fardar.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "8130052814",
+        "testnu": "8802855250",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "0755-27332618",
         "queryurl": "http://www.fardar.com/",
         "serversite": ""
     }, {
+        "cid": "269",
+        "id": "1721507",
         "companyname": "颿达国际快递-英文",
         "shortname": "颿达国际",
         "tel": "0755-27332618",
@@ -2733,13 +3075,15 @@ var refer = {
         "comurl": "http://www.fardar.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "8990575812",
+        "testnu": "5089554400",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "0755-27332618",
         "queryurl": "http://www.fardar.com/",
         "serversite": ""
     }, {
+        "cid": "270",
+        "id": "1721508",
         "companyname": "林道国际快递",
         "shortname": "林道",
         "tel": "4008-200-112",
@@ -2749,13 +3093,15 @@ var refer = {
         "comurl": "http://www.ldxpress.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "2015109672",
+        "testnu": "345595743625",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "4008-200-112",
         "queryurl": "http://www.ldxpress.com/",
         "serversite": ""
     }, {
+        "cid": "271",
+        "id": "1721509",
         "companyname": "中外运速递-中文",
         "shortname": "中外运",
         "tel": "010-8041 8611",
@@ -2772,6 +3118,8 @@ var refer = {
         "queryurl": "http://www.sinoex.com.cn/index.aspx",
         "serversite": ""
     }, {
+        "cid": "272",
+        "id": "1721510",
         "companyname": "中外运速递",
         "shortname": "中外运速递",
         "tel": "010-8041 8611",
@@ -2788,6 +3136,8 @@ var refer = {
         "queryurl": "http://www.sinoex.com.cn/index.aspx",
         "serversite": ""
     }, {
+        "cid": "273",
+        "id": "1721511",
         "companyname": "深圳德创物流",
         "shortname": "深圳德创",
         "tel": "4006-989-833",
@@ -2797,13 +3147,15 @@ var refer = {
         "comurl": "http://www.dc56.cn/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "1101591",
+        "testnu": "0512098",
         "freg": "",
         "freginfo": "单号一般由8位数字组成",
         "telcomplaintnum": "4006-989-833",
         "queryurl": "http://www.dc56.cn/",
         "serversite": "http://www.dc58.com/?ctr=title=199"
     }, {
+        "cid": "274",
+        "id": "1723847",
         "companyname": "林道国际快递-英文",
         "shortname": "林道国际快递-英文",
         "tel": "800-820-1470 ",
@@ -2820,6 +3172,8 @@ var refer = {
         "queryurl": "http://www.ldxpress.com/",
         "serversite": ""
     }, {
+        "cid": "132",
+        "id": "1781833",
         "companyname": "瑞典（Sweden Post）",
         "shortname": "瑞典邮政",
         "tel": "+46 8 23 22 20",
@@ -2836,6 +3190,8 @@ var refer = {
         "queryurl": "http://www.posten.se/en",
         "serversite": ""
     }, {
+        "cid": "133",
+        "id": "1781834",
         "companyname": "PostNord(Posten AB)",
         "shortname": "Posten AB",
         "tel": "+46 771 33 33 10",
@@ -2852,6 +3208,8 @@ var refer = {
         "queryurl": "http://www.posten.se/en",
         "serversite": ""
     }, {
+        "cid": "134",
+        "id": "1781835",
         "companyname": "偌亚奥国际快递",
         "shortname": "偌亚奥",
         "tel": "4008 871 871",
@@ -2868,6 +3226,8 @@ var refer = {
         "queryurl": "http://www.royaleinternational.com/",
         "serversite": ""
     }, {
+        "cid": "135",
+        "id": "1781836",
         "companyname": "城际速递",
         "shortname": "城际",
         "tel": "4000-523-525 ",
@@ -2877,13 +3237,15 @@ var refer = {
         "comurl": "http://chengji-express.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "010002851651",
+        "testnu": "010002108494",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "4000-523-525",
         "queryurl": "http://chengji-express.com",
         "serversite": ""
     }, {
+        "cid": "123",
+        "id": "1797966",
         "companyname": "祥龙运通物流",
         "shortname": "祥龙运通",
         "tel": "4008-908-908",
@@ -2900,6 +3262,8 @@ var refer = {
         "queryurl": "http://www.ldl.com.cn",
         "serversite": ""
     }, {
+        "cid": "124",
+        "id": "1797970",
         "companyname": "品速心达快递",
         "shortname": "品速心达",
         "tel": "400-800-3693 ",
@@ -2916,6 +3280,8 @@ var refer = {
         "queryurl": "http://www.psxd88.com/",
         "serversite": ""
     }, {
+        "cid": "125",
+        "id": "1797971",
         "companyname": "宇鑫物流",
         "shortname": "宇鑫",
         "tel": "0371-66368798",
@@ -2925,13 +3291,15 @@ var refer = {
         "comurl": "http://www.yx56.cn/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "2020327934",
+        "testnu": "2023033091",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "0371-66368798",
         "queryurl": "http://www.yx56.cn/",
         "serversite": ""
     }, {
+        "cid": "136",
+        "id": "1868422",
         "companyname": "陪行物流",
         "shortname": "陪行物流",
         "tel": "400-993-0555",
@@ -2948,6 +3316,8 @@ var refer = {
         "queryurl": "http://www.peixingexpress.com",
         "serversite": ""
     }, {
+        "cid": "137",
+        "id": "1868423",
         "companyname": "户通物流",
         "shortname": "户通物流",
         "tel": "400-060-1656",
@@ -2964,6 +3334,8 @@ var refer = {
         "queryurl": "http://www.cnhtwl.com",
         "serversite": ""
     }, {
+        "cid": "198",
+        "id": "1898132",
         "companyname": "西安城联速递",
         "shortname": "西安城联速递",
         "tel": "029-89113508",
@@ -2980,6 +3352,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "199",
+        "id": "1898133",
         "companyname": "煜嘉物流",
         "shortname": "煜嘉物流",
         "tel": "",
@@ -2996,6 +3370,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "200",
+        "id": "1898134",
         "companyname": "一柒国际物流",
         "shortname": "一柒国际物流",
         "tel": "001-(971) 238-9990",
@@ -3012,6 +3388,8 @@ var refer = {
         "queryurl": "http://www.17htb.com/",
         "serversite": ""
     }, {
+        "cid": "163",
+        "id": "1903113",
         "companyname": "Fedex-国际件-中文",
         "shortname": "Fedex-国际件-中文",
         "tel": "400-889-1888",
@@ -3021,13 +3399,15 @@ var refer = {
         "comurl": "http://www.fedex.com/cn/index.html",
         "isavailable": "1",
         "promptinfo": "",
-        "testnu": "774398804760",
+        "testnu": "660552974937",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "164",
+        "id": "1903117",
         "companyname": "联邦快递-英文",
         "shortname": "联邦",
         "tel": "400-889-1888",
@@ -3037,13 +3417,15 @@ var refer = {
         "comurl": "http://cndxp.apac.fedex.com/tracking/track.html",
         "isavailable": "1",
         "promptinfo": "",
-        "testnu": "120950544341",
+        "testnu": "120966607850",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "165",
+        "id": "2082056",
         "companyname": "中通（带电话）",
         "shortname": "中通（带电话）",
         "tel": "",
@@ -3060,6 +3442,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "180",
+        "id": "2234246",
         "companyname": "赛澳递for买卖宝",
         "shortname": "赛澳递for买卖宝",
         "tel": "",
@@ -3076,6 +3460,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "181",
+        "id": "2234247",
         "companyname": "上海无疆for买卖宝",
         "shortname": "上海无疆for买卖宝",
         "tel": "",
@@ -3092,6 +3478,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "208",
+        "id": "2284839",
         "companyname": "新加坡小包(Singapore Post)",
         "shortname": "新加坡邮政",
         "tel": "",
@@ -3101,13 +3489,15 @@ var refer = {
         "comurl": "http://www.singpost.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "RC636955814SG",
+        "testnu": "RP412572298SG",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "209",
+        "id": "2284841",
         "companyname": "音素快运",
         "shortname": "音素快运",
         "tel": "400-007-1118",
@@ -3124,6 +3514,8 @@ var refer = {
         "queryurl": "http://www.yskd168.com/",
         "serversite": ""
     }, {
+        "cid": "210",
+        "id": "2284842",
         "companyname": "南方传媒物流",
         "shortname": "南方传媒物流",
         "tel": "",
@@ -3140,6 +3532,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "211",
+        "id": "2284843",
         "companyname": "速呈宅配",
         "shortname": "速呈宅配",
         "tel": "",
@@ -3156,6 +3550,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "212",
+        "id": "2284844",
         "companyname": "创一快递",
         "shortname": "创一快递",
         "tel": "",
@@ -3172,6 +3568,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "213",
+        "id": "2284845",
         "companyname": "云南滇驿物流",
         "shortname": "云南滇驿物流",
         "tel": "",
@@ -3188,6 +3586,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "214",
+        "id": "2284846",
         "companyname": "重庆星程快递",
         "shortname": "重庆星程快递",
         "tel": "",
@@ -3204,6 +3604,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "215",
+        "id": "2284847",
         "companyname": "四川星程快递",
         "shortname": "四川星程快递",
         "tel": "",
@@ -3220,6 +3622,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "216",
+        "id": "2284848",
         "companyname": "贵州星程快递",
         "shortname": "贵州星程快递",
         "tel": "",
@@ -3236,6 +3640,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "217",
+        "id": "2284849",
         "companyname": "运通中港快递(作废)",
         "shortname": "运通中港快递",
         "tel": "",
@@ -3245,13 +3651,15 @@ var refer = {
         "comurl": "",
         "isavailable": "",
         "promptinfo": "",
-        "testnu": "656152134",
+        "testnu": "659142122",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "246",
+        "id": "2285484",
         "companyname": "Gati-英文",
         "shortname": "gati官网英文通道",
         "tel": "4000-804-284",
@@ -3268,6 +3676,8 @@ var refer = {
         "queryurl": "http://www.gati.com/",
         "serversite": ""
     }, {
+        "cid": "247",
+        "id": "2285485",
         "companyname": "Gati-中文",
         "shortname": "gati官网中文通道",
         "tel": "4000-804-284 ",
@@ -3284,6 +3694,8 @@ var refer = {
         "queryurl": "http://www.gaticn.com/",
         "serversite": ""
     }, {
+        "cid": "248",
+        "id": "2285486",
         "companyname": "jcex",
         "shortname": "jcex官网通道",
         "tel": "",
@@ -3300,6 +3712,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "249",
+        "id": "2285487",
         "companyname": "派尔快递",
         "shortname": "派尔快递官网通道",
         "tel": "",
@@ -3316,6 +3730,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "250",
+        "id": "2285488",
         "companyname": "凯信达",
         "shortname": "凯信达官网通道",
         "tel": "",
@@ -3332,6 +3748,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "251",
+        "id": "2285489",
         "companyname": "安达信",
         "shortname": "安达信官网通道",
         "tel": "",
@@ -3341,13 +3759,15 @@ var refer = {
         "comurl": "",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "15082944698153",
+        "testnu": "15111471116357",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "252",
+        "id": "2285490",
         "companyname": "汇文",
         "shortname": "汇文官网通道",
         "tel": "",
@@ -3357,13 +3777,15 @@ var refer = {
         "comurl": "",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "13066984520",
+        "testnu": "2994214416549",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "253",
+        "id": "2285491",
         "companyname": "亿翔",
         "shortname": "亿翔官网通道",
         "tel": "",
@@ -3373,13 +3795,15 @@ var refer = {
         "comurl": "",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "755024519395",
+        "testnu": "755033762873",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "254",
+        "id": "2285492",
         "companyname": "东红物流",
         "shortname": "东红合作通道",
         "tel": "4000-081-556",
@@ -3396,6 +3820,8 @@ var refer = {
         "queryurl": "http://www.donghong56.com/",
         "serversite": ""
     }, {
+        "cid": "255",
+        "id": "2285641",
         "companyname": "飞远配送",
         "shortname": "飞远配送",
         "tel": "4007-031-313",
@@ -3412,6 +3838,8 @@ var refer = {
         "queryurl": "http://www.fyps.cn/",
         "serversite": ""
     }, {
+        "cid": "323",
+        "id": "2327222",
         "companyname": "好运来",
         "shortname": "好运来",
         "tel": "020-86293333",
@@ -3421,13 +3849,15 @@ var refer = {
         "comurl": "http://www.hlyex.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "2001243628",
+        "testnu": "2001334326",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "020-86293000 ",
         "queryurl": "http://www.hlyex.com/",
         "serversite": ""
     }, {
+        "cid": "156",
+        "id": "2328957",
         "companyname": "Toll",
         "shortname": "Toll Global Express",
         "tel": "",
@@ -3444,6 +3874,8 @@ var refer = {
         "queryurl": "http://www.dpex.com/",
         "serversite": ""
     }, {
+        "cid": "304",
+        "id": "2451036",
         "companyname": "增益速递",
         "shortname": "增益速递",
         "tel": "4008-456-789 ",
@@ -3453,13 +3885,15 @@ var refer = {
         "comurl": "http://www.zeny-express.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "500053201571",
+        "testnu": "500054716917",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "4008-456-789 ",
         "queryurl": "http://www.zeny-express.com/",
         "serversite": ""
     }, {
+        "cid": "103",
+        "id": "2626662",
         "companyname": "四川快优达速递",
         "shortname": "四川快优达速递",
         "tel": "4006-068-555",
@@ -3476,6 +3910,8 @@ var refer = {
         "queryurl": "http://www.sckyd.net/",
         "serversite": ""
     }, {
+        "cid": "241",
+        "id": "2729397",
         "companyname": "日昱物流",
         "shortname": "日昱物流",
         "tel": "4008-820-800",
@@ -3492,6 +3928,8 @@ var refer = {
         "queryurl": "http://www.rywl.cn/",
         "serversite": ""
     }, {
+        "cid": "301",
+        "id": "2733381",
         "companyname": "速通物流",
         "shortname": "速通物流",
         "tel": "",
@@ -3501,13 +3939,15 @@ var refer = {
         "comurl": "",
         "isavailable": "",
         "promptinfo": "",
-        "testnu": "8000002451396",
+        "testnu": "8000002874158",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "0",
+        "id": "2788564",
         "companyname": "晟邦物流",
         "shortname": "晟邦物流",
         "tel": "400-666-6066",
@@ -3517,13 +3957,15 @@ var refer = {
         "comurl": "http://www.3856.cc/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "1508090727167",
+        "testnu": "655730805258",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "400-666-6066",
         "queryurl": "http://www.3856.cc/",
         "serversite": ""
     }, {
+        "cid": "298",
+        "id": "2998986",
         "companyname": "爱尔兰(An Post)",
         "shortname": "爱尔兰邮政",
         "tel": "01-7057600 ",
@@ -3540,6 +3982,8 @@ var refer = {
         "queryurl": "http://www.anpost.ie/AnPost/ ",
         "serversite": ""
     }, {
+        "cid": "236",
+        "id": "3078494",
         "companyname": "日本（Japan Post）",
         "shortname": "日本邮政JapanPost",
         "tel": "+81 0570-046111",
@@ -3549,13 +3993,15 @@ var refer = {
         "comurl": "http://www.post.japanpost.jp/english/index.html ",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "CD193223663JP",
+        "testnu": "EG437752812JP",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.post.japanpost.jp/english/index.html ",
         "serversite": ""
     }, {
+        "cid": "108",
+        "id": "3086599",
         "companyname": "丹麦(Post Denmark)",
         "shortname": "丹麦邮政",
         "tel": "+45 80 20 70 30 ",
@@ -3572,6 +4018,8 @@ var refer = {
         "queryurl": "http://www.postdanmark.dk/en/Pages/home.aspx ",
         "serversite": ""
     }, {
+        "cid": "109",
+        "id": "3086636",
         "companyname": "巴西(Brazil Post/Correios)",
         "shortname": "巴西邮政Brazil Post",
         "tel": "+55 61 3003 0100",
@@ -3588,6 +4036,8 @@ var refer = {
         "queryurl": "http://www.correios.com.br/ ",
         "serversite": ""
     }, {
+        "cid": "324",
+        "id": "3118858",
         "companyname": "荷兰挂号信(PostNL international registered mail)",
         "shortname": "荷兰邮政",
         "tel": "34819",
@@ -3597,13 +4047,15 @@ var refer = {
         "comurl": "http://www.postnl.post",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "RS172368835NL",
+        "testnu": "RS351167864NL",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.postnl.post",
         "serversite": ""
     }, {
+        "cid": "325",
+        "id": "3118862",
         "companyname": "荷兰挂号信(PostNL international registered mail)",
         "shortname": "荷兰邮政",
         "tel": "34819",
@@ -3613,13 +4065,15 @@ var refer = {
         "comurl": "http://www.postnl.post/details/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "RN621426492NL",
+        "testnu": "RS335114562NL",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.postnl.post/details/",
         "serversite": ""
     }, {
+        "cid": "326",
+        "id": "3118897",
         "companyname": "乌克兰EMS-中文(EMS Ukraine)",
         "shortname": "乌克兰EMS",
         "tel": "+38 044 234-73-84",
@@ -3636,6 +4090,8 @@ var refer = {
         "queryurl": "http://dpsz.ua/en",
         "serversite": ""
     }, {
+        "cid": "327",
+        "id": "3118903",
         "companyname": "乌克兰EMS(EMS Ukraine)",
         "shortname": "EMS Ukraine",
         "tel": "+38 044 234-73-84",
@@ -3652,6 +4108,8 @@ var refer = {
         "queryurl": "http://dpsz.ua/en",
         "serversite": ""
     }, {
+        "cid": "328",
+        "id": "3118910",
         "companyname": "乌克兰邮政包裹",
         "shortname": "乌克兰邮政包裹",
         "tel": "",
@@ -3668,6 +4126,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "329",
+        "id": "3118913",
         "companyname": "乌克兰小包、大包(UkrPost)",
         "shortname": "UkrPost",
         "tel": "+380 (0) 800-500-440",
@@ -3677,13 +4137,15 @@ var refer = {
         "comurl": "http://www.ukrposhta.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "RD020019377UA",
+        "testnu": "CP650816393UA",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "+380 (0) 800-500-440",
         "queryurl": "http://www.ukrposhta.com/",
         "serversite": ""
     }, {
+        "cid": "98",
+        "id": "3125254",
         "companyname": "海红for买卖宝",
         "shortname": "海红for买卖宝",
         "tel": "",
@@ -3700,6 +4162,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "99",
+        "id": "3125259",
         "companyname": "FedEx-英国件（FedEx UK)",
         "shortname": "FedEx UK",
         "tel": "+ 44 2476 706 660",
@@ -3709,13 +4173,15 @@ var refer = {
         "comurl": "http://www.fedex.com/gb/ukservices/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "618430575335",
+        "testnu": "655311953669",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.fedex.com/gb/ukservices/",
         "serversite": ""
     }, {
+        "cid": "100",
+        "id": "3125270",
         "companyname": "FedEx-英国件",
         "shortname": "FedEx-英国件",
         "tel": "+ 44 2476 706 660",
@@ -3732,6 +4198,8 @@ var refer = {
         "queryurl": "http://www.fedex.com/gb/ukservices/",
         "serversite": ""
     }, {
+        "cid": "101",
+        "id": "3125276",
         "companyname": "叮咚快递",
         "shortname": "叮咚快递",
         "tel": "",
@@ -3748,6 +4216,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "299",
+        "id": "3130655",
         "companyname": "DPD",
         "shortname": "DPD",
         "tel": "+31 20 480 2900",
@@ -3757,13 +4227,15 @@ var refer = {
         "comurl": "http://www.dpd.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "15505353305299",
+        "testnu": "15505360288183",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.dpd.com/",
         "serversite": ""
     }, {
+        "cid": "300",
+        "id": "3130663",
         "companyname": "UPS Freight",
         "shortname": "UPS Freight",
         "tel": "+1 800-333-7400",
@@ -3780,6 +4252,8 @@ var refer = {
         "queryurl": "http://ltl.upsfreight.com/",
         "serversite": ""
     }, {
+        "cid": "138",
+        "id": "3135935",
         "companyname": "ABF",
         "shortname": "ABF",
         "tel": "(479) 785-6486",
@@ -3796,6 +4270,8 @@ var refer = {
         "queryurl": "http://www.abfs.com/",
         "serversite": ""
     }, {
+        "cid": "139",
+        "id": "3135948",
         "companyname": "Purolator",
         "shortname": "Purolator",
         "tel": "-8754",
@@ -3805,13 +4281,15 @@ var refer = {
         "comurl": "http://www.purolator.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "6908720383",
+        "testnu": "6909455103",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.purolator.com/",
         "serversite": ""
     }, {
+        "cid": "88",
+        "id": "3139495",
         "companyname": "比利时（Bpost）",
         "shortname": "Bpost",
         "tel": "+32 (0)2 278 50 90",
@@ -3821,13 +4299,15 @@ var refer = {
         "comurl": "http://www.bpostinternational.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "EA953705559BE",
+        "testnu": "412015896000000000000032376423",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.bpostinternational.com/",
         "serversite": ""
     }, {
+        "cid": "89",
+        "id": "3140220",
         "companyname": "比利时国际(Bpost international)",
         "shortname": "bpostint",
         "tel": "+32 (0)2 278 50 90",
@@ -3837,13 +4317,15 @@ var refer = {
         "comurl": "http://www.bpostinternational.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "EA960049615BE",
+        "testnu": "229490632892",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.bpostinternational.com/",
         "serversite": ""
     }, {
+        "cid": "335",
+        "id": "3155981",
         "companyname": "LaserShip",
         "shortname": "LaserShip",
         "tel": "+1 (800) 527-3764",
@@ -3853,13 +4335,15 @@ var refer = {
         "comurl": "http://www.lasership.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "1LS713412661578",
+        "testnu": "LW13200211",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.lasership.com/",
         "serversite": ""
     }, {
+        "cid": "336",
+        "id": "3155993",
         "companyname": "英国大包、EMS（Parcel Force）",
         "shortname": "Parcel Force",
         "tel": "08448 00 44 66",
@@ -3876,6 +4360,8 @@ var refer = {
         "queryurl": "http://www.parcelforce.com/",
         "serversite": ""
     }, {
+        "cid": "337",
+        "id": "3155998",
         "companyname": "英国邮政大包EMS",
         "shortname": "英国邮政大包EMS",
         "tel": "08448 00 44 66",
@@ -3892,6 +4378,8 @@ var refer = {
         "queryurl": "http://www.parcelforce.com/",
         "serversite": ""
     }, {
+        "cid": "338",
+        "id": "3156002",
         "companyname": "YODEL",
         "shortname": "YODEL",
         "tel": "+44 800 0152 662",
@@ -3908,6 +4396,8 @@ var refer = {
         "queryurl": "http://www.myyodel.co.uk/",
         "serversite": ""
     }, {
+        "cid": "242",
+        "id": "3160296",
         "companyname": "DHL-荷兰（DHL Netherlands）",
         "shortname": "DHL Netherlands",
         "tel": "+31 26-324 6700",
@@ -3924,6 +4414,8 @@ var refer = {
         "queryurl": "http://www.dhl.nl",
         "serversite": ""
     }, {
+        "cid": "277",
+        "id": "3165626",
         "companyname": "MyHermes",
         "shortname": "MyHermes",
         "tel": "+44 844 543 7000",
@@ -3933,13 +4425,15 @@ var refer = {
         "comurl": "https://www.myhermes.co.uk/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "8653177246226388",
+        "testnu": "9378786254934087",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "https://www.myhermes.co.uk/",
         "serversite": ""
     }, {
+        "cid": "278",
+        "id": "3165635",
         "companyname": "DPD Germany",
         "shortname": "DPD Germany",
         "tel": "+49 01806 373 200",
@@ -3949,13 +4443,15 @@ var refer = {
         "comurl": "https://www.dpd.com/de/(portal)/de/(rememberCountry)/0",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "01410013081566T",
+        "testnu": "01505081960609",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "https://www.dpd.com/de/(portal)/de/(rememberCountry)/0",
         "serversite": ""
     }, {
+        "cid": "279",
+        "id": "3165646",
         "companyname": "Fastway Ireland",
         "shortname": "Fastway Ireland",
         "tel": "+353 1 4242 900",
@@ -3972,6 +4468,8 @@ var refer = {
         "queryurl": "http://www.fastway.ie/index.php",
         "serversite": ""
     }, {
+        "cid": "182",
+        "id": "3177500",
         "companyname": "法国大包、EMS-法文（Chronopost France）",
         "shortname": "Chronopost France",
         "tel": "+33 (0) 969 391 391",
@@ -3981,13 +4479,15 @@ var refer = {
         "comurl": "http://www.chronopost.fr/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "XE313644373FR",
+        "testnu": "EY876275007FR",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.chronopost.fr/",
         "serversite": ""
     }, {
+        "cid": "183",
+        "id": "3177508",
         "companyname": "Selektvracht",
         "shortname": "Selektvracht",
         "tel": "+31 0900-2222120",
@@ -4004,6 +4504,8 @@ var refer = {
         "queryurl": "http://www.selektvracht.nl/",
         "serversite": ""
     }, {
+        "cid": "184",
+        "id": "3177511",
         "companyname": "蓝弧快递",
         "shortname": "蓝弧快递",
         "tel": "4000661646",
@@ -4020,6 +4522,8 @@ var refer = {
         "queryurl": "http://www.lanhukd.com/",
         "serversite": ""
     }, {
+        "cid": "185",
+        "id": "3177517",
         "companyname": "比利时(Belgium Post)",
         "shortname": "Belgium Post",
         "tel": "+32 2 276 22 74",
@@ -4036,6 +4540,8 @@ var refer = {
         "queryurl": "http://www.bpost.be/",
         "serversite": ""
     }, {
+        "cid": "221",
+        "id": "3194763",
         "companyname": "UPS Mail Innovations",
         "shortname": "UPS Mail Innovations",
         "tel": "+1 800-500-2224",
@@ -4052,6 +4558,8 @@ var refer = {
         "queryurl": "http://www.upsmailinnovations.com/",
         "serversite": ""
     }, {
+        "cid": "222",
+        "id": "3194764",
         "companyname": "挪威（Posten Norge）",
         "shortname": "Posten Norge",
         "tel": "+47 21316260",
@@ -4061,13 +4569,15 @@ var refer = {
         "comurl": "http://www.posten.no/en/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "CD657228349NO",
+        "testnu": "CD657634775NO",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.posten.no/en/",
         "serversite": ""
     }, {
+        "cid": "223",
+        "id": "3194765",
         "companyname": "瑞士邮政",
         "shortname": "瑞士邮政",
         "tel": "+41848888888",
@@ -4084,6 +4594,8 @@ var refer = {
         "queryurl": "https://www.post.ch/de/privat?wt_shortcut=www-swisspost-com&WT.mc_id=shortcut_www-swisspost-com",
         "serversite": ""
     }, {
+        "cid": "224",
+        "id": "3194766",
         "companyname": "瑞士(Swiss Post)",
         "shortname": "Swiss Post",
         "tel": "+41 848 888 888",
@@ -4100,6 +4612,8 @@ var refer = {
         "queryurl": "http://www.post.ch/en",
         "serversite": ""
     }, {
+        "cid": "225",
+        "id": "3194767",
         "companyname": "英国邮政小包",
         "shortname": "英国邮政小包",
         "tel": "",
@@ -4116,6 +4630,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "226",
+        "id": "3194768",
         "companyname": "英国小包（Royal Mail）",
         "shortname": "Royal Mail",
         "tel": "+44 1752387112",
@@ -4132,6 +4648,8 @@ var refer = {
         "queryurl": "http://www.royalmail.com/",
         "serversite": ""
     }, {
+        "cid": "227",
+        "id": "3194769",
         "companyname": "DHL Benelux",
         "shortname": "DHL Benelux",
         "tel": "+31 26-324 6700",
@@ -4148,6 +4666,8 @@ var refer = {
         "queryurl": "http://www.dhl.nl/nl.html",
         "serversite": ""
     }, {
+        "cid": "284",
+        "id": "3205226",
         "companyname": "Nova Poshta",
         "shortname": "Nova Poshta",
         "tel": "+7 (0) 800 500 609",
@@ -4164,6 +4684,8 @@ var refer = {
         "queryurl": "http://novaposhta.ua/",
         "serversite": ""
     }, {
+        "cid": "285",
+        "id": "3205227",
         "companyname": "DHL-波兰（DHL Poland）",
         "shortname": "DHL Poland",
         "tel": "+48 42 6 345 345",
@@ -4180,6 +4702,8 @@ var refer = {
         "queryurl": "http://www.dhl.com.pl/pl.html",
         "serversite": ""
     }, {
+        "cid": "286",
+        "id": "3205228",
         "companyname": "Estes",
         "shortname": "Estes",
         "tel": "1-866-378-3748",
@@ -4196,6 +4720,8 @@ var refer = {
         "queryurl": "http://www.estes-express.com/",
         "serversite": ""
     }, {
+        "cid": "287",
+        "id": "3205229",
         "companyname": "TNT UK",
         "shortname": "TNT UK",
         "tel": "+44 0800 100 600",
@@ -4205,13 +4731,15 @@ var refer = {
         "comurl": "http://www.tnt.com/portal/location/en.html",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "120176021",
+        "testnu": "1201877402928",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.tnt.com/portal/location/en.html",
         "serversite": ""
     }, {
+        "cid": "288",
+        "id": "3205230",
         "companyname": "Deltec Courier",
         "shortname": "Deltec Courier",
         "tel": "+44 (0) 20 8569 6767",
@@ -4228,6 +4756,8 @@ var refer = {
         "queryurl": "https://www.deltec-courier.com",
         "serversite": ""
     }, {
+        "cid": "256",
+        "id": "3223274",
         "companyname": "OPEK",
         "shortname": "OPEK",
         "tel": "+48 22 732 79 99",
@@ -4244,6 +4774,8 @@ var refer = {
         "queryurl": "http://www.opek.com.pl/",
         "serversite": ""
     }, {
+        "cid": "257",
+        "id": "3223275",
         "companyname": "DPD Poland",
         "shortname": "DPD Poland",
         "tel": "+48 801 400 373",
@@ -4260,6 +4792,8 @@ var refer = {
         "queryurl": "http://www.dpd.com.pl/",
         "serversite": ""
     }, {
+        "cid": "258",
+        "id": "3223276",
         "companyname": "Italy SDA",
         "shortname": "Italy SDA",
         "tel": "+39 199 113366",
@@ -4276,6 +4810,8 @@ var refer = {
         "queryurl": "http://wwww.sda.it/",
         "serversite": ""
     }, {
+        "cid": "104",
+        "id": "3228276",
         "companyname": "MRW",
         "shortname": "MRW",
         "tel": "+34 902 300 402",
@@ -4292,6 +4828,8 @@ var refer = {
         "queryurl": "http://www.mrw.es/",
         "serversite": ""
     }, {
+        "cid": "105",
+        "id": "3228277",
         "companyname": "Chronopost Portugal",
         "shortname": "Chronopost Portugal",
         "tel": "+351 707 20 28 28",
@@ -4308,6 +4846,8 @@ var refer = {
         "queryurl": "http://chronopost.pt/",
         "serversite": ""
     }, {
+        "cid": "106",
+        "id": "3228278",
         "companyname": "西班牙(Correos de Espa?a)",
         "shortname": "Correos de Espa?a",
         "tel": "+34 902197197",
@@ -4317,13 +4857,15 @@ var refer = {
         "comurl": "http://www.correos.es",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "RF054493564ES",
+        "testnu": "EK505483520ES",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.correos.es",
         "serversite": ""
     }, {
+        "cid": "289",
+        "id": "3238411",
         "companyname": "Direct Link",
         "shortname": "Direct Link",
         "tel": "+1 (908) 289-0703",
@@ -4340,6 +4882,8 @@ var refer = {
         "queryurl": "http://www.directlink.com",
         "serversite": ""
     }, {
+        "cid": "290",
+        "id": "3238412",
         "companyname": "ELTA Hellenic Post",
         "shortname": "ELTA Hellenic Post",
         "tel": "+30 801 11 83000",
@@ -4349,13 +4893,15 @@ var refer = {
         "comurl": "https://www.elta-courier.gr",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "CP324327120GR",
+        "testnu": "EE205325675GR",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "https://www.elta-courier.gr",
         "serversite": ""
     }, {
+        "cid": "291",
+        "id": "3238413",
         "companyname": "捷克（?eská po?ta）",
         "shortname": "ceskaposta",
         "tel": "+420 840 111 244",
@@ -4365,13 +4911,15 @@ var refer = {
         "comurl": "http://www.ceskaposta.cz/index",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "CS048096039CZ",
+        "testnu": "EM512005180CZ",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.ceskaposta.cz/index",
         "serversite": ""
     }, {
+        "cid": "292",
+        "id": "3238414",
         "companyname": "Siodemka",
         "shortname": "Siodemka",
         "tel": "+48 22 777 77 77",
@@ -4388,6 +4936,8 @@ var refer = {
         "queryurl": "http://www.siodemka.com/",
         "serversite": ""
     }, {
+        "cid": "259",
+        "id": "3245372",
         "companyname": "International Seur",
         "shortname": "International Seur",
         "tel": "+34 93 336 85 85",
@@ -4404,6 +4954,8 @@ var refer = {
         "queryurl": "http://www.seur.com/",
         "serversite": ""
     }, {
+        "cid": "260",
+        "id": "3245373",
         "companyname": "久易快递",
         "shortname": "久易快递",
         "tel": "021-64206088",
@@ -4420,6 +4972,8 @@ var refer = {
         "queryurl": "http://www.jiuyicn.com/",
         "serversite": ""
     }, {
+        "cid": "228",
+        "id": "3264010",
         "companyname": "克罗地亚（Hrvatska Posta）",
         "shortname": "Hrvatska Posta",
         "tel": "+385 0800 303 304",
@@ -4436,6 +4990,8 @@ var refer = {
         "queryurl": "http://www.posta.hr/",
         "serversite": ""
     }, {
+        "cid": "229",
+        "id": "3264011",
         "companyname": "保加利亚（Bulgarian Posts）",
         "shortname": "Bulgarian Posts",
         "tel": "+3592/949 3280",
@@ -4445,13 +5001,15 @@ var refer = {
         "comurl": "http://www.bgpost.bg/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "XO536114207",
+        "testnu": "YUNDA",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.bgpost.bg/",
         "serversite": ""
     }, {
+        "cid": "230",
+        "id": "3264012",
         "companyname": "Portugal Seur",
         "shortname": "Portugal Seur",
         "tel": "+351 707 50 10 10",
@@ -4468,6 +5026,8 @@ var refer = {
         "queryurl": "http://www.seur.com/",
         "serversite": ""
     }, {
+        "cid": "126",
+        "id": "3280637",
         "companyname": "EC-Firstclass",
         "shortname": "EC-Firstclass",
         "tel": "+86 4006 988 223",
@@ -4484,6 +5044,8 @@ var refer = {
         "queryurl": "http://www.ec-firstclass.org/Details.aspx",
         "serversite": ""
     }, {
+        "cid": "127",
+        "id": "3280638",
         "companyname": "DTDC India",
         "shortname": "DTDC India",
         "tel": "+91 33004444",
@@ -4500,6 +5062,8 @@ var refer = {
         "queryurl": "http://dtdc.com",
         "serversite": ""
     }, {
+        "cid": "128",
+        "id": "3280639",
         "companyname": "Safexpress",
         "shortname": "Safexpress",
         "tel": "+91 11 26783281",
@@ -4516,6 +5080,8 @@ var refer = {
         "queryurl": "http://www.safexpress.com",
         "serversite": ""
     }, {
+        "cid": "129",
+        "id": "3280640",
         "companyname": "韩国（Korea Post）",
         "shortname": "Korea Post",
         "tel": "+82 2 2195 1114",
@@ -4525,13 +5091,15 @@ var refer = {
         "comurl": "http://www.koreapost.go.kr/kpost/main/index.jsp",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "RM391254126KR",
+        "testnu": "RR494467118KR",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.koreapost.go.kr/kpost/main/index.jsp",
         "serversite": ""
     }, {
+        "cid": "295",
+        "id": "3312654",
         "companyname": "TNT Australia",
         "shortname": "TNT Australia",
         "tel": "+61 13 11 50",
@@ -4541,13 +5109,15 @@ var refer = {
         "comurl": "https://www.tntexpress.com.au",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "211691259",
+        "testnu": "314055529",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "https://www.tntexpress.com.au",
         "serversite": ""
     }, {
+        "cid": "293",
+        "id": "3312655",
         "companyname": "泰国（Thailand Thai Post）",
         "shortname": "Thailand Thai Post",
         "tel": "0 2573 5463",
@@ -4557,13 +5127,15 @@ var refer = {
         "comurl": "http://www.thailandpost.co.th ",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "EN533930387TH",
+        "testnu": "EN961764205TH",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.thailandpost.co.th",
         "serversite": ""
     }, {
+        "cid": "294",
+        "id": "3312656",
         "companyname": "SkyNet Malaysia",
         "shortname": "SkyNet Malaysia",
         "tel": "+60 3- 56239090",
@@ -4573,13 +5145,15 @@ var refer = {
         "comurl": "http://www.skynet.com.my/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "238809584915",
+        "testnu": "201479896870",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.skynet.com.my/",
         "serversite": ""
     }, {
+        "cid": "296",
+        "id": "3312657",
         "companyname": "马来西亚小包（Malaysia Post(Registered)）",
         "shortname": "Malaysia Post(Registered)",
         "tel": "+603 27279100",
@@ -4596,6 +5170,8 @@ var refer = {
         "queryurl": "http://www.pos.com.my/",
         "serversite": ""
     }, {
+        "cid": "297",
+        "id": "3312658",
         "companyname": "马来西亚大包、EMS（Malaysia Post(parcel,EMS)）",
         "shortname": "Malaysia Post (parcel,EMS)",
         "tel": "+603 27279100",
@@ -4612,6 +5188,8 @@ var refer = {
         "queryurl": "http://www.pos.com.my/",
         "serversite": ""
     }, {
+        "cid": "330",
+        "id": "3321130",
         "companyname": "京东",
         "shortname": "京东",
         "tel": "400-603-3600",
@@ -4621,13 +5199,15 @@ var refer = {
         "comurl": "http://www.jd-ex.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "VC06579117613",
+        "testnu": "11059731415",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "400-603-3600",
         "queryurl": "http://www.jd-ex.com",
         "serversite": ""
     }, {
+        "cid": "201",
+        "id": "3331811",
         "companyname": "沙特阿拉伯(Saudi Post)",
         "shortname": "Saudi Post",
         "tel": "+966 9200 05700",
@@ -4644,6 +5224,8 @@ var refer = {
         "queryurl": "http://www.sp.com.sa",
         "serversite": ""
     }, {
+        "cid": "202",
+        "id": "3331812",
         "companyname": "南非（South African Post Office）",
         "shortname": "South African Post Office",
         "tel": "+27 0860 111 502",
@@ -4653,13 +5235,15 @@ var refer = {
         "comurl": "http://www.postoffice.co.za",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "RC011291255ZA",
+        "testnu": "CN022908044ZA",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.postoffice.co.za",
         "serversite": ""
     }, {
+        "cid": "203",
+        "id": "3331813",
         "companyname": "OCA Argentina",
         "shortname": "OCA Argentina",
         "tel": "+34 800-999-7700",
@@ -4676,6 +5260,8 @@ var refer = {
         "queryurl": "http://www.oca.com.ar/",
         "serversite": ""
     }, {
+        "cid": "204",
+        "id": "3331814",
         "companyname": "尼日利亚(Nigerian Postal)",
         "shortname": "Nigerian Postal",
         "tel": "234-09-3149531",
@@ -4692,6 +5278,8 @@ var refer = {
         "queryurl": "http://www.nipost.gov.ng",
         "serversite": ""
     }, {
+        "cid": "205",
+        "id": "3331815",
         "companyname": "智利(Correos Chile)",
         "shortname": "Correos Chile",
         "tel": "+562 600 950 2020",
@@ -4708,6 +5296,8 @@ var refer = {
         "queryurl": "http://www.correos.cl",
         "serversite": ""
     }, {
+        "cid": "206",
+        "id": "3331816",
         "companyname": "以色列(Israel Post)",
         "shortname": "Israel Post",
         "tel": "+972 2 629 0691",
@@ -4724,6 +5314,8 @@ var refer = {
         "queryurl": "http://www.israelpost.co.il",
         "serversite": ""
     }, {
+        "cid": "231",
+        "id": "3362923",
         "companyname": "Toll Priority(Toll Online)",
         "shortname": "Toll Priority",
         "tel": "+61 13 15 31",
@@ -4740,6 +5332,8 @@ var refer = {
         "queryurl": "https://online.toll.com.au",
         "serversite": ""
     }, {
+        "cid": "232",
+        "id": "3362925",
         "companyname": "Estafeta",
         "shortname": "Estafeta",
         "tel": "+52 1-800-378-2338",
@@ -4756,6 +5350,8 @@ var refer = {
         "queryurl": "http://rastreo3.estafeta.com",
         "serversite": ""
     }, {
+        "cid": "233",
+        "id": "3362926",
         "companyname": "港快速递",
         "shortname": "港快速递",
         "tel": "400-11-33333",
@@ -4765,13 +5361,15 @@ var refer = {
         "comurl": "http://www.gksd.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "200003281404",
+        "testnu": "200028092916",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.gksd.com/",
         "serversite": ""
     }, {
+        "cid": "234",
+        "id": "3362927",
         "companyname": "墨西哥（Correos de Mexico）",
         "shortname": "Correos de Mexico",
         "tel": "+52 01 800 701 7000",
@@ -4788,6 +5386,8 @@ var refer = {
         "queryurl": "http://www.correosdemexico.gob.mx",
         "serversite": ""
     }, {
+        "cid": "235",
+        "id": "3362928",
         "companyname": "罗马尼亚（Posta Romanian）",
         "shortname": "Posta Romanian",
         "tel": "+40 021 9393 111",
@@ -4797,13 +5397,15 @@ var refer = {
         "comurl": "http://www.posta-romana.ro/posta-romana.html",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "CO988952842RO",
+        "testnu": "CO989187136RO",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.posta-romana.ro/posta-romana.html",
         "serversite": ""
     }, {
+        "cid": "318",
+        "id": "3383409",
         "companyname": "TNT Italy",
         "shortname": "TNT Italy",
         "tel": "+39 199 803 868",
@@ -4820,6 +5422,8 @@ var refer = {
         "queryurl": "http://www.tnt.it",
         "serversite": ""
     }, {
+        "cid": "319",
+        "id": "3383410",
         "companyname": "Mexico Multipack",
         "shortname": "Mexico Multipack",
         "tel": "+52 1800 7023200",
@@ -4836,6 +5440,8 @@ var refer = {
         "queryurl": "http://www.multipack.com.mx/",
         "serversite": ""
     }, {
+        "cid": "320",
+        "id": "3383411",
         "companyname": "葡萄牙（Portugal CTT）",
         "shortname": "Portugal CTT",
         "tel": "+351 707 26 26 26",
@@ -4852,6 +5458,8 @@ var refer = {
         "queryurl": "http://www.ctt.pt",
         "serversite": ""
     }, {
+        "cid": "321",
+        "id": "3383412",
         "companyname": "Interlink Express",
         "shortname": "Interlink Express",
         "tel": "+44 8702 200 300",
@@ -4868,6 +5476,8 @@ var refer = {
         "queryurl": "http://www.interlinkexpress.com/",
         "serversite": ""
     }, {
+        "cid": "322",
+        "id": "3383413",
         "companyname": "DPD UK",
         "shortname": "DPD UK",
         "tel": "+44 845 9 300 350",
@@ -4877,13 +5487,15 @@ var refer = {
         "comurl": "http://www.dpd.co.uk/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "15505353285360",
+        "testnu": "15505411411164",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "+44 845 9 300 350",
         "queryurl": "http://www.dpd.co.uk/",
         "serversite": ""
     }, {
+        "cid": "157",
+        "id": "3432857",
         "companyname": "华航快递",
         "shortname": "华航快递",
         "tel": "400-697-0008",
@@ -4900,6 +5512,8 @@ var refer = {
         "queryurl": "http://www.hz3pl.com",
         "serversite": ""
     }, {
+        "cid": "158",
+        "id": "3432858",
         "companyname": "Gati-KWE",
         "shortname": "Gati-KWE",
         "tel": "+91 1800-180-4284",
@@ -4916,6 +5530,8 @@ var refer = {
         "queryurl": "http://www.gatikwe.com/",
         "serversite": ""
     }, {
+        "cid": "159",
+        "id": "3432859",
         "companyname": "Red Express",
         "shortname": "Red Express",
         "tel": "+91 1800-123-2400",
@@ -4925,13 +5541,15 @@ var refer = {
         "comurl": "https://www.getsetred.net",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "849657",
+        "testnu": "0075941",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "+91 1800-123-2400",
         "queryurl": "https://www.getsetred.net",
         "serversite": ""
     }, {
+        "cid": "261",
+        "id": "3440002",
         "companyname": "Mexico Senda Express",
         "shortname": "Mexico Senda Express",
         "tel": "+52 1800 833 93 00",
@@ -4948,6 +5566,8 @@ var refer = {
         "queryurl": "http://www.sendaexpress.com.mx/rastreo.asp#af",
         "serversite": ""
     }, {
+        "cid": "331",
+        "id": "3487500",
         "companyname": "TCI XPS",
         "shortname": "TCI XPS",
         "tel": "18002000977",
@@ -4964,6 +5584,8 @@ var refer = {
         "queryurl": "http://www.tcixps.com/",
         "serversite": ""
     }, {
+        "cid": "332",
+        "id": "3487501",
         "companyname": "高铁速递",
         "shortname": "高铁速递",
         "tel": "400-999-7777",
@@ -4973,13 +5595,15 @@ var refer = {
         "comurl": "http://www.hre-e.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "59100014161",
+        "testnu": "59100031231",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "400-999-7777",
         "queryurl": "http://www.hre-e.com/",
         "serversite": ""
     }, {
+        "cid": "333",
+        "id": "3487502",
         "companyname": "新加坡EMS、大包(Singapore Speedpost)",
         "shortname": "Singapore Speedpost",
         "tel": "+65 6222 5777",
@@ -4996,6 +5620,8 @@ var refer = {
         "queryurl": "http://www.speedpost.com.sg/",
         "serversite": ""
     }, {
+        "cid": "186",
+        "id": "3489756",
         "companyname": "EMS-国际件-英文",
         "shortname": "EMS-国际件-英文",
         "tel": "",
@@ -5012,6 +5638,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "243",
+        "id": "3526510",
         "companyname": "Asendia USA",
         "shortname": "Asendia USA",
         "tel": "+1 610 461 3661",
@@ -5021,13 +5649,15 @@ var refer = {
         "comurl": "http://www.asendiausa.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "A000001307148",
+        "testnu": "00006675214163582734",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "+1 610 461 3661",
         "queryurl": "http://www.asendiausa.com/",
         "serversite": ""
     }, {
+        "cid": "244",
+        "id": "3526511",
         "companyname": "法国大包、EMS-英文(Chronopost France)",
         "shortname": "Chronopost France",
         "tel": "+33 (0) 969 391 391",
@@ -5037,13 +5667,15 @@ var refer = {
         "comurl": "http://www.chronopost.fr/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "EV965454067CN",
+        "testnu": "EY084484098FR",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "+33 (0) 969 391 391",
         "queryurl": "http://www.chronopost.fr/",
         "serversite": ""
     }, {
+        "cid": "245",
+        "id": "3526512",
         "companyname": "意大利(Poste Italiane)",
         "shortname": "Poste Italiane Paccocelere",
         "tel": "+39 803 160",
@@ -5060,6 +5692,8 @@ var refer = {
         "queryurl": "http://www.poste.it/",
         "serversite": ""
     }, {
+        "cid": "276",
+        "id": "3623446",
         "companyname": "冠达快递",
         "shortname": "冠达快递",
         "tel": "400-990-0088",
@@ -5069,13 +5703,15 @@ var refer = {
         "comurl": "http://www.gda-e.com.cn/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "700114005930",
+        "testnu": "700114079397",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "400-990-0088",
         "queryurl": "http://www.gda-e.com.cn/",
         "serversite": ""
     }, {
+        "cid": "91",
+        "id": "3664396",
         "companyname": "出口易",
         "shortname": "出口易",
         "tel": "4006-988-223",
@@ -5085,13 +5721,15 @@ var refer = {
         "comurl": "http://www.chukou1.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "SH29505967",
+        "testnu": "SZ32316495",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "13360562736",
         "queryurl": "http://www.chukou1.com",
         "serversite": ""
     }, {
+        "cid": "0",
+        "id": "3696400",
         "companyname": "黄马甲",
         "shortname": "黄马甲",
         "tel": "029-96128",
@@ -5101,13 +5739,15 @@ var refer = {
         "comurl": "http://www.huangmajia.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "JL040955751",
+        "testnu": "032606205642846",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "029-96128",
         "queryurl": "http://www.huangmajia.com",
         "serversite": ""
     }, {
+        "cid": "280",
+        "id": "3785532",
         "companyname": "新干线快递",
         "shortname": "新干线快递",
         "tel": "",
@@ -5124,6 +5764,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "281",
+        "id": "3785533",
         "companyname": "飞洋快递",
         "shortname": "飞洋快递",
         "tel": "001-877-387-9799",
@@ -5133,13 +5775,15 @@ var refer = {
         "comurl": "http://express.shipgce.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "DD600052422US",
+        "testnu": "DD504013290US",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "001-877-387-9799",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "282",
+        "id": "3785534",
         "companyname": "贝海国际速递",
         "shortname": "贝海国际速递",
         "tel": "086-400-082-2200",
@@ -5149,13 +5793,15 @@ var refer = {
         "comurl": "http://www.xlobo.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "DB033206085JP",
+        "testnu": "DB863228069US",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "086-400-082-2200",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "140",
+        "id": "3808754",
         "companyname": "阿联酋(Emirates Post)",
         "shortname": "阿联酋邮政",
         "tel": "600-599-999",
@@ -5165,29 +5811,33 @@ var refer = {
         "comurl": "http://www.epg.gov.ae/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "CP250828395AE",
+        "testnu": "EE041631183AE",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "600-599-999",
         "queryurl": "http://www.epg.gov.ae/",
         "serversite": ""
     }, {
+        "cid": "0",
+        "id": "3808755",
         "companyname": "新顺丰（NSF）",
         "shortname": "新顺丰（NSF）",
-        "tel": "0064-9-2818966",
+        "tel": "0064-9-5258288",
         "url": "nsf",
         "code": "nsf",
         "hasvali": 0,
         "comurl": "http://www.nsf.co.nz/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "1588009272",
+        "testnu": "91502028659",
         "freg": "",
         "freginfo": "",
-        "telcomplaintnum": "0064-9-2818966",
+        "telcomplaintnum": "0064-9-5258288",
         "queryurl": "http://www.nsf.co.nz/",
         "serversite": ""
     }, {
+        "cid": "142",
+        "id": "3808756",
         "companyname": "巴基斯坦(Pakistan Post)",
         "shortname": "巴基斯坦邮政",
         "tel": "（+92 51）926 00 37",
@@ -5204,6 +5854,8 @@ var refer = {
         "queryurl": "http://ep.gov.pk/",
         "serversite": ""
     }, {
+        "cid": "275",
+        "id": "3812620",
         "companyname": "世运快递",
         "shortname": "世运快递",
         "tel": "400-666-1111",
@@ -5220,6 +5872,8 @@ var refer = {
         "queryurl": "http://sehoexpress.com/index.asp",
         "serversite": ""
     }, {
+        "cid": "166",
+        "id": "3836842",
         "companyname": "合众速递(UCS）",
         "shortname": "合众速递(UCS）",
         "tel": "024-31515566",
@@ -5229,13 +5883,15 @@ var refer = {
         "comurl": "http://www.ucsus.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "TX803025977US",
+        "testnu": "EL900787012HK",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "024-31515566",
         "queryurl": "http://www.ucsus.com",
         "serversite": ""
     }, {
+        "cid": "167",
+        "id": "3836843",
         "companyname": "阿富汗(Afghan Post)",
         "shortname": "阿富汗邮政",
         "tel": "+93 20 2104075",
@@ -5252,6 +5908,8 @@ var refer = {
         "queryurl": "http://track.afghanpost.gov.af/",
         "serversite": ""
     }, {
+        "cid": "308",
+        "id": "3852026",
         "companyname": "白俄罗斯(Belpochta)",
         "shortname": "白俄罗斯",
         "tel": "+375 17 293 59 10",
@@ -5268,6 +5926,8 @@ var refer = {
         "queryurl": "http://www.belpost.by/",
         "serversite": ""
     }, {
+        "cid": "92",
+        "id": "3946200",
         "companyname": "全通快运",
         "shortname": "全通快运",
         "tel": "",
@@ -5284,6 +5944,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "93",
+        "id": "3946201",
         "companyname": "宅急便",
         "shortname": "宅急便",
         "tel": "",
@@ -5293,13 +5955,15 @@ var refer = {
         "comurl": "",
         "isavailable": "",
         "promptinfo": "",
-        "testnu": "120096452044",
+        "testnu": "120098239752",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "130",
+        "id": "4010763",
         "companyname": "EFS Post",
         "shortname": "efs",
         "tel": "0773-2308246",
@@ -5309,13 +5973,15 @@ var refer = {
         "comurl": "http://www.efspost.com/ ",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "EF815038029NZ",
+        "testnu": "EF313486219NZ",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "131",
+        "id": "4010767",
         "companyname": "TNT Post",
         "shortname": "tntpostcn",
         "tel": "+31（0）900 0570 ",
@@ -5332,6 +5998,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "316",
+        "id": "4051323",
         "companyname": "英脉物流",
         "shortname": "英脉物流",
         "tel": "400-880-5088",
@@ -5341,29 +6009,33 @@ var refer = {
         "comurl": "http://www.gml.cn/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "150827000116",
+        "testnu": "151110000059",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "400-880-5088",
         "queryurl": "http://www.gml.cn/",
         "serversite": ""
     }, {
+        "cid": "95",
+        "id": "4110138",
         "companyname": "广通速递",
         "shortname": "广通速递",
-        "tel": "400-080-6369",
+        "tel": "400-801-5567",
         "url": "gtongsudi",
         "code": "gtongsudi",
         "hasvali": 0,
-        "comurl": "http://www.gtongsudi.com/",
+        "comurl": "http://www.gto56.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "2200000863091",
+        "testnu": "2200002356574",
         "freg": "",
         "freginfo": "",
-        "telcomplaintnum": "400-080-6369",
-        "queryurl": "http://www.gtongsudi.com/",
-        "serversite": ""
+        "telcomplaintnum": "400-801-5567",
+        "queryurl": "",
+        "serversite": "http://www.gto56.com/ServiceNet/"
     }, {
+        "cid": "96",
+        "id": "4110170",
         "companyname": "东瀚物流",
         "shortname": "东瀚物流",
         "tel": "400-092-2229",
@@ -5373,13 +6045,15 @@ var refer = {
         "comurl": "http://www.donghanwl.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "DH0000105370",
+        "testnu": "DH0000108870",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "97",
+        "id": "4110206",
         "companyname": "rpx",
         "shortname": "rpx",
         "tel": "",
@@ -5396,6 +6070,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "342",
+        "id": "4134425",
         "companyname": "日日顺物流",
         "shortname": "日日顺物流",
         "tel": "400-800-9999",
@@ -5405,13 +6081,15 @@ var refer = {
         "comurl": "http://www.rrs.com/wl/fwwl",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "6098646098",
+        "testnu": "6080019489",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "400-800-9999",
         "queryurl": "http://www.rrs.com/wl/fwwl",
         "serversite": ""
     }, {
+        "cid": "343",
+        "id": "4134450",
         "companyname": "黑猫雅玛多",
         "shortname": "黑猫雅玛多",
         "tel": "",
@@ -5421,13 +6099,15 @@ var refer = {
         "comurl": "",
         "isavailable": "",
         "promptinfo": "",
-        "testnu": "410849561636",
+        "testnu": "410874312166",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "344",
+        "id": "4134483",
         "companyname": "华通快运",
         "shortname": "华通快运",
         "tel": "",
@@ -5444,6 +6124,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "345",
+        "id": "4134607",
         "companyname": "吉尔吉斯斯坦(Kyrgyz Post)",
         "shortname": "kyrgyzpost",
         "tel": "",
@@ -5460,6 +6142,8 @@ var refer = {
         "queryurl": "http://www.posta.kg",
         "serversite": ""
     }, {
+        "cid": "346",
+        "id": "4134788",
         "companyname": "拉脱维亚(Latvijas Pasts)",
         "shortname": "拉脱维亚",
         "tel": "",
@@ -5476,6 +6160,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "347",
+        "id": "4134832",
         "companyname": "黎巴嫩(Liban Post)",
         "shortname": "黎巴嫩",
         "tel": "+961 1 629628",
@@ -5492,6 +6178,8 @@ var refer = {
         "queryurl": "http://www.libanpost.com.lb",
         "serversite": ""
     }, {
+        "cid": "348",
+        "id": "4134850",
         "companyname": "立陶宛（Lietuvos pa?tas）",
         "shortname": "立陶宛",
         "tel": "+370 700 55 400",
@@ -5508,6 +6196,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "349",
+        "id": "4134864",
         "companyname": "马尔代夫(Maldives Post)",
         "shortname": "马尔代夫",
         "tel": "+960 331 5555",
@@ -5524,6 +6214,8 @@ var refer = {
         "queryurl": "https://www.maldivespost.com/store/",
         "serversite": ""
     }, {
+        "cid": "350",
+        "id": "4134881",
         "companyname": "马耳他（Malta Post）",
         "shortname": "马耳他",
         "tel": "800 7 22 44",
@@ -5540,6 +6232,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "351",
+        "id": "4134992",
         "companyname": "马其顿(Macedonian Post)",
         "shortname": "马其顿",
         "tel": "",
@@ -5556,6 +6250,8 @@ var refer = {
         "queryurl": "http://www.posta.com.mk/",
         "serversite": ""
     }, {
+        "cid": "352",
+        "id": "4135011",
         "companyname": "新西兰（New Zealand Post）",
         "shortname": "New Zealand Post",
         "tel": "",
@@ -5572,6 +6268,8 @@ var refer = {
         "queryurl": "http://www.nzpost.co.nz/tools/tracking?utm_source=sitebar_ph=sitebar=tracking",
         "serversite": ""
     }, {
+        "cid": "353",
+        "id": "4135102",
         "companyname": "摩尔多瓦(Posta Moldovei)",
         "shortname": "摩尔多瓦",
         "tel": "+373 - 22 270 044",
@@ -5588,6 +6286,8 @@ var refer = {
         "queryurl": "http://www.posta.md/ro",
         "serversite": ""
     }, {
+        "cid": "354",
+        "id": "4135131",
         "companyname": "孟加拉国(EMS)",
         "shortname": "孟加拉国(EMS)",
         "tel": "9558006",
@@ -5604,6 +6304,8 @@ var refer = {
         "queryurl": "http://globaltracktrace.ptc.post/gtt.web/",
         "serversite": ""
     }, {
+        "cid": "355",
+        "id": "4135231",
         "companyname": "塞尔维亚(PE Post of Serbia)",
         "shortname": "塞尔维亚",
         "tel": "0700 100 300",
@@ -5613,20 +6315,22 @@ var refer = {
         "comurl": "http://www.posta.rs",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "CC163321344RS",
+        "testnu": "CC165396756RS",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "356",
+        "id": "4135280",
         "companyname": "塞浦路斯(Cyprus Post)",
         "shortname": "塞浦路斯",
         "tel": "77778013",
         "url": "cypruspost",
         "code": "cypruspost",
         "hasvali": 0,
-        "comurl": "http://www.mcw.gov.cy/mcw/postal/dps.nsf/index_en/index_en?OpenDocument",
+        "comurl": "http://www.mcw.gov.cy/mcw/postal/dps.nsf/index_en/index_en",
         "isavailable": "0",
         "promptinfo": "",
         "testnu": "RQ000750137CY",
@@ -5636,9 +6340,11 @@ var refer = {
         "queryurl": "http://www.mcw.gov.cy/mcw/postal/dps.nsf/page39_en/page39_en?opendocument",
         "serversite": ""
     }, {
+        "cid": "357",
+        "id": "4135306",
         "companyname": "突尼斯EMS(Rapid-Poste)",
         "shortname": "突尼斯",
-        "tel": " (+216) 71 888 888 ",
+        "tel": "(+216) 71 888 888 ",
         "url": "tunisia",
         "code": "tunisia",
         "hasvali": 0,
@@ -5652,6 +6358,8 @@ var refer = {
         "queryurl": "http://www.rapidposte.poste.tn/an/index.html",
         "serversite": ""
     }, {
+        "cid": "358",
+        "id": "4135328",
         "companyname": "乌兹别克斯坦(Post of Uzbekistan)",
         "shortname": "乌兹别克斯坦",
         "tel": "(99871) 233 57 47",
@@ -5668,6 +6376,8 @@ var refer = {
         "queryurl": "http://www.pochta.uz/en/",
         "serversite": ""
     }, {
+        "cid": "359",
+        "id": "4135437",
         "companyname": "新喀里多尼亚[法国](New Caledonia)",
         "shortname": "新喀里多尼亚[法国]",
         "tel": "",
@@ -5684,6 +6394,8 @@ var refer = {
         "queryurl": "http://webtrack.opt.nc/ipswebtracking",
         "serversite": ""
     }, {
+        "cid": "360",
+        "id": "4135450",
         "companyname": "叙利亚(Syrian Post)",
         "shortname": "叙利亚",
         "tel": "",
@@ -5700,6 +6412,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "361",
+        "id": "4135460",
         "companyname": "亚美尼亚(Haypost-Armenian Postal)",
         "shortname": "亚美尼亚",
         "tel": "",
@@ -5716,6 +6430,8 @@ var refer = {
         "queryurl": "http://www.haypost.am/en/track-and-trace",
         "serversite": ""
     }, {
+        "cid": "362",
+        "id": "4135464",
         "companyname": "也门(Yemen Post)",
         "shortname": "也门",
         "tel": "",
@@ -5732,6 +6448,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "363",
+        "id": "4135479",
         "companyname": "印度(India Post)",
         "shortname": "印度",
         "tel": "1800-11-2011",
@@ -5741,13 +6459,15 @@ var refer = {
         "comurl": "http://www.indiapost.gov.in",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "ED676069897IN",
+        "testnu": "ED730048598IN",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "364",
+        "id": "4135533",
         "companyname": "英国(大包,EMS)",
         "shortname": "英国(大包,EMS)",
         "tel": "",
@@ -5764,6 +6484,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "365",
+        "id": "4135567",
         "companyname": "约旦(Jordan Post)",
         "shortname": "约旦",
         "tel": "-4292044",
@@ -5780,6 +6502,8 @@ var refer = {
         "queryurl": "http://194.165.151.253/jordanwebtrack/WebTrack_Submit.aspx",
         "serversite": ""
     }, {
+        "cid": "366",
+        "id": "4135574",
         "companyname": "越南小包(Vietnam Posts)",
         "shortname": "越南",
         "tel": "(+84) 1900 54 54 81",
@@ -5796,6 +6520,8 @@ var refer = {
         "queryurl": "http://www.vnpost.vn/",
         "serversite": ""
     }, {
+        "cid": "367",
+        "id": "4135624",
         "companyname": "黑山(Po?ta Crne Gore)",
         "shortname": "黑山",
         "tel": "",
@@ -5812,6 +6538,8 @@ var refer = {
         "queryurl": "http://www.postacg.me",
         "serversite": ""
     }, {
+        "cid": "368",
+        "id": "4135637",
         "companyname": "哥斯达黎加(Correos de Costa Rica)",
         "shortname": "哥斯达黎加",
         "tel": "",
@@ -5828,6 +6556,8 @@ var refer = {
         "queryurl": "https://www.correos.go.cr",
         "serversite": ""
     }, {
+        "cid": "369",
+        "id": "4148742",
         "companyname": "西安喜来快递",
         "shortname": "西安喜来快递",
         "tel": "",
@@ -5844,6 +6574,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "370",
+        "id": "4148789",
         "companyname": "格陵兰[丹麦]（TELE Greenland A/S）",
         "shortname": "格陵兰[丹麦]",
         "tel": "",
@@ -5860,6 +6592,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "371",
+        "id": "4148814",
         "companyname": "菲律宾（Philippine Postal）",
         "shortname": "菲律宾",
         "tel": "",
@@ -5876,6 +6610,8 @@ var refer = {
         "queryurl": "https://www.phlpost.gov.ph",
         "serversite": ""
     }, {
+        "cid": "372",
+        "id": "4148832",
         "companyname": "厄瓜多尔(Correos del Ecuador)",
         "shortname": "厄瓜多尔",
         "tel": "(593-2) 3829210",
@@ -5892,6 +6628,8 @@ var refer = {
         "queryurl": "http://www.correosdelecuador.gob.ec/",
         "serversite": ""
     }, {
+        "cid": "373",
+        "id": "4148887",
         "companyname": "冰岛(Iceland Post)",
         "shortname": "冰岛",
         "tel": "",
@@ -5908,6 +6646,8 @@ var refer = {
         "queryurl": "http://www.postur.is/",
         "serversite": ""
     }, {
+        "cid": "374",
+        "id": "4148947",
         "companyname": "波兰小包(Poczta Polska)",
         "shortname": "波兰",
         "tel": "801 333 444",
@@ -5917,13 +6657,15 @@ var refer = {
         "comurl": "http://www.poczta-polska.pl/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "",
+        "testnu": "CP177122241PL",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "375",
+        "id": "4148955",
         "companyname": "阿尔巴尼亚(Posta shqipatre)",
         "shortname": "阿尔巴尼亚",
         "tel": "",
@@ -5940,6 +6682,8 @@ var refer = {
         "queryurl": "http://www.postashqiptare.al/",
         "serversite": ""
     }, {
+        "cid": "376",
+        "id": "4148964",
         "companyname": "阿鲁巴[荷兰]（Post Aruba）",
         "shortname": "阿鲁巴[荷兰]",
         "tel": "+297 528-7637 ",
@@ -5956,6 +6700,8 @@ var refer = {
         "queryurl": "http://www.postaruba.com",
         "serversite": ""
     }, {
+        "cid": "377",
+        "id": "4148980",
         "companyname": "埃及（Egypt Post）",
         "shortname": "埃及",
         "tel": "23910011",
@@ -5972,6 +6718,8 @@ var refer = {
         "queryurl": "http://www.egyptpost.org/",
         "serversite": ""
     }, {
+        "cid": "378",
+        "id": "4148988",
         "companyname": "爱尔兰(An Post)",
         "shortname": "爱尔兰",
         "tel": "+353 1850 57 58 59",
@@ -5988,6 +6736,8 @@ var refer = {
         "queryurl": "http://www.anpost.ie/AnPost/",
         "serversite": ""
     }, {
+        "cid": "379",
+        "id": "4148995",
         "companyname": "爱沙尼亚(Eesti Post)",
         "shortname": "爱沙尼亚",
         "tel": "",
@@ -6004,6 +6754,8 @@ var refer = {
         "queryurl": "https://www.omniva.ee/",
         "serversite": ""
     }, {
+        "cid": "380",
+        "id": "4149088",
         "companyname": "云豹国际货运",
         "shortname": "云豹国际货运",
         "tel": "",
@@ -6013,13 +6765,15 @@ var refer = {
         "comurl": "",
         "isavailable": "",
         "promptinfo": "",
-        "testnu": "52100161997",
+        "testnu": "75500152137",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "381",
+        "id": "4149097",
         "companyname": "中外运空运",
         "shortname": "中外运空运",
         "tel": "",
@@ -6036,6 +6790,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "382",
+        "id": "4149106",
         "companyname": "上海昊宏国际货物",
         "shortname": "上海昊宏国际货物",
         "tel": "",
@@ -6052,6 +6808,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "383",
+        "id": "4149117",
         "companyname": "城晓国际快递",
         "shortname": "城晓国际快递",
         "tel": "",
@@ -6068,6 +6826,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "384",
+        "id": "4173404",
         "companyname": "匈牙利（Magyar Posta）",
         "shortname": "匈牙利",
         "tel": "+36 1 421 7296 Search",
@@ -6084,6 +6844,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "385",
+        "id": "4173429",
         "companyname": "澳门(Macau Post)",
         "shortname": "澳门",
         "tel": "",
@@ -6093,13 +6855,15 @@ var refer = {
         "comurl": "http://www.macaupost.gov.mo/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "EE110229095MO",
+        "testnu": "RR120606485MO",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.macaupost.gov.mo/",
         "serversite": ""
     }, {
+        "cid": "386",
+        "id": "4194642",
         "companyname": "台湾（中华邮政）",
         "shortname": "台湾",
         "tel": "",
@@ -6116,6 +6880,8 @@ var refer = {
         "queryurl": "http://postserv.post.gov.tw",
         "serversite": ""
     }, {
+        "cid": "387",
+        "id": "4194657",
         "companyname": "北京EMS",
         "shortname": "北京EMS",
         "tel": "010-8417 9386",
@@ -6132,6 +6898,8 @@ var refer = {
         "queryurl": "http://www.bj-cnpl.com/webpage/contactus.asp",
         "serversite": ""
     }, {
+        "cid": "388",
+        "id": "4194695",
         "companyname": "快淘快递",
         "shortname": "快淘快递",
         "tel": "400-770-3370",
@@ -6148,6 +6916,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "389",
+        "id": "4194702",
         "companyname": "秘鲁(SERPOST)",
         "shortname": "秘鲁",
         "tel": "511-500",
@@ -6157,13 +6927,15 @@ var refer = {
         "comurl": "http://www.serpost.com.pe/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "",
+        "testnu": "RR809298583PE",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.serpost.com.pe/",
         "serversite": ""
     }, {
+        "cid": "390",
+        "id": "4194706",
         "companyname": "印度尼西亚EMS(Pos Indonesia-EMS)",
         "shortname": "印度尼西亚EMS",
         "tel": "+62 21 161",
@@ -6180,6 +6952,8 @@ var refer = {
         "queryurl": "http://ems.posindonesia.co.id/",
         "serversite": ""
     }, {
+        "cid": "391",
+        "id": "4194709",
         "companyname": "哈萨克斯坦(Kazpost)",
         "shortname": "哈萨克斯坦",
         "tel": "8 800 080 08 80",
@@ -6196,6 +6970,8 @@ var refer = {
         "queryurl": "http://www.kazpost.kz/en/",
         "serversite": ""
     }, {
+        "cid": "392",
+        "id": "4249161",
         "companyname": "立白宝凯物流",
         "shortname": "立白宝凯物流",
         "tel": "020-81258022",
@@ -6212,6 +6988,8 @@ var refer = {
         "queryurl": "http://bkls.liby.com.cn/",
         "serversite": ""
     }, {
+        "cid": "393",
+        "id": "4297981",
         "companyname": "百千诚物流",
         "shortname": "百千诚物流",
         "tel": "0755-2222 2232",
@@ -6221,13 +6999,15 @@ var refer = {
         "comurl": "WWW.1001000.COM",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "SO1409110005-01",
+        "testnu": "12345678",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "394",
+        "id": "4301342",
         "companyname": "皇家物流",
         "shortname": "皇家物流",
         "tel": "0755-29801942",
@@ -6244,6 +7024,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "395",
+        "id": "4321222",
         "companyname": "法国(La Poste)",
         "shortname": "法国(小包)",
         "tel": "+33 3631",
@@ -6253,13 +7035,15 @@ var refer = {
         "comurl": "http://www.colissimo.fr",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "RK770840156FR",
+        "testnu": "LA003738926FR",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "+33 3631",
         "queryurl": "http://www.colissimo.fr",
         "serversite": ""
     }, {
+        "cid": "396",
+        "id": "4360715",
         "companyname": "奥地利(Austrian Post)",
         "shortname": "奥地利",
         "tel": "+43 810 010 100",
@@ -6269,13 +7053,15 @@ var refer = {
         "comurl": "http://www.post.at",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "",
+        "testnu": "CG102697953AT",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "0810-010-100",
         "queryurl": "http://www.post.at",
         "serversite": ""
     }, {
+        "cid": "397",
+        "id": "4360719",
         "companyname": "乌克兰小包、大包(UkrPoshta)",
         "shortname": "乌克兰(小包,大包)",
         "tel": "+380 (0) 800-500-440",
@@ -6292,6 +7078,8 @@ var refer = {
         "queryurl": "http://www.ukrposhta.com/www/upost_en.nsf",
         "serversite": ""
     }, {
+        "cid": "398",
+        "id": "4360722",
         "companyname": "乌干达(Posta Uganda)",
         "shortname": "乌干达",
         "tel": "",
@@ -6308,6 +7096,8 @@ var refer = {
         "queryurl": "http://www.ugapost.co.ug/",
         "serversite": ""
     }, {
+        "cid": "399",
+        "id": "4360725",
         "companyname": "阿塞拜疆EMS(EMS AzerExpressPost)",
         "shortname": "阿塞拜疆",
         "tel": "",
@@ -6324,6 +7114,8 @@ var refer = {
         "queryurl": "http://www.azems.az/en",
         "serversite": ""
     }, {
+        "cid": "400",
+        "id": "4360727",
         "companyname": "芬兰(Itella Posti Oy)",
         "shortname": "芬兰",
         "tel": "+358 200 71000",
@@ -6340,22 +7132,26 @@ var refer = {
         "queryurl": "http://www.posti.fi/english/",
         "serversite": ""
     }, {
+        "cid": "401",
+        "id": "4360729",
         "companyname": "斯洛伐克(Slovenská Posta)",
         "shortname": "斯洛伐克",
-        "tel": " (+421) 48 437 87 77",
+        "tel": "(+421) 48 437 87 77",
         "url": "slovak",
         "code": "slovak",
         "hasvali": 0,
         "comurl": "http://www.posta.sk/en",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": " (+421) 48 437 87 77",
+        "testnu": "(+421) 48 437 87 77",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.posta.sk/en",
         "serversite": ""
     }, {
+        "cid": "402",
+        "id": "4364376",
         "companyname": "埃塞俄比亚(Ethiopian postal)",
         "shortname": "埃塞俄比亚",
         "tel": "",
@@ -6372,6 +7168,8 @@ var refer = {
         "queryurl": "http://www.ethiopostal.com/",
         "serversite": ""
     }, {
+        "cid": "403",
+        "id": "4364378",
         "companyname": "卢森堡(Luxembourg Post)",
         "shortname": "卢森堡",
         "tel": "8002 8004 ",
@@ -6388,6 +7186,8 @@ var refer = {
         "queryurl": "http://www.post.lu/",
         "serversite": ""
     }, {
+        "cid": "404",
+        "id": "4364381",
         "companyname": "毛里求斯(Mauritius Post)",
         "shortname": "毛里求斯",
         "tel": "208 2851",
@@ -6404,6 +7204,8 @@ var refer = {
         "queryurl": "http://www.mauritiuspost.mu/",
         "serversite": ""
     }, {
+        "cid": "405",
+        "id": "4364382",
         "companyname": "文莱(Brunei Postal)",
         "shortname": "文莱",
         "tel": "673-2382888 ",
@@ -6420,6 +7222,8 @@ var refer = {
         "queryurl": "http://www.post.gov.bn/",
         "serversite": ""
     }, {
+        "cid": "406",
+        "id": "4374487",
         "companyname": "Quantium",
         "shortname": "Quantium",
         "tel": "",
@@ -6429,13 +7233,15 @@ var refer = {
         "comurl": "",
         "isavailable": "",
         "promptinfo": "",
-        "testnu": "",
+        "testnu": "QS2022049439NZ",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "407",
+        "id": "4423947",
         "companyname": "坦桑尼亚(Tanzania Posts)",
         "shortname": "坦桑尼亚",
         "tel": "",
@@ -6452,6 +7258,8 @@ var refer = {
         "queryurl": "http://www.posta.co.tz/",
         "serversite": ""
     }, {
+        "cid": "408",
+        "id": "4423949",
         "companyname": "阿曼(Oman Post)",
         "shortname": "阿曼",
         "tel": "24769925",
@@ -6468,6 +7276,8 @@ var refer = {
         "queryurl": "http://www.omanpost.om/tabid/93/Default.aspx",
         "serversite": ""
     }, {
+        "cid": "409",
+        "id": "4423950",
         "companyname": "直布罗陀[英国]( Royal Gibraltar Post)",
         "shortname": "直布罗陀[英国]",
         "tel": "",
@@ -6484,22 +7294,26 @@ var refer = {
         "queryurl": "http://www.post.gi/products-and-services/track-and-trace/track-trace-results/",
         "serversite": ""
     }, {
+        "cid": "410",
+        "id": "4423953",
         "companyname": "博源恒通",
         "shortname": "博源恒通",
         "tel": "15834177000",
         "url": "byht",
         "code": "byht",
         "hasvali": 0,
-        "comurl": "www.56soft.com.",
+        "comurl": "http://www.56soft.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "BT0000453579",
+        "testnu": "BT0000457415",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "411",
+        "id": "4423956",
         "companyname": "越南EMS(VNPost Express)",
         "shortname": "越南EMS",
         "tel": "",
@@ -6516,6 +7330,8 @@ var refer = {
         "queryurl": "http://www.ems.com.vn/default.aspx",
         "serversite": ""
     }, {
+        "cid": "412",
+        "id": "4423958",
         "companyname": "安迅物流",
         "shortname": "安迅物流",
         "tel": "010-59288730",
@@ -6525,13 +7341,15 @@ var refer = {
         "comurl": "http://www.anxl.com.cn/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "515082667005691101",
+        "testnu": "515082851025234801",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.anxl.com.cn/",
         "serversite": ""
     }, {
+        "cid": "413",
+        "id": "4423959",
         "companyname": "达方物流",
         "shortname": "达方物流",
         "tel": "400 700 7049",
@@ -6548,6 +7366,8 @@ var refer = {
         "queryurl": "http://www.dfpost.com/",
         "serversite": ""
     }, {
+        "cid": "414",
+        "id": "4432672",
         "companyname": "兰州伙伴物流",
         "shortname": "兰州伙伴物流",
         "tel": "0931-5345730/32",
@@ -6564,6 +7384,8 @@ var refer = {
         "queryurl": "http://www.lzhbwl.com/",
         "serversite": ""
     }, {
+        "cid": "415",
+        "id": "4432674",
         "companyname": "天纵物流",
         "shortname": "天纵物流",
         "tel": "400-990-8816",
@@ -6580,6 +7402,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "416",
+        "id": "4433497",
         "companyname": "波黑(JP BH Posta)",
         "shortname": "波黑",
         "tel": "",
@@ -6596,6 +7420,8 @@ var refer = {
         "queryurl": "http://www.posta.ba/pocetna/2/0/0.html",
         "serversite": ""
     }, {
+        "cid": "417",
+        "id": "4433500",
         "companyname": "玻利维亚",
         "shortname": "玻利维亚",
         "tel": "",
@@ -6612,6 +7438,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "418",
+        "id": "4433501",
         "companyname": "柬埔寨(Cambodia Post)",
         "shortname": "柬埔寨",
         "tel": "",
@@ -6628,6 +7456,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "419",
+        "id": "4436254",
         "companyname": "巴林(Bahrain Post)",
         "shortname": "巴林",
         "tel": "",
@@ -6644,6 +7474,8 @@ var refer = {
         "queryurl": "http://mot.gov.bh/en",
         "serversite": ""
     }, {
+        "cid": "420",
+        "id": "4436257",
         "companyname": "纳米比亚(NamPost)",
         "shortname": "纳米比亚",
         "tel": "+264 61 201 3042",
@@ -6660,6 +7492,8 @@ var refer = {
         "queryurl": "https://www.nampost.com.na/",
         "serversite": ""
     }, {
+        "cid": "421",
+        "id": "4436260",
         "companyname": "卢旺达(Rwanda i-posita)",
         "shortname": "卢旺达",
         "tel": "",
@@ -6676,6 +7510,8 @@ var refer = {
         "queryurl": "http://i-posita.rw/spip.php?article97",
         "serversite": ""
     }, {
+        "cid": "422",
+        "id": "4436261",
         "companyname": "莱索托(Lesotho Post)",
         "shortname": "莱索托",
         "tel": "",
@@ -6692,6 +7528,8 @@ var refer = {
         "queryurl": "http://lesothopost.org.ls/",
         "serversite": ""
     }, {
+        "cid": "423",
+        "id": "4436262",
         "companyname": "肯尼亚(POSTA KENYA)",
         "shortname": "肯尼亚",
         "tel": "",
@@ -6708,6 +7546,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "424",
+        "id": "4436266",
         "companyname": "喀麦隆(CAMPOST)",
         "shortname": "喀麦隆",
         "tel": "",
@@ -6724,6 +7564,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "425",
+        "id": "4436268",
         "companyname": "伯利兹(Belize Postal)",
         "shortname": "伯利兹",
         "tel": "",
@@ -6740,6 +7582,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "426",
+        "id": "4436273",
         "companyname": "巴拉圭(Correo Paraguayo)",
         "shortname": "巴拉圭",
         "tel": "",
@@ -6756,6 +7600,8 @@ var refer = {
         "queryurl": "http://www.correoparaguayo.gov.py/",
         "serversite": ""
     }, {
+        "cid": "427",
+        "id": "4547765",
         "companyname": "十方通物流",
         "shortname": "十方通物流",
         "tel": "",
@@ -6772,6 +7618,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "428",
+        "id": "4547768",
         "companyname": "飞鹰物流",
         "shortname": "飞鹰物流",
         "tel": "400-6291-666",
@@ -6788,8 +7636,10 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
-        "companyname": "UPS i-parcle",
-        "shortname": "UPS i-parcle",
+        "cid": "429",
+        "id": "4547770",
+        "companyname": "UPS i-parcel",
+        "shortname": "UPS i-parcel",
         "tel": "400-078-1183",
         "url": "iparcel",
         "code": "iparcel",
@@ -6797,13 +7647,15 @@ var refer = {
         "comurl": "http://www.i-parcel.com/en/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "AEIXUKD0000012183",
+        "testnu": "AGSEWR40000920304",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "400-078-1183",
         "queryurl": "http://www.i-parcel.com/en/",
         "serversite": ""
     }, {
+        "cid": "430",
+        "id": "4547771",
         "companyname": "鑫锐达",
         "shortname": "鑫锐达",
         "tel": "",
@@ -6820,6 +7672,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "431",
+        "id": "4792731",
         "companyname": "麦力快递",
         "shortname": "麦力快递",
         "tel": "400-0000-900",
@@ -6829,29 +7683,33 @@ var refer = {
         "comurl": "http://www.mailikuaidi.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "808000680852",
+        "testnu": "808003139075",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "339",
+        "id": "4792742",
         "companyname": "瑞丰速递",
         "shortname": "瑞丰速递",
-        "tel": "400-626-1667",
+        "tel": "400-063-9000",
         "url": "rfsd",
         "code": "rfsd",
         "hasvali": 0,
-        "comurl": "http://www.rfkd88.com/",
+        "comurl": "http://www.rfsd88.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "8802994524",
+        "testnu": "8803441415",
         "freg": "",
         "freginfo": "",
-        "telcomplaintnum": "400-626-1667",
+        "telcomplaintnum": "400-063-9000",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "432",
+        "id": "4792761",
         "companyname": "美联快递",
         "shortname": "美联快递",
         "tel": "",
@@ -6861,13 +7719,15 @@ var refer = {
         "comurl": "",
         "isavailable": "",
         "promptinfo": "",
-        "testnu": "",
+        "testnu": "ML150909061US",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "433",
+        "id": "4792765",
         "companyname": "CNPEX中邮快递",
         "shortname": "CNPEX中邮快递",
         "tel": "",
@@ -6877,13 +7737,15 @@ var refer = {
         "comurl": "",
         "isavailable": "",
         "promptinfo": "",
-        "testnu": "110002627435",
+        "testnu": "660001535854",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "434",
+        "id": "4792770",
         "companyname": "鑫世锐达",
         "shortname": "鑫世锐达",
         "tel": "",
@@ -6900,6 +7762,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "435",
+        "id": "4843422",
         "companyname": "同舟行物流",
         "shortname": "同舟行物流",
         "tel": "18062512813/18062699168",
@@ -6909,13 +7773,15 @@ var refer = {
         "comurl": "http://www.chinatzx.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "00009831",
+        "testnu": "20015009",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "18062699168",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "436",
+        "id": "4843427",
         "companyname": "秦邦快运",
         "shortname": "秦邦快运",
         "tel": "",
@@ -6925,13 +7791,15 @@ var refer = {
         "comurl": "",
         "isavailable": "",
         "promptinfo": "",
-        "testnu": "029202169436",
+        "testnu": "029202212553",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "437",
+        "id": "4843429",
         "companyname": "大达物流",
         "shortname": "大达物流",
         "tel": "400-098-5656",
@@ -6948,6 +7816,8 @@ var refer = {
         "queryurl": "http://www.idada56.com/",
         "serversite": ""
     }, {
+        "cid": "438",
+        "id": "4889682",
         "companyname": "skynet",
         "shortname": "skynet",
         "tel": "",
@@ -6964,6 +7834,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "439",
+        "id": "4969742",
         "companyname": "红马速递",
         "shortname": "红马速递",
         "tel": "",
@@ -6980,6 +7852,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "440",
+        "id": "4969746",
         "companyname": "云南中诚",
         "shortname": "云南中诚",
         "tel": "",
@@ -6989,13 +7863,15 @@ var refer = {
         "comurl": "",
         "isavailable": "",
         "promptinfo": "",
-        "testnu": "13050017729",
+        "testnu": "1511060138579",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "441",
+        "id": "4969748",
         "companyname": "万博快递",
         "shortname": "万博快递",
         "tel": "",
@@ -7012,6 +7888,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "442",
+        "id": "4969749",
         "companyname": "腾达速递",
         "shortname": "腾达速递",
         "tel": "",
@@ -7021,13 +7899,15 @@ var refer = {
         "comurl": "http://www.nntengda.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "13067829464",
+        "testnu": "33121263517",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "443",
+        "id": "4969751",
         "companyname": "郑州速捷",
         "shortname": "郑州速捷",
         "tel": "",
@@ -7037,13 +7917,15 @@ var refer = {
         "comurl": "",
         "isavailable": "",
         "promptinfo": "",
-        "testnu": "13068887384",
+        "testnu": "515111311542051501",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "444",
+        "id": "4994443",
         "companyname": "UBI Australia",
         "shortname": "UBI Australia",
         "tel": "",
@@ -7060,22 +7942,26 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "445",
+        "id": "4999566",
         "companyname": "ECMS Express",
         "shortname": "ecmsglobal",
         "tel": "",
         "url": "ecmsglobal",
         "code": "ecmsglobal",
-        "hasvali": null,
+        "hasvali": 0,
         "comurl": "",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "APELAX1180014426",
+        "testnu": "APELAX1040329689",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "446",
+        "id": "5146014",
         "companyname": "速派快递(FastGo)",
         "shortname": "FastGo",
         "tel": "400 886 3278 ",
@@ -7092,6 +7978,8 @@ var refer = {
         "queryurl": "http://www.fastgo.com.au",
         "serversite": ""
     }, {
+        "cid": "447",
+        "id": "5239760",
         "companyname": "易客满",
         "shortname": "易客满",
         "tel": "86+(400) 086-1756",
@@ -7101,13 +7989,15 @@ var refer = {
         "comurl": "http://www.trans4e.com/cn/index.html",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "APECHI1200083657",
+        "testnu": "APECHI1210107905",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "86+(400) 086-1756",
         "queryurl": "http://www.trans4e.com/cn/index.html",
         "serversite": ""
     }, {
+        "cid": "448",
+        "id": "5240945",
         "companyname": "俄顺达",
         "shortname": "俄顺达",
         "tel": "0592-5798079",
@@ -7124,6 +8014,8 @@ var refer = {
         "queryurl": "http://www.007ex.com/",
         "serversite": ""
     }, {
+        "cid": "449",
+        "id": "5240960",
         "companyname": "广东速腾物流",
         "shortname": "广东速腾物流",
         "tel": "4001136666",
@@ -7133,13 +8025,15 @@ var refer = {
         "comurl": "http://www.ste56.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "9808734319",
+        "testnu": "9809903615",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.ste56.com",
         "serversite": ""
     }, {
+        "cid": "450",
+        "id": "5240969",
         "companyname": "新鹏快递",
         "shortname": "新鹏快递",
         "tel": "",
@@ -7156,6 +8050,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "451",
+        "id": "5468864",
         "companyname": "美国韵达",
         "shortname": "美国韵达",
         "tel": "888-408-3332",
@@ -7165,13 +8061,15 @@ var refer = {
         "comurl": "http://www.yundaex.us/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "800000194750",
+        "testnu": "800000620604",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "888-408-3332",
         "queryurl": "http://www.yundaex.us/",
         "serversite": ""
     }, {
+        "cid": "452",
+        "id": "5468987",
         "companyname": "Toll",
         "shortname": "Toll",
         "tel": "",
@@ -7188,6 +8086,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "453",
+        "id": "5468995",
         "companyname": "深圳DPEX",
         "shortname": "Toll",
         "tel": "",
@@ -7204,6 +8104,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "0",
+        "id": "5491090",
         "companyname": "百世物流",
         "shortname": "百世物流",
         "tel": "400-8856-561",
@@ -7213,13 +8115,15 @@ var refer = {
         "comurl": "http://www.800best.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "10096946893",
+        "testnu": "10080799842",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "400-8856-561",
         "queryurl": "http://www.800best.com/",
         "serversite": ""
     }, {
+        "cid": "455",
+        "id": "5536903",
         "companyname": "荷兰包裹(PostNL International Parcels)",
         "shortname": "荷兰包裹",
         "tel": "34819",
@@ -7229,13 +8133,15 @@ var refer = {
         "comurl": "http://www.postnl.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "EA031791247NL",
+        "testnu": "EA038242134NL",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.postnl.com/",
         "serversite": ""
     }, {
+        "cid": "456",
+        "id": "5536914",
         "companyname": "乐天速递",
         "shortname": "乐天速递",
         "tel": "021-62269059 ",
@@ -7245,13 +8151,15 @@ var refer = {
         "comurl": "http://www.ltexp.com.cn ",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "LT5000103597CA",
+        "testnu": "LT1000323844CA",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.ltexp.com.cn ",
         "serversite": ""
     }, {
+        "cid": "457",
+        "id": "5549476",
         "companyname": "智通物流",
         "shortname": "智通物流",
         "tel": "4000561818",
@@ -7261,13 +8169,15 @@ var refer = {
         "comurl": "http://www.ztong56.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "660056382244",
+        "testnu": "560064792696",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "4000561818",
         "queryurl": "http://www.ztong56.com",
         "serversite": ""
     }, {
+        "cid": "458",
+        "id": "5610344",
         "companyname": "鑫通宝物流",
         "shortname": "鑫通宝物流",
         "tel": "13834168880",
@@ -7284,6 +8194,8 @@ var refer = {
         "queryurl": "www.xtb56.com",
         "serversite": ""
     }, {
+        "cid": "459",
+        "id": "5690110",
         "companyname": "airpak expresss",
         "shortname": "airpak expresss",
         "tel": "",
@@ -7300,6 +8212,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "460",
+        "id": "5690118",
         "companyname": "荷兰邮政-中国件",
         "shortname": "荷兰邮政-中国件",
         "tel": "34819",
@@ -7309,13 +8223,15 @@ var refer = {
         "comurl": "http://www.postnl.com/",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "3STJPK2167497",
+        "testnu": "3STJJG9037471",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.postnl.com/",
         "serversite": ""
     }, {
+        "cid": "461",
+        "id": "5759725",
         "companyname": "法国小包（colissimo）",
         "shortname": "colissimo",
         "tel": "+33 3631",
@@ -7325,13 +8241,15 @@ var refer = {
         "comurl": "http://www.colissimo.fr",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "CC635711475FR",
+        "testnu": "EY079906788FR",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.colissimo.fr",
         "serversite": ""
     }, {
+        "cid": "462",
+        "id": "5760338",
         "companyname": "PCA Express",
         "shortname": "PCA Express",
         "tel": "",
@@ -7341,21 +8259,23 @@ var refer = {
         "comurl": "",
         "isavailable": "",
         "promptinfo": "",
-        "testnu": "",
+        "testnu": "EAU148011966",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "463",
+        "id": "5760369",
         "companyname": "韩润",
         "shortname": "韩润",
-        "tel": "",
+        "tel": "400-636-4311",
         "url": "hanrun",
         "code": "hanrun",
         "hasvali": 0,
-        "comurl": "",
-        "isavailable": "",
+        "comurl": "http://www.hr-sz.com/",
+        "isavailable": "0",
         "promptinfo": "",
         "testnu": "",
         "freg": "",
@@ -7364,6 +8284,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "39",
+        "id": "5764964",
         "companyname": "TNT",
         "shortname": "TNT",
         "tel": "800-820-9868",
@@ -7373,13 +8295,15 @@ var refer = {
         "comurl": "http://www.tnt.com.cn",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "GD364156919WW",
+        "testnu": "278059110",
         "freg": "^[A-Za-z0-9]{9,20}$",
         "freginfo": "TNT快递货运单上的由9位数字组成的或者省份的首字母+9位数字+WW组成",
         "telcomplaintnum": "800-820-9868",
         "queryurl": "",
         "serversite": "http://www.tnt.com/express/zh_cn/site/home/about_us/0.html"
     }, {
+        "cid": "464",
+        "id": "5811418",
         "companyname": "中远e环球",
         "shortname": "中远e环球",
         "tel": "",
@@ -7396,6 +8320,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "465",
+        "id": "5811424",
         "companyname": "顺达快递",
         "shortname": "顺达快递",
         "tel": "",
@@ -7412,6 +8338,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "466",
+        "id": "5811427",
         "companyname": "捷记方舟",
         "shortname": "捷记方舟",
         "tel": "",
@@ -7421,13 +8349,15 @@ var refer = {
         "comurl": "",
         "isavailable": "",
         "promptinfo": "",
-        "testnu": "",
+        "testnu": "AJ613297AU",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "467",
+        "id": "5811430",
         "companyname": "方舟速递",
         "shortname": "方舟速递",
         "tel": "",
@@ -7444,6 +8374,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "468",
+        "id": "5811432",
         "companyname": "明大快递",
         "shortname": "明大快递",
         "tel": "",
@@ -7460,6 +8392,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "469",
+        "id": "5811433",
         "companyname": "长江国际速递",
         "shortname": "长江国际速递",
         "tel": "",
@@ -7469,13 +8403,15 @@ var refer = {
         "comurl": "",
         "isavailable": "",
         "promptinfo": "",
-        "testnu": "",
+        "testnu": "CJ000289942CN",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "470",
+        "id": "5817124",
         "companyname": "八达通",
         "shortname": "八达通",
         "tel": "",
@@ -7485,13 +8421,15 @@ var refer = {
         "comurl": "",
         "isavailable": "",
         "promptinfo": "",
-        "testnu": "",
+        "testnu": "R800311511070035",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "471",
+        "id": "5817126",
         "companyname": "美国申通",
         "shortname": "美国申通",
         "tel": "",
@@ -7508,6 +8446,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "472",
+        "id": "5819733",
         "companyname": "泛捷国际速递",
         "shortname": "泛捷国际速递",
         "tel": "",
@@ -7524,6 +8464,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "473",
+        "id": "5869052",
         "companyname": "顺捷丰达",
         "shortname": "顺捷丰达",
         "tel": "0755—88999000",
@@ -7533,13 +8475,15 @@ var refer = {
         "comurl": "http://www.sjfd-express.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "GZZC15082703472",
+        "testnu": "11535619547637",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.sjfd-express.com",
         "serversite": ""
     }, {
+        "cid": "474",
+        "id": "5873264",
         "companyname": "华赫物流",
         "shortname": "华赫物流",
         "tel": "",
@@ -7549,13 +8493,15 @@ var refer = {
         "comurl": "http://nmhuahe.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "3401643590",
+        "testnu": "3401884523",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "0471-2534162  ",
         "queryurl": "http://nmhuahe.com",
         "serversite": ""
     }, {
+        "cid": "475",
+        "id": "6027634",
         "companyname": "德国(Deutsche Post)",
         "shortname": "德国(Deutsche Post)",
         "tel": "0180 2 3333*",
@@ -7565,13 +8511,15 @@ var refer = {
         "comurl": "http://www.dpdhl.com/en.html",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "",
+        "testnu": "EA037148565NL",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "0180 2 3333*",
         "queryurl": "http://www.dpdhl.com/en.html",
         "serversite": ""
     }, {
+        "cid": "476",
+        "id": "6048728",
         "companyname": "百腾物流",
         "shortname": "百腾物流",
         "tel": "400-9989-256",
@@ -7581,29 +8529,33 @@ var refer = {
         "comurl": "http://www.beteng.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "0004490124",
+        "testnu": "0004287478",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "http://www.beteng.com",
         "serversite": ""
     }, {
+        "cid": "477",
+        "id": "6083537",
         "companyname": "品骏快递",
         "shortname": "品骏快递",
-        "tel": "",
+        "tel": "400-9789-888",
         "url": "pjbest",
         "code": "pjbest",
         "hasvali": 0,
-        "comurl": "",
-        "isavailable": "",
+        "comurl": "http://www.pjbest.com/",
+        "isavailable": "0",
         "promptinfo": "",
-        "testnu": "15082673457429",
+        "testnu": "15111344414116",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "",
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "478",
+        "id": "6158171",
         "companyname": "全速通",
         "shortname": "全速通",
         "tel": "",
@@ -7620,6 +8572,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "479",
+        "id": "6177194",
         "companyname": "中技物流",
         "shortname": "中技物流",
         "tel": "",
@@ -7636,6 +8590,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "480",
+        "id": "6179713",
         "companyname": "九曳供应链",
         "shortname": "九曳供应链",
         "tel": "4006-199-939",
@@ -7645,13 +8601,15 @@ var refer = {
         "comurl": "http://jiuyescm.com",
         "isavailable": "0",
         "promptinfo": "",
-        "testnu": "JY00035205",
+        "testnu": "JY00082167",
         "freg": "",
         "freginfo": "",
         "telcomplaintnum": "4006-199-939",
         "queryurl": "http://jiuyescm.com",
         "serversite": ""
     }, {
+        "cid": "481",
+        "id": "6205187",
         "companyname": "天翼快递",
         "shortname": "天翼快递",
         "tel": "",
@@ -7668,6 +8626,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "482",
+        "id": "6205195",
         "companyname": "德意思",
         "shortname": "德意思",
         "tel": "",
@@ -7684,6 +8644,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "483",
+        "id": "6279371",
         "companyname": "城际快递",
         "shortname": "城际快递",
         "tel": "",
@@ -7700,6 +8662,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "484",
+        "id": "6281132",
         "companyname": "程光快递",
         "shortname": "程光快递",
         "tel": "",
@@ -7716,6 +8680,8 @@ var refer = {
         "queryurl": "http://127.0.0.1:9202/trackinfo/chengguangkuaidi",
         "serversite": ""
     }, {
+        "cid": "485",
+        "id": "6281305",
         "companyname": "佐川急便",
         "shortname": "佐川急便",
         "tel": "",
@@ -7732,6 +8698,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "486",
+        "id": "6281339",
         "companyname": "蓝天快递",
         "shortname": "蓝天快递",
         "tel": "",
@@ -7748,6 +8716,8 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "487",
+        "id": "6281340",
         "companyname": "永昌物流",
         "shortname": "永昌物流",
         "tel": "",
@@ -7764,11 +8734,31 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
+        "cid": "488",
+        "id": "6281341",
         "companyname": "笨鸟海淘",
         "shortname": "笨鸟海淘",
-        "tel": "",
+        "tel": "4008-890-788",
         "url": "birdex",
         "code": "birdex",
+        "hasvali": 0,
+        "comurl": "http://birdex.cn/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "BH1511163890",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "489",
+        "id": "6281342",
+        "companyname": "一正达速运",
+        "shortname": "一正达速运",
+        "tel": "",
+        "url": "yizhengdasuyun",
+        "code": "yizhengdasuyun",
         "hasvali": 0,
         "comurl": "",
         "isavailable": "",
@@ -7780,11 +8770,1993 @@ var refer = {
         "queryurl": "",
         "serversite": ""
     }, {
-        "companyname": "一正达速运",
-        "shortname": "一正达速运",
+        "cid": "490",
+        "id": "6337156",
+        "companyname": "京东订单",
+        "shortname": "京东订单",
+        "tel": "400-606-5500",
+        "url": "jdorder",
+        "code": "jdorder",
+        "hasvali": 0,
+        "comurl": "http://m.jd.com",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "11182464323",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "491",
+        "id": "6338318",
+        "companyname": "优配速运",
+        "shortname": "优配速运",
+        "tel": "0531 89977777",
+        "url": "sdyoupei",
+        "code": "sdyoupei",
+        "hasvali": 0,
+        "comurl": "www.sdyoupei.com",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "JX13797337",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "www.sdyoupei.com",
+        "serversite": ""
+    }, {
+        "cid": "492",
+        "id": "6389499",
+        "companyname": "TRAKPAK",
+        "shortname": "TRAKPAK",
         "tel": "",
-        "url": "yizhengdasuyun",
-        "code": "yizhengdasuyun",
+        "url": "trakpak",
+        "code": "trakpak",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "493",
+        "id": "6389500",
+        "companyname": "GTS快递",
+        "shortname": "GTS",
+        "tel": "4000-159-111",
+        "url": "gts",
+        "code": "gts",
+        "hasvali": 0,
+        "comurl": "http://www.gto315.com",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "1000089385",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "494",
+        "id": "6389501",
+        "companyname": "AOL澳通速递",
+        "shortname": "AOL澳通速递",
+        "tel": "0424047888",
+        "url": "aolau",
+        "code": "aolau",
+        "hasvali": 0,
+        "comurl": "http://www.aol-au.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "AT150271152SD",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "495",
+        "id": "6452710",
+        "companyname": "宜送物流",
+        "shortname": "宜送物流",
+        "tel": "4008636658",
+        "url": "yiex",
+        "code": "yiex",
+        "hasvali": 0,
+        "comurl": "http://www.yi-express.com",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "1531619551",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "496",
+        "id": "6458964",
+        "companyname": "通达兴物流",
+        "shortname": "通达兴物流",
+        "tel": "4001-006-609",
+        "url": "tongdaxing",
+        "code": "tongdaxing",
+        "hasvali": 0,
+        "comurl": "http://www.tongdaxing.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "200100002541",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "4001-006-609",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "497",
+        "id": "6488777",
+        "companyname": "香港(HongKong Post)英文",
+        "shortname": "香港(HongKong Post)英文",
+        "tel": "",
+        "url": "hkposten",
+        "code": "hkposten",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "RC228951871HK ",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "498",
+        "id": "6505056",
+        "companyname": "苏宁订单",
+        "shortname": "苏宁订单",
+        "tel": "4008-365-365",
+        "url": "suningorder",
+        "code": "suningorder",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "1025331562-0",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "4008-365-365",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "499",
+        "id": "6510590",
+        "companyname": "飞力士物流",
+        "shortname": "飞力士物流",
+        "tel": "86-755-83448000",
+        "url": "flysman",
+        "code": "flysman",
+        "hasvali": 0,
+        "comurl": "http://www.flysman.com.cn",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "1000159522",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "500",
+        "id": "6526029",
+        "companyname": "转运四方",
+        "shortname": "转运四方",
+        "tel": "",
+        "url": "zhuanyunsifang",
+        "code": "zhuanyunsifang",
+        "hasvali": 0,
+        "comurl": "http://www.transrush.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "DD151017515477",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "501",
+        "id": "6534352",
+        "companyname": "logen路坚",
+        "shortname": "logen路坚",
+        "tel": "",
+        "url": "ilogen",
+        "code": "ilogen",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "6565867",
+        "companyname": "成都东骏物流",
+        "shortname": "成都东骏物流",
+        "tel": "028-85538888",
+        "url": "dongjun",
+        "code": "dongjun",
+        "hasvali": 0,
+        "comurl": "http://www.dj56.cc/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "028-85887608",
+        "queryurl": "http://www.dj56.cc/",
+        "serversite": ""
+    }, {
+        "cid": "503",
+        "id": "6565868",
+        "companyname": "日本郵便",
+        "shortname": "日本郵便",
+        "tel": "",
+        "url": "japanpost",
+        "code": "japanpost",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "EL030197536JP",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "504",
+        "id": "6656471",
+        "companyname": "佳家通货运",
+        "shortname": "佳家通货运",
+        "tel": "4008-056-356",
+        "url": "jiajiatong56",
+        "code": "jiajiatong56",
+        "hasvali": 0,
+        "comurl": "http://www.jiajiatong56.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.jiajiatong56.com/",
+        "serversite": ""
+    }, {
+        "cid": "505",
+        "id": "6656472",
+        "companyname": "吉日优派",
+        "shortname": "吉日优派",
+        "tel": "400-0531-951",
+        "url": "jrypex",
+        "code": "jrypex",
+        "hasvali": 0,
+        "comurl": "http://www.jrypex.com",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "159-6531-6532",
+        "queryurl": "http://www.jrypex.com",
+        "serversite": ""
+    }, {
+        "cid": "506",
+        "id": "6656473",
+        "companyname": "西安胜峰",
+        "shortname": "西安胜峰",
+        "tel": "400-029-8171",
+        "url": "xaetc",
+        "code": "xaetc",
+        "hasvali": 0,
+        "comurl": "http://www.xaetc.cn/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "029-68738585",
+        "queryurl": "http://www.xaetc.cn/",
+        "serversite": ""
+    }, {
+        "cid": "507",
+        "id": "6687463",
+        "companyname": "CJ物流",
+        "shortname": "CJ物流",
+        "tel": "",
+        "url": "doortodoor",
+        "code": "doortodoor",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "508",
+        "id": "6697009",
+        "companyname": "信天捷快递",
+        "shortname": "信天捷快递",
+        "tel": "400-718-7518",
+        "url": "xintianjie",
+        "code": "xintianjie",
+        "hasvali": 0,
+        "comurl": "http:/www.bjxintianjie.com",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "400-718-7518",
+        "queryurl": "http:/www.bjxintianjie.com",
+        "serversite": ""
+    }, {
+        "cid": "509",
+        "id": "6697010",
+        "companyname": "泰国138国际物流",
+        "shortname": "泰国138国际物流",
+        "tel": "66880089916 ",
+        "url": "sd138",
+        "code": "sd138",
+        "hasvali": 0,
+        "comurl": "http://www.138sd.net/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "66961799756",
+        "queryurl": "http://www.138sd.net/",
+        "serversite": ""
+    }, {
+        "cid": "510",
+        "id": "6697011",
+        "companyname": "猴急送",
+        "shortname": "猴急送",
+        "tel": "400-8888-798",
+        "url": "hjs",
+        "code": "hjs",
+        "hasvali": 0,
+        "comurl": "http://www.hjs777.com",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "0731-55573559",
+        "queryurl": "http://www.hjs777.com",
+        "serversite": ""
+    }, {
+        "cid": "511",
+        "id": "6697012",
+        "companyname": "全信通快递",
+        "shortname": "全信通快递",
+        "tel": "400-882-6886",
+        "url": "quanxintong",
+        "code": "quanxintong",
+        "hasvali": 0,
+        "comurl": "http://www.all-express.com.cn/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "400-882-6886",
+        "queryurl": "http://www.all-express.com.cn/",
+        "serversite": ""
+    }, {
+        "cid": "512",
+        "id": "6701507",
+        "companyname": "amazon-国际订单",
+        "shortname": "amazon-国际订单",
+        "tel": "400-910-5668 ",
+        "url": "amusorder",
+        "code": "amusorder",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "400-910-5668 ",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "513",
+        "id": "6730874",
+        "companyname": "骏丰国际速递",
+        "shortname": "骏丰国际速递",
+        "tel": "0773-2218104",
+        "url": "junfengguoji",
+        "code": "junfengguoji",
+        "hasvali": 0,
+        "comurl": "http://www.peakmorepost.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "0773-2218104",
+        "queryurl": "http://www.peakmorepost.com/",
+        "serversite": ""
+    }, {
+        "cid": "514",
+        "id": "6752220",
+        "companyname": "货运皇",
+        "shortname": "货运皇",
+        "tel": "",
+        "url": "kingfreight",
+        "code": "kingfreight",
+        "hasvali": 0,
+        "comurl": "http://www.kingfreight.com.au/ ",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.kingfreight.com.au/ ",
+        "serversite": ""
+    }, {
+        "cid": "515",
+        "id": "6781447",
+        "companyname": "远成快运",
+        "shortname": "远成快运",
+        "tel": "",
+        "url": "ycexpress",
+        "code": "ycexpress",
+        "hasvali": 0,
+        "comurl": "http://www.ycgky.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.ycgky.com/",
+        "serversite": ""
+    }, {
+        "cid": "516",
+        "id": "6796744",
+        "companyname": "速必达",
+        "shortname": "速必达",
+        "tel": "0752-3270594",
+        "url": "subida",
+        "code": "subida",
+        "hasvali": 0,
+        "comurl": "http://www.speedex.com.cn/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "0752-3262604",
+        "queryurl": "http://www.speedex.com.cn/",
+        "serversite": ""
+    }, {
+        "cid": "517",
+        "id": "6823113",
+        "companyname": "特急便物流",
+        "shortname": "特急便物流",
+        "tel": "",
+        "url": "sucmj",
+        "code": "sucmj",
+        "hasvali": 0,
+        "comurl": "http://www.sucmj.com/ ",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.sucmj.com/ ",
+        "serversite": ""
+    }, {
+        "cid": "518",
+        "id": "6829573",
+        "companyname": "亚马逊中国",
+        "shortname": "亚马逊中国",
+        "tel": "400-910-5669",
+        "url": "yamaxunwuliu",
+        "code": "yamaxunwuliu",
+        "hasvali": 0,
+        "comurl": "http://www.z-exp.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.z-exp.com/",
+        "serversite": ""
+    }, {
+        "cid": "519",
+        "id": "6866441",
+        "companyname": "锦程物流",
+        "shortname": "锦程物流",
+        "tel": "400-020-5556",
+        "url": "jinchengwuliu",
+        "code": "jinchengwuliu",
+        "hasvali": 0,
+        "comurl": "http://www.jc56.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.jc56.com/",
+        "serversite": "http://www.jc56.com/GlobalNetwork.html"
+    }, {
+        "cid": "520",
+        "id": "6887562",
+        "companyname": "景光物流",
+        "shortname": "景光物流",
+        "tel": "400-700-1682 ",
+        "url": "jgwl",
+        "code": "jgwl",
+        "hasvali": 0,
+        "comurl": "http://www.jgwl.cn/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.jgwl.cn/",
+        "serversite": ""
+    }, {
+        "cid": "521",
+        "id": "6887563",
+        "companyname": "御风速运",
+        "shortname": "御风速运",
+        "tel": "400-611-3348",
+        "url": "yufeng",
+        "code": "yufeng",
+        "hasvali": 0,
+        "comurl": "http://www.shyfwl.cn/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "15237189196",
+        "queryurl": "http://www.shyfwl.cn/",
+        "serversite": ""
+    }, {
+        "cid": "522",
+        "id": "6887564",
+        "companyname": "至诚通达快递",
+        "shortname": "至诚通达快递",
+        "tel": "400-151-8918 ",
+        "url": "zhichengtongda",
+        "code": "zhichengtongda",
+        "hasvali": 0,
+        "comurl": "http://www.zhichengtongda.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "02029816972 ",
+        "queryurl": "http://www.zhichengtongda.com/",
+        "serversite": ""
+    }, {
+        "cid": "523",
+        "id": "6971343",
+        "companyname": "日益通速递",
+        "shortname": "日益通速递",
+        "tel": "400-041-5858 ",
+        "url": "rytsd",
+        "code": "rytsd",
+        "hasvali": 0,
+        "comurl": "http://www.rytbj.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.rytbj.com/",
+        "serversite": ""
+    }, {
+        "cid": "524",
+        "id": "6971344",
+        "companyname": "航宇快递",
+        "shortname": "航宇快递",
+        "tel": "021-54478850",
+        "url": "hangyu",
+        "code": "hangyu",
+        "hasvali": 0,
+        "comurl": "http://www.hyexp.cn/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": " 13122417950",
+        "queryurl": "http://www.hyexp.cn/",
+        "serversite": ""
+    }, {
+        "cid": "525",
+        "id": "6971345",
+        "companyname": "急顺通",
+        "shortname": "急顺通",
+        "tel": "0812-6688669",
+        "url": "pzhjst",
+        "code": "pzhjst",
+        "hasvali": 0,
+        "comurl": "http://www.pzhjst.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "0812-3358333",
+        "queryurl": "http://www.pzhjst.com/",
+        "serversite": ""
+    }, {
+        "cid": "526",
+        "id": "6971346",
+        "companyname": "优速通达",
+        "shortname": "优速通达",
+        "tel": "400-651-8331",
+        "url": "yousutongda",
+        "code": "yousutongda",
+        "hasvali": 0,
+        "comurl": "http://www.yousutongda8.com/ ",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.yousutongda8.com/ ",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "6987636",
+        "companyname": "秦远物流",
+        "shortname": "秦远物流",
+        "tel": "09-8372888",
+        "url": "qinyuan",
+        "code": "qinyuan",
+        "hasvali": 0,
+        "comurl": "http://www.chinz56.co.nz/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.chinz56.co.nz/",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "6987637",
+        "companyname": "澳邮中国快运",
+        "shortname": "澳邮中国快运",
+        "tel": "400-622-6193",
+        "url": "auexpress",
+        "code": "auexpress",
+        "hasvali": 0,
+        "comurl": "http://www.auexpress.com.au/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.auexpress.com.au/",
+        "serversite": ""
+    }, {
+        "cid": "529",
+        "id": "6987638",
+        "companyname": "众辉达物流",
+        "shortname": "众辉达物流",
+        "tel": "400-622-6193",
+        "url": "zhdwl",
+        "code": "zhdwl",
+        "hasvali": 0,
+        "comurl": "http://www.zhdpt.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.zhdpt.com/",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7020750",
+        "companyname": "飞邦快递",
+        "shortname": "飞邦快递",
+        "tel": "400-016-8756",
+        "url": "fbkd",
+        "code": "fbkd",
+        "hasvali": 0,
+        "comurl": "http://www.fbkd.net/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.fbkd.net/",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7020751",
+        "companyname": "华达快运",
+        "shortname": "华达快运",
+        "tel": "400-895-1110",
+        "url": "huada",
+        "code": "huada",
+        "hasvali": 0,
+        "comurl": "http://www.zz-huada.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.zz-huada.com/",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7027601",
+        "companyname": "FOX国际快递",
+        "shortname": "FOX国际快递",
+        "tel": "400-965-8885",
+        "url": "fox",
+        "code": "fox",
+        "hasvali": 0,
+        "comurl": "http://www.foxglobal.nl/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "0800 5188",
+        "queryurl": "http://www.foxglobal.nl/",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7034870",
+        "companyname": "环球速运",
+        "shortname": "环球速运",
+        "tel": "139-1076-0364",
+        "url": "huanqiu",
+        "code": "huanqiu",
+        "hasvali": 0,
+        "comurl": "http://www.pantoscn.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.pantoscn.com/",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7034871",
+        "companyname": "辉联物流",
+        "shortname": "辉联物流",
+        "tel": "139-1076-0364",
+        "url": "huilian",
+        "code": "huilian",
+        "hasvali": 0,
+        "comurl": "http://www.pantoscn.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.pantoscn.com/",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7052894",
+        "companyname": "A2U速递",
+        "shortname": "A2U速递",
+        "tel": "03 9877 4330",
+        "url": "a2u",
+        "code": "a2u",
+        "hasvali": 0,
+        "comurl": "http://www.a2u.com.au/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7072005",
+        "companyname": "UEQ快递",
+        "shortname": "UEQ快递",
+        "tel": "020-37639835",
+        "url": "ueq",
+        "code": "ueq",
+        "hasvali": 0,
+        "comurl": "http://www.ueq.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.ueq.com/",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7072006",
+        "companyname": "中加国际快递",
+        "shortname": "中加国际快递",
+        "tel": "(604) 207-0338",
+        "url": "scic",
+        "code": "scic",
+        "hasvali": 0,
+        "comurl": "http://scicglobal.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://scicglobal.com/",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7072007",
+        "companyname": "易达通",
+        "shortname": "易达通",
+        "tel": "",
+        "url": "yidatong",
+        "code": "yidatong",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": "http://www.qexpress.co.nz/"
+    }, {
+        "cid": "0",
+        "id": "7072008",
+        "companyname": "宜送",
+        "shortname": "宜送",
+        "tel": "",
+        "url": "yisong",
+        "code": "yisong",
+        "hasvali": 0,
+        "comurl": "http://www.yi-express.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7077095",
+        "companyname": "捷网俄全通",
+        "shortname": "捷网俄全通",
+        "tel": "4007287156",
+        "url": "ruexp",
+        "code": "ruexp",
+        "hasvali": 0,
+        "comurl": "http://www.ruexp.cn/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "13641831939",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7087099",
+        "companyname": "华通务达物流",
+        "shortname": "华通务达物流",
+        "tel": "0351-5603868",
+        "url": "htwd",
+        "code": "htwd",
+        "hasvali": 0,
+        "comurl": "http://www.htwd56.com/ ",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7087100",
+        "companyname": "申必达",
+        "shortname": "申必达",
+        "tel": "713-482-1198",
+        "url": "speedoex",
+        "code": "speedoex",
+        "hasvali": 0,
+        "comurl": "http://www.speedoex.com/cn",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7087101",
+        "companyname": "联运快递",
+        "shortname": "联运快递",
+        "tel": " (02) 8541 8607 ",
+        "url": "lianyun",
+        "code": "lianyun",
+        "hasvali": 0,
+        "comurl": "http://121.40.93.72/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7087102",
+        "companyname": "捷安达",
+        "shortname": "捷安达",
+        "tel": "03 9544 8304",
+        "url": "jieanda",
+        "code": "jieanda",
+        "hasvali": 0,
+        "comurl": "http://www.giantpost.com.au/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7087103",
+        "companyname": "SHL畅灵国际物流",
+        "shortname": "SHL畅灵国际物流",
+        "tel": "400-098-5066",
+        "url": "shlexp",
+        "code": "shlexp",
+        "hasvali": 0,
+        "comurl": "http://www.shlexp.com/ ",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7087104",
+        "companyname": "EWE全球快递",
+        "shortname": "EWE全球快递",
+        "tel": "(02) 9644 2648",
+        "url": "ewe",
+        "code": "ewe",
+        "hasvali": 0,
+        "comurl": "https://www.everfast.com.au/ ",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7095219",
+        "companyname": "全球快运",
+        "shortname": "全球快运",
+        "tel": "626-363-4161",
+        "url": "abcglobal",
+        "code": "abcglobal",
+        "hasvali": 0,
+        "comurl": "http://www.abcglobalexpress.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7095220",
+        "companyname": "芒果速递",
+        "shortname": "芒果速递",
+        "tel": "",
+        "url": "mangguo",
+        "code": "mangguo",
+        "hasvali": 0,
+        "comurl": "http://mangoex.cn/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7095221",
+        "companyname": "金海淘",
+        "shortname": "金海淘",
+        "tel": "626-330-7733",
+        "url": "goldhaitao",
+        "code": "goldhaitao",
+        "hasvali": 0,
+        "comurl": "http://www.goldhaitao.us/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7095222",
+        "companyname": "极光转运",
+        "shortname": "极光转运",
+        "tel": "0755-86535662 ",
+        "url": "jiguang",
+        "code": "jiguang",
+        "hasvali": 0,
+        "comurl": "http://www.jiguangus.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7095223",
+        "companyname": "富腾达国际货运",
+        "shortname": "富腾达国际货运",
+        "tel": "09-4432342",
+        "url": "ftd",
+        "code": "ftd",
+        "hasvali": 0,
+        "comurl": "http://www.ftdlogistics.co.nz/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7095224",
+        "companyname": "DCS",
+        "shortname": "DCS",
+        "tel": "400-678-0856",
+        "url": "dcs",
+        "code": "dcs",
+        "hasvali": 0,
+        "comurl": "http://www.dcslogistics.us/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7098838",
+        "companyname": "成达国际速递",
+        "shortname": "成达国际速递",
+        "tel": "00852-56078835 ",
+        "url": "chengda",
+        "code": "chengda",
+        "hasvali": 0,
+        "comurl": "http://www.chengda-express.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7098839",
+        "companyname": "中环快递",
+        "shortname": "中环快递",
+        "tel": "400-007-9988",
+        "url": "zhonghuan",
+        "code": "zhonghuan",
+        "hasvali": 0,
+        "comurl": "http://www.zhexpress.com.au/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7098840",
+        "companyname": "顺邦国际物流",
+        "shortname": "顺邦国际物流",
+        "tel": "95040391701",
+        "url": "shunbang",
+        "code": "shunbang",
+        "hasvali": 0,
+        "comurl": "http://shunbangus.com/ ",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7098841",
+        "companyname": "启辰国际速递",
+        "shortname": "启辰国际速递",
+        "tel": "",
+        "url": "qichen",
+        "code": "qichen",
+        "hasvali": 0,
+        "comurl": "http://www.qichen.hk/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7099125",
+        "companyname": "澳货通",
+        "shortname": "澳货通",
+        "tel": "",
+        "url": "auex",
+        "code": "auex",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7099129",
+        "companyname": "澳速物流",
+        "shortname": "澳速物流",
+        "tel": "",
+        "url": "aosu",
+        "code": "aosu",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7099131",
+        "companyname": "澳世速递",
+        "shortname": "澳世速递",
+        "tel": "",
+        "url": "aus",
+        "code": "aus",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7120503",
+        "companyname": "当当",
+        "shortname": "当当",
+        "tel": "",
+        "url": "dangdang",
+        "code": "dangdang",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7130320",
+        "companyname": "天马迅达",
+        "shortname": "天马迅达",
+        "tel": "",
+        "url": "tianma",
+        "code": "tianma",
+        "hasvali": 0,
+        "comurl": "http://www.expresstochina.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7133278",
+        "companyname": "美龙快递",
+        "shortname": "美龙快递",
+        "tel": "323-208-9848",
+        "url": "mjexp",
+        "code": "mjexp",
+        "hasvali": 0,
+        "comurl": "http://www.mjexp.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7137931",
+        "companyname": "唯品会(vip)",
+        "shortname": "唯品会(vip)",
+        "tel": "",
+        "url": "vipshop",
+        "code": "vipshop",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7140116",
+        "companyname": "香港骏辉物流",
+        "shortname": "香港骏辉物流",
+        "tel": "",
+        "url": "chunfai",
+        "code": "chunfai",
+        "hasvali": 0,
+        "comurl": "http://www.chunfai.hk/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7140118",
+        "companyname": "三三国际物流",
+        "shortname": "三三国际物流",
+        "tel": "",
+        "url": "zenzen",
+        "code": "zenzen",
+        "hasvali": 0,
+        "comurl": "http://zenzen.hk/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7159377",
+        "companyname": "淼信快递",
+        "shortname": "淼信快递",
+        "tel": "",
+        "url": "mxe56",
+        "code": "mxe56",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7159378",
+        "companyname": "海派通",
+        "shortname": "海派通",
+        "tel": "021-54723815",
+        "url": "hipito",
+        "code": "hipito",
+        "hasvali": 0,
+        "comurl": "http://www.hipito.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.hipito.com/",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7162726",
+        "companyname": "国美",
+        "shortname": "国美",
+        "tel": "",
+        "url": "gome",
+        "code": "gome",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7164764",
+        "companyname": "鹏程快递",
+        "shortname": "鹏程快递",
+        "tel": "0800-166-188",
+        "url": "pengcheng",
+        "code": "pengcheng",
+        "hasvali": 0,
+        "comurl": "http://www.pcexpress.co.nz/ ",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7164765",
+        "companyname": "冠庭国际物流",
+        "shortname": "冠庭国际物流",
+        "tel": "00852-2318 1213",
+        "url": "guanting",
+        "code": "guanting",
+        "hasvali": 0,
+        "comurl": "http://www.quantiumsolutions.com/hk-sc/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7169694",
+        "companyname": "1号店",
+        "shortname": "1号店",
+        "tel": "",
+        "url": "yhdshop",
+        "code": "yhdshop",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7172420",
+        "companyname": "金岸物流",
+        "shortname": "金岸物流",
+        "tel": "626-818-2750",
+        "url": "jinan",
+        "code": "jinan",
+        "hasvali": 0,
+        "comurl": "http://www.gpl-express.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7172421",
+        "companyname": "海带宝",
+        "shortname": "海带宝",
+        "tel": "400-825-8585",
+        "url": "haidaibao",
+        "code": "haidaibao",
+        "hasvali": 0,
+        "comurl": "http://www.haidaibao.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7172422",
+        "companyname": "澳通华人物流",
+        "shortname": "澳通华人物流",
+        "tel": "61 8 9457 9339",
+        "url": "cllexpress",
+        "code": "cllexpress",
+        "hasvali": 0,
+        "comurl": "http://www.cllexpress.com.au/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7172423",
+        "companyname": "斑马物流",
+        "shortname": "斑马物流",
+        "tel": "",
+        "url": "banma",
+        "code": "banma",
+        "hasvali": 0,
+        "comurl": "http://www.360zebra.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.360zebra.com/program/tracking.aspx",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7172935",
+        "companyname": "友家速递",
+        "shortname": "友家速递",
+        "tel": "",
+        "url": "youjia",
+        "code": "youjia",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7177446",
+        "companyname": "百通物流",
+        "shortname": "百通物流",
+        "tel": "",
+        "url": "buytong",
+        "code": "buytong",
+        "hasvali": 0,
+        "comurl": "http://www.buytong.cn/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7177586",
+        "companyname": "新元快递",
+        "shortname": "新元快递",
+        "tel": "",
+        "url": "xingyuankuaidi",
+        "code": "xingyuankuaidi",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7184090",
+        "companyname": "amazon-国内订单",
+        "shortname": "amazon-国内订单",
+        "tel": "",
+        "url": "amcnorder",
+        "code": "amcnorder",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7200691",
+        "companyname": "全速物流",
+        "shortname": "全速物流",
+        "tel": "400-679-3883",
+        "url": "quansu",
+        "code": "quansu",
+        "hasvali": 0,
+        "comurl": "http://www.china-quansu.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.china-quansu.com/",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7200692",
+        "companyname": "新杰物流",
+        "shortname": "新杰物流",
+        "tel": "",
+        "url": "sunjex",
+        "code": "sunjex",
+        "hasvali": 0,
+        "comurl": "http://www.sunjex.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.sunjex.com/",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7200693",
+        "companyname": "鲁通快运",
+        "shortname": "鲁通快运",
+        "tel": "400-055-5656 ",
+        "url": "lutong",
+        "code": "lutong",
+        "hasvali": 0,
+        "comurl": "http://www.lutongky.com/ ",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.lutongky.com/ ",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7220326",
+        "companyname": "新元国际",
+        "shortname": "新元国际",
+        "tel": "",
+        "url": "xynyc",
+        "code": "xynyc",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.xynyc.com/  ",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7220327",
+        "companyname": "小C海淘",
+        "shortname": "小C海淘",
+        "tel": "",
+        "url": "xiaocex",
+        "code": "xiaocex",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": "http://www.xiaocex.cn"
+    }, {
+        "cid": "0",
+        "id": "7272925",
+        "companyname": "航空快递",
+        "shortname": "航空快递",
+        "tel": "18640151012 ",
+        "url": "airgtc",
+        "code": "airgtc",
+        "hasvali": 0,
+        "comurl": "http://air-gtc.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://air-gtc.com/",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7272926",
+        "companyname": "叮咚澳洲转运",
+        "shortname": "叮咚澳洲转运",
+        "tel": "010-57853244",
+        "url": "dindon",
+        "code": "dindon",
+        "hasvali": 0,
+        "comurl": "http://www.dindonexpress.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.dindonexpress.com/",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7314900",
+        "companyname": "环球通达 ",
+        "shortname": "环球通达",
+        "tel": "400-078-1805 ",
+        "url": "hqtd",
+        "code": "hqtd",
+        "hasvali": 0,
+        "comurl": "http://www.hqtdkd.com/ ",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.hqtdkd.com/ ",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7332766",
+        "companyname": "小米",
+        "shortname": "小米",
+        "tel": "",
+        "url": "xiaomi",
+        "code": "xiaomi",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7341826",
+        "companyname": "顺丰优选",
+        "shortname": "顺丰优选",
+        "tel": "",
+        "url": "sfbest",
+        "code": "sfbest",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7342316",
+        "companyname": "好又快物流",
+        "shortname": "好又快物流",
+        "tel": "400-800-3838 ",
+        "url": "haoyoukuai",
+        "code": "haoyoukuai",
+        "hasvali": 0,
+        "comurl": "http://www.ff56.com.cn/ ",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.ff56.com.cn/ ",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7377858",
+        "companyname": "永旺达快递",
+        "shortname": "永旺达快递",
+        "tel": "400-0607-290 ",
+        "url": "yongwangda",
+        "code": "yongwangda",
+        "hasvali": 0,
+        "comurl": "http://www.yongwangda8.com/ ",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "15361282277 ",
+        "queryurl": "http://www.yongwangda8.com/ ",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7377859",
+        "companyname": "木春货运",
+        "shortname": "木春货运",
+        "tel": "400-6359-800 ",
+        "url": "mchy",
+        "code": "mchy",
+        "hasvali": 0,
+        "comurl": "http://www.mcchina-express.com/ ",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.mcchina-express.com/ ",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7378182",
+        "companyname": "程光快递",
+        "shortname": "程光快递",
+        "tel": "6499482780 ",
+        "url": "flyway",
+        "code": "flyway",
+        "hasvali": 0,
+        "comurl": "www.flyway.co.nz ",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "6499482781 ",
+        "queryurl": "www.flyway.co.nz ",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7384055",
+        "companyname": "全之鑫物流",
+        "shortname": "全之鑫物流",
+        "tel": "400-080-5658",
+        "url": "qzx56",
+        "code": "qzx56",
+        "hasvali": 0,
+        "comurl": "http://www.qzx56.com/",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": " 0371-56078011",
+        "queryurl": "http://www.qzx56.com/",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7393483",
+        "companyname": "百事亨通",
+        "shortname": "百事亨通",
+        "tel": "400-185-6666",
+        "url": "bsht",
+        "code": "bsht",
+        "hasvali": 0,
+        "comurl": "www.bsht-express.com",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "400-185-6666",
+        "queryurl": "www.bsht-express.com",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7441573",
+        "companyname": "ILYANG",
+        "shortname": "ILYANG",
+        "tel": "",
+        "url": "ilyang",
+        "code": "ilyang",
+        "hasvali": 0,
+        "comurl": "http://www.ilyangexpress.com/ ",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "1740682860",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.ilyangexpress.com/ ",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7441681",
+        "companyname": "先锋快递",
+        "shortname": "先锋快递",
+        "tel": "0311-69046652 ",
+        "url": "xianfeng",
+        "code": "xianfeng",
+        "hasvali": 0,
+        "comurl": "http://xianfengex.com/ ",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://xianfengex.com/ ",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7505279",
+        "companyname": "万家通快递",
+        "shortname": "万家通快递",
+        "tel": "",
+        "url": "timedg",
+        "code": "timedg",
+        "hasvali": 0,
+        "comurl": "",
+        "isavailable": "",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7513752",
+        "companyname": "美快国际物流",
+        "shortname": "美快国际物流",
+        "tel": "020-39141092 ",
+        "url": "meiquick",
+        "code": "meiquick",
+        "hasvali": 0,
+        "comurl": "http://www.meiquick.com/ ",
+        "isavailable": "0",
+        "promptinfo": "",
+        "testnu": "",
+        "freg": "",
+        "freginfo": "",
+        "telcomplaintnum": "",
+        "queryurl": "http://www.meiquick.com/ ",
+        "serversite": ""
+    }, {
+        "cid": "0",
+        "id": "7547255",
+        "companyname": "泰中物流",
+        "shortname": "泰中物流",
+        "tel": "",
+        "url": "tny",
+        "code": "tny",
         "hasvali": 0,
         "comurl": "",
         "isavailable": "",
