@@ -11,20 +11,22 @@ describe("# query", function() {
     this.timeout(0);
 
     it("should get express status", function(done) {
-        xto.query("0001355", "santaisudi", function(err, express) {
+        xto.query("1000159522", "flysman", function(err, express) {
             should(err).be.eql(undefined);
+
+            console.log(express);
             express.should.match({
                 message: "ok",
-                nu: "0001355",
-                ischeck: "0",
-                com: "santaisudi",
-                updatetime: /\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}/,
+                nu: "1000159522",
+                ischeck: "1",
+                com: "flysman",
+                // updatetime: /\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}/,
                 status: "200",
-                condition: "00",
+                condition: "F00",
                 data: function(it) {
-                    it.length.should.be.eql(11);
+                    it.length.should.be.eql(9);
                 },
-                state: "0"
+                state: "3"
             });
             done();
         });
