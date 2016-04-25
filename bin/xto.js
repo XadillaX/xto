@@ -3,7 +3,7 @@
 /**
  * XadillaX created at 2015-02-08 16:09:27
  *
- * Copyright (c) 2015 Huaban.com, all rights
+ * Copyright (c) 2016 xcoder.in, all rights
  * reserved
  */
 var color = require("bash-color");

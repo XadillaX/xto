@@ -1,7 +1,7 @@
 /**
  * XadillaX created at 2015-09-24 10:13:45 With ♥
  *
- * Copyright (c) 2015 Souche.com, all rights
+ * Copyright (c) 2016 xcoder.in, all rights
  * reserved.
  */
 require("should");
