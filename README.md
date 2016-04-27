@@ -70,7 +70,7 @@ You can use one company's name, shortname and english code to query. Here's a li
   + 韵达快递（韵达，yunda）
   + 圆通速递（圆通，yuantong）
   + 中通快递（中通，zhongtong）
-  + 百世汇通（汇通，huitongkuaidi）
+  + 百世快递（汇通，huitongkuaidi）
   + 天天快递（天天，tiantian）
   + 宅急送（宅急送，zhaijisong）
   + 鑫飞鸿（鑫飞鸿，xinhongyukuaidi）
@@ -172,7 +172,7 @@ You can use one company's name, shortname and english code to query. Here's a li
   + FedEx-美国件（FedEx，fedexus）
   + 风行天下（风行天下，fengxingtianxia）
   + 康力物流（康力，kangliwuliu）
-  + 跨越速递（跨越，kuayue）
+  + 跨越速运（跨越，kuayue）
   + 海盟速递（海盟，haimengsudi）
   + 圣安物流（圣安，shenganwuliu）
   + 一统飞鸿（一统飞鸿，yitongfeihong）
@@ -488,7 +488,7 @@ You can use one company's name, shortname and english code to query. Here's a li
   + 巴拉圭(Correo Paraguayo)（巴拉圭，paraguay）
   + 十方通物流（十方通物流，sfift）
   + 飞鹰物流（飞鹰物流，hnfy）
-  + UPS i-parcle（UPS i-parcle，iparcel）
+  + UPS i-parcel（UPS i-parcel，iparcel）
   + 鑫锐达（鑫锐达，bjxsrd）
   + 麦力快递（麦力快递，mailikuaidi）
   + 瑞丰速递（瑞丰速递，rfsd）
@@ -551,3 +551,114 @@ You can use one company's name, shortname and english code to query. Here's a li
   + 永昌物流（永昌物流，yongchangwuliu）
   + 笨鸟海淘（笨鸟海淘，birdex）
   + 一正达速运（一正达速运，yizhengdasuyun）
+  + 京东订单（京东订单，jdorder）
+  + 优配速运（优配速运，sdyoupei）
+  + TRAKPAK（TRAKPAK，trakpak）
+  + GTS快递（GTS，gts）
+  + AOL澳通速递（AOL澳通速递，aolau）
+  + 宜送物流（宜送物流，yiex）
+  + 通达兴物流（通达兴物流，tongdaxing）
+  + 香港(HongKong Post)英文（香港(HongKong Post)英文，hkposten）
+  + 苏宁订单（苏宁订单，suningorder）
+  + 飞力士物流（飞力士物流，flysman）
+  + 转运四方（转运四方，zhuanyunsifang）
+  + logen路坚（logen路坚，ilogen）
+  + 成都东骏物流（成都东骏物流，dongjun）
+  + 日本郵便（日本郵便，japanpost）
+  + 佳家通货运（佳家通货运，jiajiatong56）
+  + 吉日优派（吉日优派，jrypex）
+  + 西安胜峰（西安胜峰，xaetc）
+  + CJ物流（CJ物流，doortodoor）
+  + 信天捷快递（信天捷快递，xintianjie）
+  + 泰国138国际物流（泰国138国际物流，sd138）
+  + 猴急送（猴急送，hjs）
+  + 全信通快递（全信通快递，quanxintong）
+  + amazon-国际订单（amazon-国际订单，amusorder）
+  + 骏丰国际速递（骏丰国际速递，junfengguoji）
+  + 货运皇（货运皇，kingfreight）
+  + 远成快运（远成快运，ycexpress）
+  + 速必达（速必达，subida）
+  + 特急便物流（特急便物流，sucmj）
+  + 亚马逊中国（亚马逊中国，yamaxunwuliu）
+  + 锦程物流（锦程物流，jinchengwuliu）
+  + 景光物流（景光物流，jgwl）
+  + 御风速运（御风速运，yufeng）
+  + 至诚通达快递（至诚通达快递，zhichengtongda）
+  + 日益通速递（日益通速递，rytsd）
+  + 航宇快递（航宇快递，hangyu）
+  + 急顺通（急顺通，pzhjst）
+  + 优速通达（优速通达，yousutongda）
+  + 秦远物流（秦远物流，qinyuan）
+  + 澳邮中国快运（澳邮中国快运，auexpress）
+  + 众辉达物流（众辉达物流，zhdwl）
+  + 飞邦快递（飞邦快递，fbkd）
+  + 华达快运（华达快运，huada）
+  + FOX国际快递（FOX国际快递，fox）
+  + 环球速运（环球速运，huanqiu）
+  + 辉联物流（辉联物流，huilian）
+  + A2U速递（A2U速递，a2u）
+  + UEQ快递（UEQ快递，ueq）
+  + 中加国际快递（中加国际快递，scic）
+  + 易达通（易达通，yidatong）
+  + 宜送（宜送，yisong）
+  + 捷网俄全通（捷网俄全通，ruexp）
+  + 华通务达物流（华通务达物流，htwd）
+  + 申必达（申必达，speedoex）
+  + 联运快递（联运快递，lianyun）
+  + 捷安达（捷安达，jieanda）
+  + SHL畅灵国际物流（SHL畅灵国际物流，shlexp）
+  + EWE全球快递（EWE全球快递，ewe）
+  + 全球快运（全球快运，abcglobal）
+  + 芒果速递（芒果速递，mangguo）
+  + 金海淘（金海淘，goldhaitao）
+  + 极光转运（极光转运，jiguang）
+  + 富腾达国际货运（富腾达国际货运，ftd）
+  + DCS（DCS，dcs）
+  + 成达国际速递（成达国际速递，chengda）
+  + 中环快递（中环快递，zhonghuan）
+  + 顺邦国际物流（顺邦国际物流，shunbang）
+  + 启辰国际速递（启辰国际速递，qichen）
+  + 澳货通（澳货通，auex）
+  + 澳速物流（澳速物流，aosu）
+  + 澳世速递（澳世速递，aus）
+  + 当当（当当，dangdang）
+  + 天马迅达（天马迅达，tianma）
+  + 美龙快递（美龙快递，mjexp）
+  + 唯品会(vip)（唯品会(vip)，vipshop）
+  + 香港骏辉物流（香港骏辉物流，chunfai）
+  + 三三国际物流（三三国际物流，zenzen）
+  + 淼信快递（淼信快递，mxe56）
+  + 海派通（海派通，hipito）
+  + 国美（国美，gome）
+  + 鹏程快递（鹏程快递，pengcheng）
+  + 冠庭国际物流（冠庭国际物流，guanting）
+  + 1号店（1号店，yhdshop）
+  + 金岸物流（金岸物流，jinan）
+  + 海带宝（海带宝，haidaibao）
+  + 澳通华人物流（澳通华人物流，cllexpress）
+  + 斑马物流（斑马物流，banma）
+  + 友家速递（友家速递，youjia）
+  + 百通物流（百通物流，buytong）
+  + 新元快递（新元快递，xingyuankuaidi）
+  + amazon-国内订单（amazon-国内订单，amcnorder）
+  + 全速物流（全速物流，quansu）
+  + 新杰物流（新杰物流，sunjex）
+  + 鲁通快运（鲁通快运，lutong）
+  + 新元国际（新元国际，xynyc）
+  + 小C海淘（小C海淘，xiaocex）
+  + 航空快递（航空快递，airgtc）
+  + 叮咚澳洲转运（叮咚澳洲转运，dindon）
+  + 环球通达 （环球通达，hqtd）
+  + 小米（小米，xiaomi）
+  + 顺丰优选（顺丰优选，sfbest）
+  + 好又快物流（好又快物流，haoyoukuai）
+  + 永旺达快递（永旺达快递，yongwangda）
+  + 木春货运（木春货运，mchy）
+  + 程光快递（程光快递，flyway）
+  + 全之鑫物流（全之鑫物流，qzx56）
+  + 百事亨通（百事亨通，bsht）
+  + ILYANG（ILYANG，ilyang）
+  + 先锋快递（先锋快递，xianfeng）
+  + 万家通快递（万家通快递，timedg）
+  + 美快国际物流（美快国际物流，meiquick）
+  + 泰中物流（泰中物流，tny）
