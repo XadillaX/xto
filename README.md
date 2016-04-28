@@ -20,7 +20,7 @@ It just simply call the "SEEM-PRIVATE" API of [kuaidi100](http://www.kuaidi100.c
 ## INSTALLATION
 
 ```shell
-$ npm install xto --save
+$ npm install xto --save -d
 ```
 
 ## USAGE
