@@ -14,7 +14,6 @@ describe("# query", function() {
         xto.query("1000159522", "flysman", function(err, express) {
             should(err).be.eql(undefined);
 
-            console.log(express);
             express.should.match({
                 message: "ok",
                 nu: "1000159522",
