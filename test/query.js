@@ -11,14 +11,14 @@ describe("# query", function() {
     this.timeout(0);
 
     it("should get express status", function(done) {
-        xto.query("1000159522", "flysman", function(err, express) {
+        xto.query("RR494467118KR", "koreapost", function(err, express) {
             should(err).be.eql(undefined);
 
             express.should.match({
                 message: "ok",
-                nu: "1000159522",
+                nu: "RR494467118KR",
                 ischeck: "1",
-                com: "flysman",
+                com: "koreapost",
                 // updatetime: /\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}/,
                 status: "200",
                 condition: "F00",
