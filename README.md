@@ -1,7 +1,6 @@
 # (X)TO
 
 [![xto](http://img.shields.io/npm/v/xto.svg)](https://www.npmjs.com/package/xto)
-[![Dependency Status](https://img.shields.io/david/XadillaX/xto.svg)](https://david-dm.org/xadillax/xto)
 [![TravisCI](https://img.shields.io/travis/XadillaX/xto/master.svg)](https://travis-ci.org/XadillaX/xto)
 [![Coveralls](https://img.shields.io/coveralls/XadillaX/xto/master.svg)](https://coveralls.io/r/XadillaX/xto)
 [![License](https://img.shields.io/npm/l/xto.svg?style=flat)](https://www.npmjs.org/package/xto)
@@ -13,9 +12,12 @@ Just an API for Node.js to query each express with ♥.
 
 Because many Chinese express companies are called [*]to (eg: sto, zto, gto, etc.), I call this project XTO.
 
+## Node.js Version
+Node.js >= 8.0.0
+
 ## ESSENCE
 
-It just simply call the "SEEM-PRIVATE" API of [kuaidi100/快递查询](https://m.kuaidi100.com/).
+It just simply call the "SEEM-PRIVATE" API of [kuaidi100](https://m.kuaidi100.com/).
 
 ## INSTALLATION
 
@@ -28,7 +30,7 @@ $ npm install xto --save -d
 The code below is base usage:
 
 ```javascript
-var xto = require("xto");
+const xto = require("xto");
 
 xto.query(NUMBER, COMPANY_NAME, function(err, express) {
     //... Do something
@@ -42,13 +44,13 @@ xto.query(NUMBER, COMPANY_NAME, function(err, express) {
 You can even get a company's information:
 
 ```javascript
-var info = xto.getCompanyInfo(COMPANY_NAME);
+const info = xto.getCompanyInfo(COMPANY_NAME);
 ```
 
 And you have to know the `state` field in the json by using:
 
 ```javascript
-var text = xto.stateToText(express["state"]);
+const text = xto.stateToText(express["state"]);
 ```
 
 ## CONTACT ME
@@ -662,3 +664,26 @@ You can use one company's name, shortname and english code to query. Here's a li
   + 万家通快递（万家通快递，timedg）
   + 美快国际物流（美快国际物流，meiquick）
   + 泰中物流（泰中物流，tny）
+  
+## LICENCE
+The MIT License (MIT)
+
+Copyright (c) 2016 XadillaX
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
