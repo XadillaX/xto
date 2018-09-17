@@ -4,18 +4,11 @@
  * Copyright (c) 2016 xcoder.in, all rights
  * reserved.
  */
-require("sugar");
-var xto = require("../");
-var companies = xto.companies;
+require('sugar');
+const xto = require('../');
+const companies = xto.companies;
 
 companies.forEach(function(ele) {
-    var str = "+ ";
-    str += ele.companyname;
-    str += "（";
-    str += ele.shortname;
-    str += "，";
-    str += ele.code;
-    str += "）";
-
-    console.log(str);
+  /* eslint-disable */
+  console.log(`+ ${ele.companyname} (${ele.shortname}, ${ele.code}) `);
 });
