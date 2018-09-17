@@ -64,4 +64,30 @@ describe('# query', function() {
     xto.stateToText(-1).should.be.eql('未知');
     xto.stateToText('fakeStatus').should.be.eql('未知');
   });
+
+  it('should return a promise', async () => {
+  	const express = await xto.query('640006627091', 'wanxiangwuliu');
+	  express.should.match({
+	    message: 'ok',
+        nu: '640006627091',
+        ischeck: '1',
+        com: 'wanxiangwuliu',
+        status: '200',
+        condition: 'F00',
+        data: function(it) {
+	        it.length.should.be.equal(13);
+        },
+        state: '3',
+    });
+  });
+
+	it('should catch an error if Node.js Promise is not supported', async () => {
+		/* Mock promise is not supported */
+		const promise = global.Promise;
+		global.Promise = null;
+		const msg = 'Your Node runtime does support ES6 Promises. ' +
+			'Set "global.Promise" to your preferred implementation of promises.';
+		should(()=>{xto.query('640006627091', 'wanxiangwuliu')}).throw(msg);
+		global.Promise = promise;
+	});
 });

@@ -1,4 +1,5 @@
 #! /usr/bin/env node
+'use strict';
 
 /**
  * XadillaX created at 2015-02-08 16:09:27
@@ -6,9 +7,12 @@
  * Copyright (c) 2016 xcoder.in, all rights
  * reserved
  */
+
 const color = require('bash-color');
 const xto = require('../');
-const opts = require('nomnom')
+const opts = require('nomnom');
+
+opts
     .option('company', {
       abbr: 'c',
       help: 'Specify a express company. (name, short name or code)',

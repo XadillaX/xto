@@ -31,11 +31,30 @@ $ npm install xto --save -d
 The code below is base usage:
 
 ```javascript
-const xto = require("xto");
+const xto = require('xto');
 
 xto.query(NUMBER, COMPANY_NAME, function(err, express) {
     //... Do something
 });
+```
+
+`xto` also supported `async/await`
+
+The error will be thrown if global.Promise not found, so make sure you have `Promise` before using `async/await`
+
+```javascript
+// Set `Promise` manually
+global.Promise = require('bluebird');
+
+const fn = async () => {	
+  xto.query(NUMBER, COMPANY_NAME)
+	.then((data) => {
+		// your code
+	})
+	.catch((err) => {
+		// handle error
+	});
+};
 ```
 
 > The `NUMBER` is the express id of each express company.
