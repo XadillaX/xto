@@ -1,5 +1,6 @@
 # (X)TO
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7cf793c1ff864b99abe0b5a351491d17)](https://www.codacy.com/app/danielsss/xto?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=XadillaX/xto&amp;utm_campaign=Badge_Grade)
 [![TravisCI](https://img.shields.io/travis/XadillaX/xto/master.svg)](https://travis-ci.org/XadillaX/xto)
 [![xto](http://img.shields.io/npm/v/xto.svg)](https://www.npmjs.com/package/xto)
 [![Coveralls](https://img.shields.io/coveralls/XadillaX/xto/master.svg)](https://coveralls.io/r/XadillaX/xto)
