@@ -15,7 +15,7 @@ Because many Chinese express companies are called [*]to (eg: sto, zto, gto, etc.
 
 ## ESSENCE
 
-It just simply call the "SEEM-PRIVATE" API of [kuaidi100](http://www.kuaidi100.com/).
+It just simply call the "SEEM-PRIVATE" API of [kuaidi100/快递查询](https://m.kuaidi100.com/).
 
 ## INSTALLATION
 

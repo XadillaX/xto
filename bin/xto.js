@@ -6,47 +6,50 @@
  * Copyright (c) 2016 xcoder.in, all rights
  * reserved
  */
-var color = require("bash-color");
-var xto = require("../");
-var opts = require("nomnom")
-    .option("company", {
-        abbr: "c",
-        help: "Specify a express company. (name, short name or code)",
-        required: true
+const color = require('bash-color');
+const xto = require('../');
+const opts = require('nomnom')
+    .option('company', {
+      abbr: 'c',
+      help: 'Specify a express company. (name, short name or code)',
+      required: true,
     })
-    .option("number", {
-        position: 0,
-        help: "The express number.",
-        required: true,
-        type: "string"
+    .option('number', {
+      position: 0,
+      help: 'The express number.',
+      required: true,
+      type: 'string',
     })
-    .script("xto")
+    .script('xto')
     .parse();
 
-var expressNo = opts.number;
+const expressNo = opts.number;
 
-var company = xto.getCompanyInfo(opts.company);
-if(!company || !xto.isNumberValid(expressNo, company)) {
-    return console.error("Invlid express number or company.");
+const company = xto.getCompanyInfo(opts.company);
+/* eslint-disable */
+if (!company || !xto.isNumberValid(expressNo, company)) {
+  console.error('Invalid express number or company.');
+  process.exit(1);
 }
 
 xto.query(expressNo, company.code, function(err, express) {
-    if(err) {
-        return console.error("Error occurred: " + err.message);
-    }
+  if (err) {
+    return console.error('Error occurred: ' + err.message);
+  }
 
-    var state = xto.stateToText(express.state);
-    console.log("");
-    console.log(" * 快递公司：" + company.companyname);
-    console.log(" * 运 单 号：" + expressNo);
-    console.log(" * 状    态：" + state);
-    console.log(" ==================================");
+  const state = xto.stateToText(express.state);
+  console.log('');
+  console.log(' * 快递公司： ' + company.companyname);
+  console.log(' * 运 单 号： ' + expressNo);
+  console.log(' * 状    态：' + state);
+  console.log(' ================================== ');
 
-    for(var i = 0; i < express.data.length; i++) {
-        var line = " [" + express.data[i].time + "] " + express.data[i].context;
-        console.log(i === 0 ? color.green(line) : line);
-    }
+  for (let i = 0; i < express.data.length; i++) {
+    const line = ` [${express.data[i].time}] ${express.data[i].context}`;
+    console.log(i === 0 ? color.green(line) : line);
+  }
 
-    console.log("");
+  console.log('');
+  /* eslint-enable */
 });
 

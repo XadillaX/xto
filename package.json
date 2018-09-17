@@ -13,7 +13,8 @@
     "sugar": "^1.4.1"
   },
   "scripts": {
-    "test": "mocha"
+    "lint": "eslint .",
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
@@ -30,8 +31,11 @@
   },
   "devDependencies": {
     "coveralls": "^2.11.4",
+    "eslint": "^5.6.0",
+    "eslint-config-daniels": "^1.0.1",
     "istanbul": "^0.3.21",
     "mocha": "^2.3.3",
+    "nyc": "^13.0.1",
     "should": "^7.1.0"
   }
 }
