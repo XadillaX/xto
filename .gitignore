@@ -17,3 +17,6 @@ node_modules/*
 .idea
 *.swp*
 test/test.js
+
+.nyc/*
+coverage/**
