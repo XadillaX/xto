@@ -1,7 +1,7 @@
 # (X)TO
 
-[![xto](http://img.shields.io/npm/v/xto.svg)](https://www.npmjs.com/package/xto)
 [![TravisCI](https://img.shields.io/travis/XadillaX/xto/master.svg)](https://travis-ci.org/XadillaX/xto)
+[![xto](http://img.shields.io/npm/v/xto.svg)](https://www.npmjs.com/package/xto)
 [![Coveralls](https://img.shields.io/coveralls/XadillaX/xto/master.svg)](https://coveralls.io/r/XadillaX/xto)
 [![License](https://img.shields.io/npm/l/xto.svg?style=flat)](https://www.npmjs.org/package/xto)
 [![Star at GitHub](https://img.shields.io/github/stars/XadillaX/xto.svg?style=social&label=Star)](https://github.com/xadillax/xto)
