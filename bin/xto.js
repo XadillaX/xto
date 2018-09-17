@@ -14,15 +14,15 @@ const opts = require('nomnom');
 
 opts
     .option('company', {
-      abbr: 'c',
-      help: 'Specify a express company. (name, short name or code)',
-      required: true,
+        abbr: 'c',
+        help: 'Specify a express company. (name, short name or code)',
+        required: true
     })
     .option('number', {
-      position: 0,
-      help: 'The express number.',
-      required: true,
-      type: 'string',
+        position: 0,
+        help: 'The express number.',
+        required: true,
+        type: 'string'
     })
     .script('xto')
     .parse();
