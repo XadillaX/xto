@@ -38,9 +38,9 @@ xto.query(NUMBER, COMPANY_NAME, function(err, express) {
 });
 ```
 
-`xto` also supported `async/await`
+`xto` also supported `Promise`
 
-The error will be thrown if global.Promise not found, so make sure you have `Promise` before using `async/await`
+The error will be thrown if global.Promise not found, so make sure you have `Promise` before using it
 
 ```javascript
 // Set `Promise` manually
