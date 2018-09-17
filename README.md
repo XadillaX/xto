@@ -46,15 +46,13 @@ The error will be thrown if global.Promise not found, so make sure you have `Pro
 // Set `Promise` manually
 global.Promise = require('bluebird');
 
-const fn = async () => {	
-  xto.query(NUMBER, COMPANY_NAME)
-	.then((data) => {
-		// your code
-	})
-	.catch((err) => {
-		// handle error
-	});
-};
+xto.query(NUMBER, COMPANY_NAME)
+  .then((data) => {
+    // your code
+  })
+  .catch((err) => {
+    // handle error
+  });
 ```
 
 > The `NUMBER` is the express id of each express company.
