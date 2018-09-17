@@ -12,7 +12,7 @@ Just an API for Node.js to query each express with ♥.
 
 Because many Chinese express companies are called [*]to (eg: sto, zto, gto, etc.), I call this project XTO.
 
-## Node.js Version
+## NODE.JS VERSION
 Node.js >= 8.0.0
 
 ## ESSENCE
