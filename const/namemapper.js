@@ -1,8 +1,11 @@
+'use strict';
+
 /**
  * Mapper updated from http://www.kuaidi100.com/js/page/frame/baidu/company.js
  * @type {{company: Array, error_size: number}}
  */
-let refer = {
+
+const refer = {
   'company': [{
     'cid': '5',
     'id': '1',

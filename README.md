@@ -1,5 +1,6 @@
 # (X)TO
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7cf793c1ff864b99abe0b5a351491d17)](https://www.codacy.com/app/danielsss/xto?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=XadillaX/xto&amp;utm_campaign=Badge_Grade)
 [![TravisCI](https://img.shields.io/travis/XadillaX/xto/master.svg)](https://travis-ci.org/XadillaX/xto)
 [![xto](http://img.shields.io/npm/v/xto.svg)](https://www.npmjs.com/package/xto)
 [![Coveralls](https://img.shields.io/coveralls/XadillaX/xto/master.svg)](https://coveralls.io/r/XadillaX/xto)
@@ -30,11 +31,28 @@ $ npm install xto --save -d
 The code below is base usage:
 
 ```javascript
-const xto = require("xto");
+const xto = require('xto');
 
 xto.query(NUMBER, COMPANY_NAME, function(err, express) {
     //... Do something
 });
+```
+
+`xto` also supported `Promise`
+
+The error will be thrown if global.Promise not found, so make sure you have `Promise` before using it
+
+```javascript
+// Set `Promise` manually
+global.Promise = require('bluebird');
+
+xto.query(NUMBER, COMPANY_NAME)
+  .then((data) => {
+    // your code
+  })
+  .catch((err) => {
+    // handle error
+  });
 ```
 
 > The `NUMBER` is the express id of each express company.

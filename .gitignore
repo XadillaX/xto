@@ -18,5 +18,5 @@ node_modules/*
 *.swp*
 test/test.js
 
-.nyc/*
+.nyc_output/*
 coverage/**
