@@ -62,5 +62,6 @@ describe('# query', function() {
     xto.stateToText('4').should.be.eql('已退货');
     xto.stateToText(5).should.be.eql('派送中');
     xto.stateToText(-1).should.be.eql('未知');
+    xto.stateToText('fakeStatus').should.be.eql('未知');
   });
 });
