@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "xadillax-style"
+  ],
+  "globals": {
+    "it": true,
+    "describe": true,
+    "before": true,
+    "after": true
+  }
+}

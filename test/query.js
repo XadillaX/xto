@@ -4,90 +4,91 @@
  * Copyright (c) 2016 xcoder.in, all rights
  * reserved
  */
-const should = require('should');
-const xto = require('../');
+const should = require("should");
+const xto = require("../");
 
-describe('# query', function() {
-  this.timeout(0);
+describe("# query", function() {
+    this.timeout(0); // eslint-disable-line
 
-  it('should get express status', function(done) {
-    xto.query('640006627091', 'wanxiangwuliu', function(err, express) {
-      should(err).be.eql(undefined);
+    it("should get express status", function(done) {
+        xto.query("640006627091", "wanxiangwuliu", function(err, express) {
+            should(err).be.eql(undefined);
 
-      express.should.match({
-        message: 'ok',
-        nu: '640006627091',
-        ischeck: '1',
-        com: 'wanxiangwuliu',
-        status: '200',
-        condition: 'F00',
-        data: function(it) {
-          it.length.should.be.equal(13);
-        },
-        state: '3',
-      });
-      done();
+            express.should.match({
+                message: "ok",
+                nu: "640006627091",
+                ischeck: "1",
+                com: "wanxiangwuliu",
+                status: "200",
+                condition: "F00",
+                data: function(d) {
+                    d.length.should.be.equal(13);
+                },
+                state: "3"
+            });
+            done();
+        });
     });
-  });
 
-  it('should get no number error', function(done) {
-    xto.query('1234567890111', 'EMS', function(err) {
-      err.should.be.instanceof(Error);
-      err.message.should.be.eql('单号不存在或者已经过期');
-      done();
+    it("should get no number error", function(done) {
+        xto.query("1234567890111", "EMS", function(err) {
+            err.should.be.instanceof(Error);
+            err.message.should.be.eql("单号不存在或者已经过期");
+            done();
+        });
     });
-  });
 
-  it('should get number not match error', function(done) {
-    xto.query('ldksfjadf', 'shentong', function(err) {
-      err.should.be.instanceof(Error);
-      err.message.should.be.eql('Invalid express number.');
-      done();
+    it("should get number not match error", function(done) {
+        xto.query("ldksfjadf", "shentong", function(err) {
+            err.should.be.instanceof(Error);
+            err.message.should.be.eql("Invalid express number.");
+            done();
+        });
     });
-  });
 
-  it('should get no company error', function(done) {
-    xto.query('哔哩哔哩', '德玛西亚', function(err) {
-      err.should.be.instanceof(Error);
-      err.message.should.be.eql('This company is not supported yet.');
-      done();
+    it("should get no company error", function(done) {
+        xto.query("哔哩哔哩", "德玛西亚", function(err) {
+            err.should.be.instanceof(Error);
+            err.message.should.be.eql("This company is not supported yet.");
+            done();
+        });
     });
-  });
 
-  it('should convert state', function() {
-    xto.stateToText(0).should.be.eql('在途中');
-    xto.stateToText('1').should.be.eql('已发货');
-    xto.stateToText('2').should.be.eql('疑难件');
-    xto.stateToText('3.').should.be.eql('已签收');
-    xto.stateToText('4').should.be.eql('已退货');
-    xto.stateToText(5).should.be.eql('派送中');
-    xto.stateToText(-1).should.be.eql('未知');
-    xto.stateToText('fakeStatus').should.be.eql('未知');
-  });
-
-  it('should return a promise', async () => {
-  	const express = await xto.query('640006627091', 'wanxiangwuliu');
-	  express.should.match({
-	    message: 'ok',
-        nu: '640006627091',
-        ischeck: '1',
-        com: 'wanxiangwuliu',
-        status: '200',
-        condition: 'F00',
-        data: function(it) {
-	        it.length.should.be.equal(13);
-        },
-        state: '3',
+    it("should convert state", function() {
+        xto.stateToText(0).should.be.eql("在途中");
+        xto.stateToText("1").should.be.eql("已发货");
+        xto.stateToText("2").should.be.eql("疑难件");
+        xto.stateToText("3.").should.be.eql("已签收");
+        xto.stateToText("4").should.be.eql("已退货");
+        xto.stateToText(5).should.be.eql("派送中");
+        xto.stateToText(-1).should.be.eql("未知");
+        xto.stateToText("fakeStatus").should.be.eql("未知");
     });
-  });
 
-	it('should catch an error if Node.js Promise is not supported', async () => {
-		/* Mock promise is not supported */
-		const promise = global.Promise;
-		global.Promise = null;
-		const msg = 'Your Node runtime does support ES6 Promises. ' +
-			'Set "global.Promise" to your preferred implementation of promises.';
-		should(()=>{xto.query('640006627091', 'wanxiangwuliu')}).throw(msg);
-		global.Promise = promise;
-	});
+    it("should return a promise", function() {
+        return xto.query("640006627091", "wanxiangwuliu").then(express => {
+            express.should.match({
+                message: "ok",
+                nu: "640006627091",
+                ischeck: "1",
+                com: "wanxiangwuliu",
+                status: "200",
+                condition: "F00",
+                data: function(d) {
+                    d.length.should.be.equal(13);
+                },
+                state: "3"
+            });
+        });
+    });
+
+    it("should catch an error if Node.js Promise is not supported", function() {
+        /* Mock promise is not supported */
+        const promise = global.Promise;
+        global.Promise = null;
+        const msg = "Your Node runtime does support ES6 Promises. " +
+            "Set 'global.Promise' to your preferred implementation of promises.";
+        should(() => xto.query("640006627091", "wanxiangwuliu")).throw(msg);
+        global.Promise = promise;
+    });
 });
