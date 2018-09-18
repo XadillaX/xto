@@ -4,4 +4,4 @@
  * Copyright (c) 2016 xcoder.in, all rights
  * reserved
  */
-module.exports = require('./lib/xto');
+module.exports = require("./lib/xto");
